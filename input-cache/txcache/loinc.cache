@@ -122,3 +122,23 @@ v: {
   "system" : "http://loinc.org"
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "100698-0"
+}, "url": "http://hl7.org/fhir/us/core/ValueSet/us-core-documentreference-type--1", "version": "5.0.1", "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Social Determinants of Health screening report Document",
+  "code" : "100698-0",
+  "system" : "http://loinc.org"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "100698-0"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Social Determinants of Health screening report Document",
+  "code" : "100698-0",
+  "system" : "http://loinc.org"
+}
+-------------------------------------------------------------------------------------

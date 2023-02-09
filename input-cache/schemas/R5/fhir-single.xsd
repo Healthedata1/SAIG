@@ -47,7 +47,7 @@
   POSSIBILITY OF SUCH DAMAGE.
   
 
-  Generated on Wed, Feb 8, 2023 21:02+0000 for FHIR v5.0.0-cibuild 
+  Generated on Thu, Feb 9, 2023 21:21+0000 for FHIR v5.0.0-cibuild 
 -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://hl7.org/fhir" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" targetNamespace="http://hl7.org/fhir" elementFormDefault="qualified" version="5.0.0-cibuild">
   <!-- Note: When using this schema with some tools, it may also be necessary to declare xmlns:xml="http://www.w3.org/XML/1998/namespace", however this causes performance issues with other tools and thus is not in the base schemas. -->
@@ -15032,7 +15032,7 @@
   </xs:complexType>
   <xs:simpleType name="integer64-primitive">
     <xs:restriction base="xs:long">
-      <xs:pattern value="-?([0]|([1-9][0-9]*))"/>
+      <xs:pattern value="[0]|[-+]?[1-9][0-9]*"/>
     </xs:restriction>
   </xs:simpleType>
   <xs:complexType name="integer64">
@@ -15049,7 +15049,7 @@
   </xs:complexType>
   <xs:simpleType name="integer-primitive">
     <xs:restriction base="xs:int">
-      <xs:pattern value="-?([0]|([1-9][0-9]*))"/>
+      <xs:pattern value="[0]|[-+]?[1-9][0-9]*"/>
     </xs:restriction>
   </xs:simpleType>
   <xs:complexType name="integer">
@@ -15187,7 +15187,7 @@
   </xs:complexType>
   <xs:simpleType name="base64Binary-primitive">
     <xs:restriction base="xs:base64Binary">
-      <xs:pattern value="\s*([A-Za-z0-9+\\/]{4})*(([A-Za-z0-9+\\/]{2}==)|([A-Za-z0-9+\\/]{3}=)|([A-Za-z0-9+\\/]{4}))\s*"/>
+      <xs:pattern value="(?:[A-Za-z0-9+\/]{4})*(?:[A-Za-z0-9+\/]{2}==|[A-Za-z0-9+\/]{3}=)?"/>
     </xs:restriction>
   </xs:simpleType>
   <xs:complexType name="base64Binary">
@@ -50688,7 +50688,7 @@ The MedicationStatement resource was previously called MedicationStatement.</xs:
               <xs:documentation xml:lang="en">A unique identifier for this particular sequence instance.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="type" minOccurs="0" maxOccurs="1" type="sequenceType">
+          <xs:element name="type" minOccurs="0" maxOccurs="1" type="SequenceType">
             <xs:annotation>
               <xs:documentation xml:lang="en">Amino Acid Sequence/ DNA Sequence / RNA Sequence.</xs:documentation>
            </xs:annotation>
@@ -50803,12 +50803,12 @@ The MedicationStatement resource was previously called MedicationStatement.</xs:
               <xs:documentation xml:lang="en">End position of the window on the starting sequence. This value should honor the rules of the  coordinateSystem.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="orientation" minOccurs="0" maxOccurs="1" type="orientationType">
+          <xs:element name="orientation" minOccurs="0" maxOccurs="1" type="OrientationType">
             <xs:annotation>
               <xs:documentation xml:lang="en">A relative reference to a DNA strand based on gene orientation. The strand that contains the open reading frame of the gene is the &quot;sense&quot; strand, and the opposite complementary strand is the &quot;antisense&quot; strand.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="strand" minOccurs="0" maxOccurs="1" type="strandType">
+          <xs:element name="strand" minOccurs="0" maxOccurs="1" type="StrandType">
             <xs:annotation>
               <xs:documentation xml:lang="en">An absolute reference to a strand. The Watson strand is the strand whose 5'-end is on the short arm of the chromosome, and the Crick strand as the one whose 5'-end is on the long arm.</xs:documentation>
            </xs:annotation>
@@ -50848,7 +50848,7 @@ The MedicationStatement resource was previously called MedicationStatement.</xs:
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
-  <xs:simpleType name="strandTypeEnum">
+  <xs:simpleType name="StrandTypeEnum">
     <xs:restriction base="code-primitive">
       <xs:enumeration value="watson">
         <xs:annotation>
@@ -50862,18 +50862,18 @@ The MedicationStatement resource was previously called MedicationStatement.</xs:
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
-  <xs:complexType name="strandType">
+  <xs:complexType name="StrandType">
     <xs:annotation>
       <xs:documentation xml:lang="en"></xs:documentation>
       <xs:documentation xml:lang="en">If the element is present, it must have either a @value, an @id, or extensions</xs:documentation>
     </xs:annotation>
     <xs:complexContent>
       <xs:extension base="Element">
-        <xs:attribute name="value" type="strandTypeEnum" use="optional"/>
+        <xs:attribute name="value" type="StrandTypeEnum" use="optional"/>
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
-  <xs:simpleType name="orientationTypeEnum">
+  <xs:simpleType name="OrientationTypeEnum">
     <xs:restriction base="code-primitive">
       <xs:enumeration value="sense">
         <xs:annotation>
@@ -50887,18 +50887,18 @@ The MedicationStatement resource was previously called MedicationStatement.</xs:
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
-  <xs:complexType name="orientationType">
+  <xs:complexType name="OrientationType">
     <xs:annotation>
       <xs:documentation xml:lang="en"></xs:documentation>
       <xs:documentation xml:lang="en">If the element is present, it must have either a @value, an @id, or extensions</xs:documentation>
     </xs:annotation>
     <xs:complexContent>
       <xs:extension base="Element">
-        <xs:attribute name="value" type="orientationTypeEnum" use="optional"/>
+        <xs:attribute name="value" type="OrientationTypeEnum" use="optional"/>
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
-  <xs:simpleType name="sequenceTypeEnum">
+  <xs:simpleType name="SequenceTypeEnum">
     <xs:restriction base="code-primitive">
       <xs:enumeration value="aa">
         <xs:annotation>
@@ -50917,14 +50917,14 @@ The MedicationStatement resource was previously called MedicationStatement.</xs:
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
-  <xs:complexType name="sequenceType">
+  <xs:complexType name="SequenceType">
     <xs:annotation>
       <xs:documentation xml:lang="en"></xs:documentation>
       <xs:documentation xml:lang="en">If the element is present, it must have either a @value, an @id, or extensions</xs:documentation>
     </xs:annotation>
     <xs:complexContent>
       <xs:extension base="Element">
-        <xs:attribute name="value" type="sequenceTypeEnum" use="optional"/>
+        <xs:attribute name="value" type="SequenceTypeEnum" use="optional"/>
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
@@ -52245,7 +52245,7 @@ The MedicationStatement resource was previously called MedicationStatement.</xs:
               <xs:documentation xml:lang="en">Reference to the triggering observation.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="type" minOccurs="1" maxOccurs="1" type="triggeredBytype">
+          <xs:element name="type" minOccurs="1" maxOccurs="1" type="TriggeredBytype">
             <xs:annotation>
               <xs:documentation xml:lang="en">The type of trigger.
 Reflex | Repeat | Re-run.</xs:documentation>
@@ -52356,36 +52356,6 @@ Reflex | Repeat | Re-run.</xs:documentation>
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
-  <xs:simpleType name="triggeredBytypeEnum">
-    <xs:restriction base="code-primitive">
-      <xs:enumeration value="reflex">
-        <xs:annotation>
-          <xs:documentation xml:lang="en">Reflex</xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-      <xs:enumeration value="repeat">
-        <xs:annotation>
-          <xs:documentation xml:lang="en">Repeat (per policy)</xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-      <xs:enumeration value="re-run">
-        <xs:annotation>
-          <xs:documentation xml:lang="en">Re-run (per policy)</xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-    </xs:restriction>
-  </xs:simpleType>
-  <xs:complexType name="triggeredBytype">
-    <xs:annotation>
-      <xs:documentation xml:lang="en"></xs:documentation>
-      <xs:documentation xml:lang="en">If the element is present, it must have either a @value, an @id, or extensions</xs:documentation>
-    </xs:annotation>
-    <xs:complexContent>
-      <xs:extension base="Element">
-        <xs:attribute name="value" type="triggeredBytypeEnum" use="optional"/>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
   <xs:simpleType name="ObservationStatusEnum">
     <xs:restriction base="code-primitive">
       <xs:enumeration value="registered">
@@ -52438,6 +52408,36 @@ Reflex | Repeat | Re-run.</xs:documentation>
     <xs:complexContent>
       <xs:extension base="Element">
         <xs:attribute name="value" type="ObservationStatusEnum" use="optional"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:simpleType name="TriggeredBytypeEnum">
+    <xs:restriction base="code-primitive">
+      <xs:enumeration value="reflex">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Reflex</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="repeat">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Repeat (per policy)</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="re-run">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Re-run (per policy)</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="TriggeredBytype">
+    <xs:annotation>
+      <xs:documentation xml:lang="en"></xs:documentation>
+      <xs:documentation xml:lang="en">If the element is present, it must have either a @value, an @id, or extensions</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="Element">
+        <xs:attribute name="value" type="TriggeredBytypeEnum" use="optional"/>
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
@@ -67404,7 +67404,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
               <xs:documentation xml:lang="en">The frequency with which the target must be validated (none; initial; periodic).</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="status" minOccurs="1" maxOccurs="1" type="status">
+          <xs:element name="status" minOccurs="1" maxOccurs="1" type="Status">
             <xs:annotation>
               <xs:documentation xml:lang="en">The validation status of the target (attested; validated; in process; requires revalidation; validation failed; revalidation failed).</xs:documentation>
            </xs:annotation>
@@ -67586,7 +67586,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
-  <xs:simpleType name="statusEnum">
+  <xs:simpleType name="StatusEnum">
     <xs:restriction base="code-primitive">
       <xs:enumeration value="attested">
         <xs:annotation>
@@ -67620,14 +67620,14 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
       </xs:enumeration>
     </xs:restriction>
   </xs:simpleType>
-  <xs:complexType name="status">
+  <xs:complexType name="Status">
     <xs:annotation>
       <xs:documentation xml:lang="en"></xs:documentation>
       <xs:documentation xml:lang="en">If the element is present, it must have either a @value, an @id, or extensions</xs:documentation>
     </xs:annotation>
     <xs:complexContent>
       <xs:extension base="Element">
-        <xs:attribute name="value" type="statusEnum" use="optional"/>
+        <xs:attribute name="value" type="StatusEnum" use="optional"/>
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>

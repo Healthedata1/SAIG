@@ -26,7 +26,7 @@
   fhir:ImplementationGuide.name [ fhir:value "SAIG"]; # 
   fhir:ImplementationGuide.title [ fhir:value "Screenings and Assessments Implementation Guide"]; # 
   fhir:ImplementationGuide.status [ fhir:value "active"]; # 
-  fhir:ImplementationGuide.date [ fhir:value "2023-02-09T08:33:18-08:00"^^xsd:dateTime]; # 
+  fhir:ImplementationGuide.date [ fhir:value "2023-02-09T15:31:54-08:00"^^xsd:dateTime]; # 
   fhir:ImplementationGuide.publisher [ fhir:value "Health eData Inc"]; # 
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -904,6 +904,23 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "DocumentReference" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://www.fhir.org/guides/saig/DocumentReference/example2ahn-hrsnquestionnaire>;
+         fhir:Reference.reference [ fhir:value "DocumentReference/example2ahn-hrsnquestionnaire" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "DocRef Example2AHN-HRSNQuestionnaire" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This is a an example of Example2AHN-HRSNQuestionnaire  for the *US Core DocumentReference Profile*" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference";
+         fhir:link <http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference>
+       ]
+     ], [
+       fhir:index 2;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "Questionnaire" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
@@ -917,7 +934,7 @@
          fhir:link <http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire>
        ]
      ], [
-       fhir:index 2;
+       fhir:index 3;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -934,7 +951,7 @@
          fhir:link <http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaireresponse>
        ]
      ], [
-       fhir:index 3;
+       fhir:index 4;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -948,7 +965,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "This is a an example of 44250-9 Little interest or pleasure in doing things in last 2 weeks for the *US Core Observation Screening Assessment Profile*" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 4;
+       fhir:index 5;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -962,7 +979,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "This is a an example of 44255-8 Feeling down, depressed, or hopeless in last 2 weeks for the *US Core Observation Screening Assessment Profile*" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 5;
+       fhir:index 6;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -976,7 +993,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "This is a an example of 55757-9 Patient Health Questionnaire 2 item (PHQ-2) [Reported] for the *US Core Observation Screening Assessment Profile*" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 6;
+       fhir:index 7;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -990,7 +1007,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "This is a an example of 55758-7 Patient Health Questionnaire 2 item (PHQ-2) total score [Reported] for the *US Core Observation Screening Assessment Profile*" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 7;
+       fhir:index 8;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1004,7 +1021,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "This is a Phq2 Item Example 44250-9 (Little interest or pleasure in doing things) for the *US Core Observation Screening Assessment Profile*" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 8;
+       fhir:index 9;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1018,7 +1035,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "This is a Phq2 Item Example 44255-8 (Feeling down, depressed, or hopeless) for the *US Core Observation Screening Assessment Profile*" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 9;
+       fhir:index 10;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1032,7 +1049,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "This is a Phq2 Item Example 55758-7 (Patient health questionnaire 2 item total score) for the *US Core Observation Screening Assessment Profile*" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 10;
+       fhir:index 11;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
