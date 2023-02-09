@@ -1,0 +1,46 @@
+resourceType: QuestionnaireResponse
+id: '5770517'
+meta:
+    versionId: '2'
+    lastUpdated: '2023-02-08T01:22:22.608-05:00'
+    profile:
+        - 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaireresponse'
+    tag:
+        - 
+            code: 'lformsVersion: 33.0.0'
+
+    extension:
+      - url: 'http://hl7.org/fhir/StructureDefinition/instance-name'
+        valueString: Example 1 PHQ-2 QuestionnaireResponse
+      - url: 'http://hl7.org/fhir/StructureDefinition/instance-description'
+        valueMarkdown: Example 1 PHQ-2 QuestionnaireResponse
+
+questionnaire: http://www.fhir.org/guides/saig/Questionnaire/55757-9
+status: completed
+subject:
+    reference: Patient/example
+    display: Amy Shaw
+authored: '2023-02-08T06:22:22.304Z'
+item:
+    - 
+        linkId: /44250-9
+        text: Little interest or pleasure in doing things
+        answer:
+            - 
+                valueCoding:
+                    code: LA6569-3
+                    display: Several days
+    - 
+        linkId: /44255-8
+        text: 'Feeling down, depressed, or hopeless'
+        answer:
+            - 
+                valueCoding:
+                    code: LA6569-3
+                    display: Several days
+    - 
+        linkId: /55758-7
+        text: Patient health questionnaire 2 item total score
+        answer:
+            - 
+                valueDecimal: 2

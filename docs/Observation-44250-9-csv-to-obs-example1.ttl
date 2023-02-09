@@ -1,0 +1,81 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <http://loinc.org/rdf#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://www.fhir.org/guides/saig/Observation/44250-9-csv-to-obs-example1> a fhir:Observation;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "44250-9-csv-to-obs-example1"]; # 
+  fhir:Resource.meta [
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/instance-name" ];
+       fhir:Extension.valueString [ fhir:value "44250-9-Csv-To-Obs-Example1" ]
+     ], [
+       fhir:index 1;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/instance-description" ];
+       fhir:Extension.valueMarkdown [ fhir:value "This is a an example of 44250-9 Little interest or pleasure in doing things in last 2 weeks for the *US Core Observation Screening Assessment Profile*" ]
+     ];
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment";
+       fhir:index 0;
+       fhir:link <http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment>
+     ]
+  ]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"44250-9-csv-to-obs-example1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;44250-9-csv-to-obs-example1&quot; </p><p style=\"margin-bottom: 0px\">Profile: <code>http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment</code></p></div><p><b>status</b>: final</p><p><b>category</b>: Disability Status <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (us-core-category#disability-status)</span></p><p><b>code</b>: Little interest or pleasure in doing things in last 2 weeks <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#44250-9)</span></p><p><b>subject</b>: <a href=\"??phinvads??\">Patient/123</a></p><p><b>effective</b>: 2021-01-01</p><p><b>performer</b>: <a href=\"??phinvads??\">Performer/rsmith</a></p><p><b>value</b>: Little interest or pleasure in doing things in last 2 weeks <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#44250-9)</span></p><p><b>derivedFrom</b>: <a href=\"DocumentReference-example1phq-2questionnaire.html\">DocumentReference/example1phq-2questionnaire</a></p></div>"
+  ]; # 
+  fhir:Observation.status [ fhir:value "final"]; # 
+  fhir:Observation.category [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://hl7.org/fhir/us/core/CodeSystem/us-core-category" ];
+       fhir:Coding.code [ fhir:value "disability-status" ]
+     ]
+  ]; # 
+  fhir:Observation.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a loinc:44250-9;
+       fhir:Coding.system [ fhir:value "http://loinc.org" ];
+       fhir:Coding.code [ fhir:value "44250-9" ];
+       fhir:Coding.display [ fhir:value "Little interest or pleasure in doing things in last 2 weeks" ]
+     ]
+  ]; # 
+  fhir:Observation.subject [
+     fhir:link <http://www.fhir.org/guides/saig/Patient/123>;
+     fhir:Reference.reference [ fhir:value "Patient/123" ]
+  ]; # 
+  fhir:Observation.effectiveDateTime [ fhir:value "2021-01-01"^^xsd:date]; # 
+  fhir:Observation.performer [
+     fhir:index 0;
+     fhir:link <http://www.fhir.org/guides/saig/Performer/rsmith>;
+     fhir:Reference.reference [ fhir:value "Performer/rsmith" ]
+  ]; # 
+  fhir:Observation.valueCodeableConcept [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a loinc:44250-9;
+       fhir:Coding.system [ fhir:value "http://loinc.org" ];
+       fhir:Coding.code [ fhir:value "44250-9" ];
+       fhir:Coding.display [ fhir:value "Little interest or pleasure in doing things in last 2 weeks" ]
+     ]
+  ]; # 
+  fhir:Observation.derivedFrom [
+     fhir:index 0;
+     fhir:link <http://www.fhir.org/guides/saig/DocumentReference/example1phq-2questionnaire>;
+     fhir:Reference.reference [ fhir:value "DocumentReference/example1phq-2questionnaire" ]
+  ] . # 
+
+# - ontology header ------------------------------------------------------------
+
+<http://www.fhir.org/guides/saig/Observation/44250-9-csv-to-obs-example1.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,124 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "55757-9",
+  "display" : "Patient Health Questionnaire 2 item (PHQ-2) [Reported]"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Patient Health Questionnaire 2 item (PHQ-2) [Reported]",
+  "code" : "55757-9",
+  "system" : "http://loinc.org"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "44250-9",
+  "display" : "Little interest or pleasure in doing things"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Little interest or pleasure in doing things in last 2 weeks",
+  "code" : "44250-9",
+  "system" : "http://loinc.org",
+  "severity" : "warning",
+  "error" : "The display \"Little interest or pleasure in doing things\" is not a valid display for the code {http://loinc.org}44250-9 - should be one of ['Little interest or pleasure in doing things in last 2 weeks', ''] (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "44255-8",
+  "display" : "Feeling down, depressed, or hopeless"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Feeling down, depressed, or hopeless in last 2 weeks",
+  "code" : "44255-8",
+  "system" : "http://loinc.org",
+  "severity" : "warning",
+  "error" : "The display \"Feeling down, depressed, or hopeless\" is not a valid display for the code {http://loinc.org}44255-8 - should be one of ['Feeling down, depressed, or hopeless in last 2 weeks', ''] (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "55758-7",
+  "display" : "Patient health questionnaire 2 item total score"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]",
+  "code" : "55758-7",
+  "system" : "http://loinc.org",
+  "severity" : "warning",
+  "error" : "The display \"Patient health questionnaire 2 item total score\" is not a valid display for the code {http://loinc.org}55758-7 - should be one of ['Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]', ''] (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "44250-9",
+  "display" : "Little interest or pleasure in doing things in last 2 weeks"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Little interest or pleasure in doing things in last 2 weeks",
+  "code" : "44250-9",
+  "system" : "http://loinc.org"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "55758-7",
+  "display" : "Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]",
+  "code" : "55758-7",
+  "system" : "http://loinc.org"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "78305-0"
+}, "url": "http://hl7.org/fhir/ValueSet/c80-doc-typecodes--0", "version": "4.0.1", "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code provided (http://loinc.org#78305-0) is not valid (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "78305-0",
+  "display" : "Mental health Form"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Mental health Form",
+  "code" : "78305-0",
+  "system" : "http://loinc.org"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "44255-8",
+  "display" : "Feeling down, depressed, or hopeless in last 2 weeks"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Feeling down, depressed, or hopeless in last 2 weeks",
+  "code" : "44255-8",
+  "system" : "http://loinc.org"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "78305-0"
+}, "url": "http://hl7.org/fhir/us/core/ValueSet/us-core-documentreference-type--1", "version": "5.0.1", "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Mental health Form",
+  "code" : "78305-0",
+  "system" : "http://loinc.org"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "78305-0"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Mental health Form",
+  "code" : "78305-0",
+  "system" : "http://loinc.org"
+}
+-------------------------------------------------------------------------------------

@@ -10,17 +10,17 @@
 # │  supported properties, see:                                                                    │
 # │  http://build.fhir.org/ig/HL7/fhir-shorthand/branches/beta/sushi.html#ig-development           │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: healthedata1-sandbox
+id: saig
 extension:
   - url: >-
       http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
     valueCode: trial-use
   - url: 'http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm'
-    valueInteger: 2
-canonical: http://www.fhir.org/guides/healthedata1-sandbox
-version: 0.1.0
-name: HealthEData_1Sandbox
-title: Health eData 1 Sandbox
+    valueInteger: 0
+canonical: http://www.fhir.org/guides/saig
+version: 0.0.0
+name: SAIG
+title: Screenings and Assessments Implementation Guide
 status: active
 publisher:
   name: Health eData Inc
@@ -28,7 +28,7 @@ contact:
   - telecom:
       - system: email
         value: 'mailto:ehaas@healthedatainc.com'
-description: This is a **Healthedata1** sandbox for creation of resources and examples
+description: This is a **Healthedata1** sandbox for creation of Screenings and Assessments resources and examples
 license: CC0-1.0
 fhirVersion: 4.0.1
 dependencies:
@@ -46,12 +46,12 @@ dependencies:
     version: 0.12.0
 
 
-groups:
-  TestExamples:
-    name: Test Examples 
-    description: Examples for Testing Stuff Out!!!
-    resources:
-      - Patient/deceased-example
+# groups:
+#   TestExamples:
+#     name: Test Examples 
+#     description: Examples for Testing Stuff Out!!!
+#     resources:
+#       - Patient/deceased-example
 
 
 
@@ -67,17 +67,17 @@ pages:
   # background.md:
   # # specification.md:
   # #   exchanging-clinical-data.md:
-  guidance.md:
-    title: Guidance
+  # guidance.md:
+  #   title: Guidance
 
-  downloads.md:
-    title: Downloads
+  # downloads.md:
+  #   title: Downloads
 
-  ImplementationGuide-healthedata1-sandbox.md:
-    title: CDex ImplementationGuide Resource
+  # ImplementationGuide-healthedata1-sandbox.md:
+  #   title: CDex ImplementationGuide Resource
 
-  changes.md:
-    title: Change Log
+  # changes.md:
+  #   title: Change Log
 
 
 parameters:
@@ -94,7 +94,7 @@ parameters:
     #- fsh-generated/includes
 #- code: path-liquid #yes
   #  value: #path #A relative path that contains liquid templates for generating narrative
-  path-liquid: input/images/liquid
+  # path-liquid: input/images/liquid
   excludexml: true
   escludejsn: false
   excludettl: true
@@ -115,8 +115,8 @@ parameters:
   #   - 1.0.1
   # ipa-comparison:
   #   - '{current}'
-  propagate-status: true
-copyrightYear: 2020+
+  # propagate-status: true
+copyrightYear: 2023+
 releaseLabel: CI Build
 
 
@@ -125,9 +125,9 @@ releaseLabel: CI Build
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   IG Home: index.html
-  General Guidance: guidance.html
+  # General Guidance: guidance.html
   #Table of Contents: toc.html
   Artifact Index: artifacts.html
-  Downloads: downloads.html
-  Change Log: changes.html
-  IG Page: 'ImplementationGuide-healthedata1-sandbox.html'
+  # Downloads: downloads.html
+  # Change Log: changes.html
+  # IG Page: 'ImplementationGuide-healthedata1-sandbox.html'

@@ -1,0 +1,55 @@
+{
+  "package": "saig",
+  "version": "0.0.0",
+  "fhirVersion": "4.0.1",
+  "extensions": [],
+  "profiles": {},
+  "usage": {
+    "http://hl7.org/fhir/StructureDefinition/instance-description": [
+      "DocumentReference.meta",
+      "Observation.meta",
+      "Questionnaire.meta",
+      "QuestionnaireResponse.meta"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/instance-name": [
+      "DocumentReference.meta",
+      "Observation.meta",
+      "Questionnaire.meta",
+      "QuestionnaireResponse.meta"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/ordinalValue": [
+      "Questionnaire.item.answerOption"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl": [
+      "Questionnaire.item",
+      "Questionnaire.item.item"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix": [
+      "Questionnaire.item.answerOption"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/questionnaire-unit": [
+      "Questionnaire.item"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm": [
+      "ImplementationGuide"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status": [
+      "ImplementationGuide",
+      "ImplementationGuide.definition.page",
+      "ImplementationGuide.definition.page.page"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name": [
+      "ImplementationGuide.definition.page",
+      "ImplementationGuide.definition.page.page"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment": [
+      "ImplementationGuide.dependsOn"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
+      "ImplementationGuide.definition.resource"
+    ]
+  }
+}

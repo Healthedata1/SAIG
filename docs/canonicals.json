@@ -1,0 +1,15 @@
+[
+  {
+    "id" : "saig",
+    "type" : "ImplementationGuide",
+    "url" : "http://www.fhir.org/guides/saig/ImplementationGuide/saig",
+    "version" : "0.0.0",
+    "name" : "SAIG"
+  },
+  {
+    "id" : "55757-9",
+    "type" : "Questionnaire",
+    "url" : "http://www.fhir.org/guides/saig/Questionnaire/55757-9",
+    "version" : "0.0.0"
+  }
+]

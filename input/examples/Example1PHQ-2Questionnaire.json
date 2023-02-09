@@ -1,0 +1,269 @@
+{
+    "id": "55757-9",
+    "url": "http://www.fhir.org/guides/saig/Questionnaire/55757-9",
+    "meta": {
+        "versionId": "1",
+        "lastUpdated": "2021-03-02T15:07:21.000-05:00",
+        "source": "#FHq46AjYEPu6Vjxt",
+        "profile": [
+            "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire"
+        ],
+        "tag": [
+            {
+                "code": "lformsVersion: 33.0.0"
+            }
+        ],
+        "extension": [
+            {
+                "url": "http://hl7.org/fhir/StructureDefinition/instance-name",
+                "valueString": "Example 1 PHQ-2 Questionnaire"
+            },
+            {
+                "url": "http://hl7.org/fhir/StructureDefinition/instance-description",
+                "valueMarkdown": "Example 1 PHQ-2 Questionnaire"
+            }
+        ]
+    },
+    "code": [
+        {
+            "system": "http://loinc.org",
+            "code": "55757-9",
+            "display": "Patient Health Questionnaire 2 item (PHQ-2) [Reported]"
+        }
+    ],
+    "status": "draft",
+    "title": "Patient Health Questionnaire 2 item (PHQ-2) [Reported]",
+    "resourceType": "Questionnaire",
+    "item": [
+        {
+            "type": "choice",
+            "code": [
+                {
+                    "code": "44250-9",
+                    "display": "Little interest or pleasure in doing things"
+                }
+            ],
+            "extension": [
+                {
+                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                                "code": "drop-down",
+                                "display": "Drop down"
+                            }
+                        ],
+                        "text": "Drop down"
+                    }
+                }
+            ],
+            "required": false,
+            "linkId": "/44250-9",
+            "text": "Little interest or pleasure in doing things",
+            "answerOption": [
+                {
+                    "valueCoding": {
+                        "code": "LA6568-5",
+                        "display": "Not at all"
+                    },
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+                            "valueString": "0"
+                        },
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+                            "valueDecimal": 0
+                        }
+                    ]
+                },
+                {
+                    "valueCoding": {
+                        "code": "LA6569-3",
+                        "display": "Several days"
+                    },
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+                            "valueString": "1"
+                        },
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+                            "valueDecimal": 1
+                        }
+                    ]
+                },
+                {
+                    "valueCoding": {
+                        "code": "LA6570-1",
+                        "display": "More than half the days"
+                    },
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+                            "valueString": "2"
+                        },
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+                            "valueDecimal": 2
+                        }
+                    ]
+                },
+                {
+                    "valueCoding": {
+                        "code": "LA6571-9",
+                        "display": "Nearly every day"
+                    },
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+                            "valueString": "3"
+                        },
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+                            "valueDecimal": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "choice",
+            "code": [
+                {
+                    "code": "44255-8",
+                    "display": "Feeling down, depressed, or hopeless"
+                }
+            ],
+            "extension": [
+                {
+                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                                "code": "drop-down",
+                                "display": "Drop down"
+                            }
+                        ],
+                        "text": "Drop down"
+                    }
+                }
+            ],
+            "required": false,
+            "linkId": "/44255-8",
+            "text": "Feeling down, depressed, or hopeless",
+            "answerOption": [
+                {
+                    "valueCoding": {
+                        "code": "LA6568-5",
+                        "display": "Not at all"
+                    },
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+                            "valueString": "0"
+                        },
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+                            "valueDecimal": 0
+                        }
+                    ]
+                },
+                {
+                    "valueCoding": {
+                        "code": "LA6569-3",
+                        "display": "Several days"
+                    },
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+                            "valueString": "1"
+                        },
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+                            "valueDecimal": 1
+                        }
+                    ]
+                },
+                {
+                    "valueCoding": {
+                        "code": "LA6570-1",
+                        "display": "More than half the days"
+                    },
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+                            "valueString": "2"
+                        },
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+                            "valueDecimal": 2
+                        }
+                    ]
+                },
+                {
+                    "valueCoding": {
+                        "code": "LA6571-9",
+                        "display": "Nearly every day"
+                    },
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+                            "valueString": "3"
+                        },
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+                            "valueDecimal": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "decimal",
+            "code": [
+                {
+                    "code": "55758-7",
+                    "display": "Patient health questionnaire 2 item total score"
+                }
+            ],
+            "extension": [
+                {
+                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-unit",
+                    "valueCoding": {
+                        "code": "{score}",
+                        "display": "{score}",
+                        "system": "http://unitsofmeasure.org"
+                    }
+                }
+            ],
+            "required": false,
+            "linkId": "/55758-7",
+            "text": "Patient health questionnaire 2 item total score",
+            "item": [
+                {
+                    "text": "The PHQ-2 is the ultra-brief depression measure (using first 2 items of PHQ-9) and ranges from 0-6. Most who use the short PHQ-2 use it for screening and not for monitoring depression",
+                    "type": "display",
+                    "linkId": "/55758-7-help",
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+                            "valueCodeableConcept": {
+                                "text": "Help-Button",
+                                "coding": [
+                                    {
+                                        "code": "help",
+                                        "display": "Help-Button",
+                                        "system": "http://hl7.org/fhir/questionnaire-item-control"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

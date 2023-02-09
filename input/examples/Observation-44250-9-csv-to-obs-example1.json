@@ -1,0 +1,62 @@
+{
+    "resourceType": "Observation",
+    "id": "44250-9-csv-to-obs-example1",
+    "meta": {
+        "extension": [
+            {
+                "url": "http://hl7.org/fhir/StructureDefinition/instance-name",
+                "valueString": "44250-9-Csv-To-Obs-Example1"
+            },
+            {
+                "url": "http://hl7.org/fhir/StructureDefinition/instance-description",
+                "valueMarkdown": "This is a an example of 44250-9 Little interest or pleasure in doing things in last 2 weeks for the *US Core Observation Screening Assessment Profile*"
+            }
+        ],
+        "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment"
+        ]
+    },
+    "status": "final",
+    "category": [
+        {
+            "coding": [
+                {
+                    "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-category",
+                    "code": "disability-status"
+                }
+            ]
+        }
+    ],
+    "code": {
+        "coding": [
+            {
+                "system": "http://loinc.org",
+                "code": "44250-9",
+                "display": "Little interest or pleasure in doing things in last 2 weeks"
+            }
+        ]
+    },
+    "subject": {
+        "reference": "Patient/123"
+    },
+    "effectiveDateTime": "2021-01-01",
+    "performer": [
+        {
+            "reference": "Performer/rsmith"
+        }
+    ],
+    "valueCodeableConcept": {
+        "coding": [
+            {
+                "system": "http://loinc.org",
+                "code": "44250-9",
+                "display": "Little interest or pleasure in doing things in last 2 weeks"
+            }
+        ]
+    },
+    "derivedFrom": [
+        {
+            "reference": "DocumentReference/example1phq-2questionnaire"
+        }
+    ]
+}
