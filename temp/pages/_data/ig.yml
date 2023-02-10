@@ -61,6 +61,12 @@ definition:
     name: DocRef Example2AHN-HRSNQuestionnaire
     exampleCanonical: http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference
   - reference:
+      reference: DocumentReference/example3praparequestionnaire
+    description: This is a an example of Example3PRAPAREQuestionnaire  for the *US
+      Core DocumentReference Profile*
+    name: DocRef Example3PRAPAREQuestionnaire
+    exampleCanonical: http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference
+  - reference:
       reference: Questionnaire/55757-9
     description: Example 1 PHQ-2 Questionnaire
     name: Example 1 PHQ-2 Questionnaire

@@ -39,6 +39,14 @@
             </tr>
             <tr>
                <td style="column-width:30%">
+                  <a href="DocumentReference-example3praparequestionnaire.html"
+                     title="DocumentReference/example3praparequestionnaire">DocRef Example3PRAPAREQuestionnaire</a>
+               </td>
+               <td>{% capture desc %}This is a an example of Example3PRAPAREQuestionnaire  for the *US Core DocumentReference Profile*{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="Questionnaire-55757-9.html" title="Questionnaire/55757-9">Example 1 PHQ-2 Questionnaire</a>
                </td>
                <td>{% capture desc %}Example 1 PHQ-2 Questionnaire{% endcapture %}
