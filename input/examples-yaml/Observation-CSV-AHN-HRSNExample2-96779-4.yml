@@ -30,7 +30,6 @@ valueCodeableConcept:
   coding:
   - system: http://loinc.org
     code: LA32-8
-    display: Has the electric, gas, oil, or water company threatened to shut off services
-      in your home in past 12 months
+    display: 'No'
 derivedFrom:
 - reference: DocumentReference/example2ahn-hrsnquestionnaire

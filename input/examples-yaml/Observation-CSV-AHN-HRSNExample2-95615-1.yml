@@ -28,6 +28,6 @@ valueCodeableConcept:
   coding:
   - system: http://loinc.org
     code: LA6270-8
-    display: Scream or curse at you [HITS]
+    display: Never
 derivedFrom:
 - reference: DocumentReference/example2ahn-hrsnquestionnaire

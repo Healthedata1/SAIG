@@ -29,8 +29,7 @@ performer:
 valueCodeableConcept:
   coding:
   - system: http://loinc.org
-    code: LA28397-0
-    display: Within the past 12 months the food we bought just didn't last and we
-      didn't have money to get more [U.S. FSS]
+    code: LA28398-8
+    display: Never true
 derivedFrom:
 - reference: DocumentReference/example2ahn-hrsnquestionnaire

@@ -14,7 +14,7 @@
   "toolingVersionFull" : "5.0.0-snapshot2 (3)",
   "totalFiles" : 28,
   "processedFiles" : 63,
-  "genDate" : "Thu, Feb 9, 2023 18:29-0800",
+  "genDate" : "Thu, Feb 9, 2023 20:10-0800",
   "genDay" : "09/02/2023",
   "ig" : {
     "id" : "saig",
@@ -32,7 +32,7 @@
         "telecom" : ["mailto:ehaas@healthedatainc.com"]
       }
     ],
-    "date" : "2023-02-09T18:29:18-08:00",
+    "date" : "2023-02-09T20:10:49-08:00",
     "description" : "This is a **Healthedata1** sandbox for creation of Screenings and Assessments resources and examples",
     "copyright" : null,
     "fhirVersion" : "4.0.1"

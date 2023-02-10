@@ -22,7 +22,7 @@
    <name value="SAIG"/>
    <title value="Screenings and Assessments Implementation Guide"/>
    <status value="active"/>
-   <date value="2023-02-09T18:29:18-08:00"/>
+   <date value="2023-02-09T20:10:49-08:00"/>
    <publisher value="Health eData Inc"/>
    <contact>
       <telecom>
@@ -593,7 +593,7 @@
             <reference value="Observation/CSV-AHN-HRSNExample2-96778-6answer-0"/>
          </reference>
          <name value="Csv-Ahn-Hrsnexample2-96778-6Answer-0"/>
-         <description value="This is a an example of 96778-6[0] Unknown for the *US Core Observation Screening Assessment Profile*"/>
+         <description value="This is a an example of 96778-6[0] Problems with place where you live for the *US Core Observation Screening Assessment Profile*"/>
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -608,7 +608,7 @@
             <reference value="Observation/CSV-AHN-HRSNExample2-96778-6answer-5"/>
          </reference>
          <name value="Csv-Ahn-Hrsnexample2-96778-6Answer-5"/>
-         <description value="This is a an example of 96778-6[5] Unknown for the *US Core Observation Screening Assessment Profile*"/>
+         <description value="This is a an example of 96778-6[5] Problems with place where you live for the *US Core Observation Screening Assessment Profile*"/>
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -623,7 +623,7 @@
             <reference value="Observation/CSV-AHN-HRSNExample2-96778-6answer-6"/>
          </reference>
          <name value="Csv-Ahn-Hrsnexample2-96778-6Answer-6"/>
-         <description value="This is a an example of 96778-6[6] Unknown for the *US Core Observation Screening Assessment Profile*"/>
+         <description value="This is a an example of 96778-6[6] Problems with place where you live for the *US Core Observation Screening Assessment Profile*"/>
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>

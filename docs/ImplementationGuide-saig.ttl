@@ -26,7 +26,7 @@
   fhir:ImplementationGuide.name [ fhir:value "SAIG"]; # 
   fhir:ImplementationGuide.title [ fhir:value "Screenings and Assessments Implementation Guide"]; # 
   fhir:ImplementationGuide.status [ fhir:value "active"]; # 
-  fhir:ImplementationGuide.date [ fhir:value "2023-02-09T18:29:18-08:00"^^xsd:dateTime]; # 
+  fhir:ImplementationGuide.date [ fhir:value "2023-02-09T20:10:49-08:00"^^xsd:dateTime]; # 
   fhir:ImplementationGuide.publisher [ fhir:value "Health eData Inc"]; # 
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -1116,7 +1116,7 @@
          fhir:Reference.reference [ fhir:value "Observation/CSV-AHN-HRSNExample2-96778-6answer-0" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Csv-Ahn-Hrsnexample2-96778-6Answer-0" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This is a an example of 96778-6[0] Unknown for the *US Core Observation Screening Assessment Profile*" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This is a an example of 96778-6[0] Problems with place where you live for the *US Core Observation Screening Assessment Profile*" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 16;
@@ -1130,7 +1130,7 @@
          fhir:Reference.reference [ fhir:value "Observation/CSV-AHN-HRSNExample2-96778-6answer-5" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Csv-Ahn-Hrsnexample2-96778-6Answer-5" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This is a an example of 96778-6[5] Unknown for the *US Core Observation Screening Assessment Profile*" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This is a an example of 96778-6[5] Problems with place where you live for the *US Core Observation Screening Assessment Profile*" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 17;
@@ -1144,7 +1144,7 @@
          fhir:Reference.reference [ fhir:value "Observation/CSV-AHN-HRSNExample2-96778-6answer-6" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Csv-Ahn-Hrsnexample2-96778-6Answer-6" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This is a an example of 96778-6[6] Unknown for the *US Core Observation Screening Assessment Profile*" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This is a an example of 96778-6[6] Problems with place where you live for the *US Core Observation Screening Assessment Profile*" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 18;

@@ -145,7 +145,7 @@
                   <a href="Observation-CSV-AHN-HRSNExample2-96778-6answer-0.html"
                      title="Observation/CSV-AHN-HRSNExample2-96778-6answer-0">Csv-Ahn-Hrsnexample2-96778-6Answer-0</a>
                </td>
-               <td>{% capture desc %}This is a an example of 96778-6[0] Unknown for the *US Core Observation Screening Assessment Profile*{% endcapture %}
+               <td>{% capture desc %}This is a an example of 96778-6[0] Problems with place where you live for the *US Core Observation Screening Assessment Profile*{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
             <tr>
@@ -153,7 +153,7 @@
                   <a href="Observation-CSV-AHN-HRSNExample2-96778-6answer-5.html"
                      title="Observation/CSV-AHN-HRSNExample2-96778-6answer-5">Csv-Ahn-Hrsnexample2-96778-6Answer-5</a>
                </td>
-               <td>{% capture desc %}This is a an example of 96778-6[5] Unknown for the *US Core Observation Screening Assessment Profile*{% endcapture %}
+               <td>{% capture desc %}This is a an example of 96778-6[5] Problems with place where you live for the *US Core Observation Screening Assessment Profile*{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
             <tr>
@@ -161,7 +161,7 @@
                   <a href="Observation-CSV-AHN-HRSNExample2-96778-6answer-6.html"
                      title="Observation/CSV-AHN-HRSNExample2-96778-6answer-6">Csv-Ahn-Hrsnexample2-96778-6Answer-6</a>
                </td>
-               <td>{% capture desc %}This is a an example of 96778-6[6] Unknown for the *US Core Observation Screening Assessment Profile*{% endcapture %}
+               <td>{% capture desc %}This is a an example of 96778-6[6] Problems with place where you live for the *US Core Observation Screening Assessment Profile*{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
             <tr>

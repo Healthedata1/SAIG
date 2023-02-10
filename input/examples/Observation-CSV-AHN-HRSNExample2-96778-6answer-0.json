@@ -9,7 +9,7 @@
             },
             {
                 "url": "http://hl7.org/fhir/StructureDefinition/instance-description",
-                "valueMarkdown": "This is a an example of 96778-6[0] Unknown for the *US Core Observation Screening Assessment Profile*"
+                "valueMarkdown": "This is a an example of 96778-6[0] Problems with place where you live for the *US Core Observation Screening Assessment Profile*"
             }
         ],
         "profile": [
@@ -32,7 +32,7 @@
             {
                 "system": "http://loinc.org",
                 "code": "96778-6[0]",
-                "display": "Unknown"
+                "display": "Problems with place where you live"
             }
         ]
     },
@@ -49,7 +49,8 @@
         "coding": [
             {
                 "system": "http://loinc.org",
-                "code": "LA31996-4"
+                "code": "LA31996-4",
+                "display": "Pests such as bugs, ants, or mice"
             }
         ]
     },

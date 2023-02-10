@@ -8,7 +8,7 @@ Accept-Charset: UTF-8
 Accept: application/fhir+json
 Content-Type: application/fhir+json;charset=UTF-8
 
-{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;coding&quot;,&quot;valueCoding&quot;:{&quot;system&quot;:&quot;http://loinc.org&quot;,&quot;code&quot;:&quot;LA31993-1&quot;,&quot;display&quot;:&quot;Housing status&quot;}},{&quot;name&quot;:&quot;default-to-latest-version&quot;,&quot;valueBoolean&quot;:true},{&quot;name&quot;:&quot;profile&quot;,&quot;resource&quot;:{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;id&quot;:&quot;exp-params&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;system-version&quot;,&quot;valueUri&quot;:&quot;http://snomed.info/sct|http://snomed.info/sct/731000124108&quot;}]}}]}
+{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;coding&quot;,&quot;valueCoding&quot;:{&quot;system&quot;:&quot;http://loinc.org&quot;,&quot;code&quot;:&quot;96778-6[5]&quot;,&quot;display&quot;:&quot;Problems with place where you live&quot;}},{&quot;name&quot;:&quot;default-to-latest-version&quot;,&quot;valueBoolean&quot;:true},{&quot;name&quot;:&quot;profile&quot;,&quot;resource&quot;:{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;id&quot;:&quot;exp-params&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;system-version&quot;,&quot;valueUri&quot;:&quot;http://snomed.info/sct|http://snomed.info/sct/731000124108&quot;}]}}]}
 </pre>
 <pre>
 200
@@ -17,16 +17,16 @@ access-control-allow-origin:*
 access-control-expose-headers:Content-Location, Location
 cache-control:public, max-age=600
 connection:keep-alive
-content-length:490
+content-length:353
 content-type:application/fhir+json
-date:Fri, 10 Feb 2023 02:29:19 GMT
-last-modified:Fri, 10 Feb 2023 02:29:19 GMT
+date:Fri, 10 Feb 2023 04:10:51 GMT
+last-modified:Fri, 10 Feb 2023 04:10:51 GMT
 pragma:no-cache
 server:nginx
 x-gdpr-disclosure:All access to this server is logged as AuditEvent Resources, and these store your ip address (and logged in user, if one exists). Also, your IP address is logged with Google Analytics for building geomaps of server usage. Your continued use of the API constitutes agreement to these terms. See [link] for erasure requests
-x-request-id:64-451283
+x-request-id:64-457137
 
-{&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;display&quot;,&quot;valueString&quot; : &quot;I have a steady place to live&quot;},{&quot;name&quot; : &quot;system&quot;,&quot;valueString&quot; : &quot;http://loinc.org&quot;},{&quot;name&quot; : &quot;code&quot;,&quot;valueString&quot; : &quot;LA31993-1&quot;},{&quot;name&quot; : &quot;version&quot;,&quot;valueString&quot; : &quot;2.73&quot;},{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : true},{&quot;name&quot; : &quot;message&quot;,&quot;valueString&quot; : &quot;The display \&quot;Housing status\&quot; is not a valid display for the code {http://loinc.org}LA31993-1 - should be one of ['I have a steady place to live']&quot;}]}
+{&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : false},{&quot;name&quot; : &quot;message&quot;,&quot;valueString&quot; : &quot;The code \&quot;96778-6[5]\&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#96778-6[5]) is not valid in the value set 'All codes known to the system'&quot;},{&quot;name&quot; : &quot;cause&quot;,&quot;valueString&quot; : &quot;invalid&quot;}]}
 </pre>
 <hr/><a name="l2"> </a>
 <p>#2</p>
@@ -37,7 +37,7 @@ Accept-Charset: UTF-8
 Accept: application/fhir+json
 Content-Type: application/fhir+json;charset=UTF-8
 
-{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;coding&quot;,&quot;valueCoding&quot;:{&quot;system&quot;:&quot;http://loinc.org&quot;,&quot;code&quot;:&quot;LA32-8&quot;,&quot;display&quot;:&quot;Has the electric, gas, oil, or water company threatened to shut off services in your home in past 12 months&quot;}},{&quot;name&quot;:&quot;default-to-latest-version&quot;,&quot;valueBoolean&quot;:true},{&quot;name&quot;:&quot;profile&quot;,&quot;resource&quot;:{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;id&quot;:&quot;exp-params&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;system-version&quot;,&quot;valueUri&quot;:&quot;http://snomed.info/sct|http://snomed.info/sct/731000124108&quot;}]}}]}
+{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;coding&quot;,&quot;valueCoding&quot;:{&quot;system&quot;:&quot;http://loinc.org&quot;,&quot;code&quot;:&quot;LA32000-4&quot;,&quot;display&quot;:&quot;Smoke detectors missing or not working&quot;}},{&quot;name&quot;:&quot;default-to-latest-version&quot;,&quot;valueBoolean&quot;:true},{&quot;name&quot;:&quot;profile&quot;,&quot;resource&quot;:{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;id&quot;:&quot;exp-params&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;system-version&quot;,&quot;valueUri&quot;:&quot;http://snomed.info/sct|http://snomed.info/sct/731000124108&quot;}]}}]}
 </pre>
 <pre>
 200
@@ -46,16 +46,16 @@ access-control-allow-origin:*
 access-control-expose-headers:Content-Location, Location
 cache-control:public, max-age=600
 connection:keep-alive
-content-length:523
+content-length:312
 content-type:application/fhir+json
-date:Fri, 10 Feb 2023 02:29:20 GMT
-last-modified:Fri, 10 Feb 2023 02:29:20 GMT
+date:Fri, 10 Feb 2023 04:10:51 GMT
+last-modified:Fri, 10 Feb 2023 04:10:51 GMT
 pragma:no-cache
 server:nginx
 x-gdpr-disclosure:All access to this server is logged as AuditEvent Resources, and these store your ip address (and logged in user, if one exists). Also, your IP address is logged with Google Analytics for building geomaps of server usage. Your continued use of the API constitutes agreement to these terms. See [link] for erasure requests
-x-request-id:64-451284
+x-request-id:64-457138
 
-{&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;display&quot;,&quot;valueString&quot; : &quot;No&quot;},{&quot;name&quot; : &quot;system&quot;,&quot;valueString&quot; : &quot;http://loinc.org&quot;},{&quot;name&quot; : &quot;code&quot;,&quot;valueString&quot; : &quot;LA32-8&quot;},{&quot;name&quot; : &quot;version&quot;,&quot;valueString&quot; : &quot;2.73&quot;},{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : true},{&quot;name&quot; : &quot;message&quot;,&quot;valueString&quot; : &quot;The display \&quot;Has the electric, gas, oil, or water company threatened to shut off services in your home in past 12 months\&quot; is not a valid display for the code {http://loinc.org}LA32-8 - should be one of ['No']&quot;}]}
+{&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;display&quot;,&quot;valueString&quot; : &quot;Smoke detectors missing or not working&quot;},{&quot;name&quot; : &quot;system&quot;,&quot;valueString&quot; : &quot;http://loinc.org&quot;},{&quot;name&quot; : &quot;code&quot;,&quot;valueString&quot; : &quot;LA32000-4&quot;},{&quot;name&quot; : &quot;version&quot;,&quot;valueString&quot; : &quot;2.73&quot;},{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : true}]}
 </pre>
 <hr/><a name="l3"> </a>
 <p>#3</p>
@@ -66,7 +66,7 @@ Accept-Charset: UTF-8
 Accept: application/fhir+json
 Content-Type: application/fhir+json;charset=UTF-8
 
-{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;coding&quot;,&quot;valueCoding&quot;:{&quot;system&quot;:&quot;http://loinc.org&quot;,&quot;code&quot;:&quot;LA6270-8&quot;,&quot;display&quot;:&quot;Threaten you with physical harm [HITS]&quot;}},{&quot;name&quot;:&quot;default-to-latest-version&quot;,&quot;valueBoolean&quot;:true},{&quot;name&quot;:&quot;profile&quot;,&quot;resource&quot;:{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;id&quot;:&quot;exp-params&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;system-version&quot;,&quot;valueUri&quot;:&quot;http://snomed.info/sct|http://snomed.info/sct/731000124108&quot;}]}}]}
+{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;coding&quot;,&quot;valueCoding&quot;:{&quot;system&quot;:&quot;http://loinc.org&quot;,&quot;code&quot;:&quot;LA31993-1&quot;,&quot;display&quot;:&quot;I have a steady place to live&quot;}},{&quot;name&quot;:&quot;default-to-latest-version&quot;,&quot;valueBoolean&quot;:true},{&quot;name&quot;:&quot;profile&quot;,&quot;resource&quot;:{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;id&quot;:&quot;exp-params&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;system-version&quot;,&quot;valueUri&quot;:&quot;http://snomed.info/sct|http://snomed.info/sct/731000124108&quot;}]}}]}
 </pre>
 <pre>
 200
@@ -75,16 +75,16 @@ access-control-allow-origin:*
 access-control-expose-headers:Content-Location, Location
 cache-control:public, max-age=600
 connection:keep-alive
-content-length:464
+content-length:303
 content-type:application/fhir+json
-date:Fri, 10 Feb 2023 02:29:20 GMT
-last-modified:Fri, 10 Feb 2023 02:29:20 GMT
+date:Fri, 10 Feb 2023 04:10:51 GMT
+last-modified:Fri, 10 Feb 2023 04:10:51 GMT
 pragma:no-cache
 server:nginx
 x-gdpr-disclosure:All access to this server is logged as AuditEvent Resources, and these store your ip address (and logged in user, if one exists). Also, your IP address is logged with Google Analytics for building geomaps of server usage. Your continued use of the API constitutes agreement to these terms. See [link] for erasure requests
-x-request-id:64-451285
+x-request-id:64-457139
 
-{&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;display&quot;,&quot;valueString&quot; : &quot;Never&quot;},{&quot;name&quot; : &quot;system&quot;,&quot;valueString&quot; : &quot;http://loinc.org&quot;},{&quot;name&quot; : &quot;code&quot;,&quot;valueString&quot; : &quot;LA6270-8&quot;},{&quot;name&quot; : &quot;version&quot;,&quot;valueString&quot; : &quot;2.73&quot;},{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : true},{&quot;name&quot; : &quot;message&quot;,&quot;valueString&quot; : &quot;The display \&quot;Threaten you with physical harm [HITS]\&quot; is not a valid display for the code {http://loinc.org}LA6270-8 - should be one of ['Never']&quot;}]}
+{&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;display&quot;,&quot;valueString&quot; : &quot;I have a steady place to live&quot;},{&quot;name&quot; : &quot;system&quot;,&quot;valueString&quot; : &quot;http://loinc.org&quot;},{&quot;name&quot; : &quot;code&quot;,&quot;valueString&quot; : &quot;LA31993-1&quot;},{&quot;name&quot; : &quot;version&quot;,&quot;valueString&quot; : &quot;2.73&quot;},{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : true}]}
 </pre>
 <hr/><a name="l4"> </a>
 <p>#4</p>
@@ -95,7 +95,7 @@ Accept-Charset: UTF-8
 Accept: application/fhir+json
 Content-Type: application/fhir+json;charset=UTF-8
 
-{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;coding&quot;,&quot;valueCoding&quot;:{&quot;system&quot;:&quot;http://loinc.org&quot;,&quot;code&quot;:&quot;LA28397-0&quot;,&quot;display&quot;:&quot;Within the past 12 months we worried whether our food would run out before we got money to buy more [U.S. FSS]&quot;}},{&quot;name&quot;:&quot;default-to-latest-version&quot;,&quot;valueBoolean&quot;:true},{&quot;name&quot;:&quot;profile&quot;,&quot;resource&quot;:{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;id&quot;:&quot;exp-params&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;system-version&quot;,&quot;valueUri&quot;:&quot;http://snomed.info/sct|http://snomed.info/sct/731000124108&quot;}]}}]}
+{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;coding&quot;,&quot;valueCoding&quot;:{&quot;system&quot;:&quot;http://loinc.org&quot;,&quot;code&quot;:&quot;LA32-8&quot;,&quot;display&quot;:&quot;No&quot;}},{&quot;name&quot;:&quot;default-to-latest-version&quot;,&quot;valueBoolean&quot;:true},{&quot;name&quot;:&quot;profile&quot;,&quot;resource&quot;:{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;id&quot;:&quot;exp-params&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;system-version&quot;,&quot;valueUri&quot;:&quot;http://snomed.info/sct|http://snomed.info/sct/731000124108&quot;}]}}]}
 </pre>
 <pre>
 200
@@ -104,16 +104,16 @@ access-control-allow-origin:*
 access-control-expose-headers:Content-Location, Location
 cache-control:public, max-age=600
 connection:keep-alive
-content-length:548
+content-length:273
 content-type:application/fhir+json
-date:Fri, 10 Feb 2023 02:29:20 GMT
-last-modified:Fri, 10 Feb 2023 02:29:20 GMT
+date:Fri, 10 Feb 2023 04:10:51 GMT
+last-modified:Fri, 10 Feb 2023 04:10:51 GMT
 pragma:no-cache
 server:nginx
 x-gdpr-disclosure:All access to this server is logged as AuditEvent Resources, and these store your ip address (and logged in user, if one exists). Also, your IP address is logged with Google Analytics for building geomaps of server usage. Your continued use of the API constitutes agreement to these terms. See [link] for erasure requests
-x-request-id:64-451287
+x-request-id:64-457140
 
-{&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;display&quot;,&quot;valueString&quot; : &quot;Often true&quot;},{&quot;name&quot; : &quot;system&quot;,&quot;valueString&quot; : &quot;http://loinc.org&quot;},{&quot;name&quot; : &quot;code&quot;,&quot;valueString&quot; : &quot;LA28397-0&quot;},{&quot;name&quot; : &quot;version&quot;,&quot;valueString&quot; : &quot;2.73&quot;},{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : true},{&quot;name&quot; : &quot;message&quot;,&quot;valueString&quot; : &quot;The display \&quot;Within the past 12 months we worried whether our food would run out before we got money to buy more [U.S. FSS]\&quot; is not a valid display for the code {http://loinc.org}LA28397-0 - should be one of ['Often true']&quot;}]}
+{&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;display&quot;,&quot;valueString&quot; : &quot;No&quot;},{&quot;name&quot; : &quot;system&quot;,&quot;valueString&quot; : &quot;http://loinc.org&quot;},{&quot;name&quot; : &quot;code&quot;,&quot;valueString&quot; : &quot;LA32-8&quot;},{&quot;name&quot; : &quot;version&quot;,&quot;valueString&quot; : &quot;2.73&quot;},{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : true}]}
 </pre>
 <hr/><a name="l5"> </a>
 <p>#5</p>
@@ -124,7 +124,7 @@ Accept-Charset: UTF-8
 Accept: application/fhir+json
 Content-Type: application/fhir+json;charset=UTF-8
 
-{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;coding&quot;,&quot;valueCoding&quot;:{&quot;system&quot;:&quot;http://loinc.org&quot;,&quot;code&quot;:&quot;LA6270-8&quot;,&quot;display&quot;:&quot;Scream or curse at you [HITS]&quot;}},{&quot;name&quot;:&quot;default-to-latest-version&quot;,&quot;valueBoolean&quot;:true},{&quot;name&quot;:&quot;profile&quot;,&quot;resource&quot;:{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;id&quot;:&quot;exp-params&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;system-version&quot;,&quot;valueUri&quot;:&quot;http://snomed.info/sct|http://snomed.info/sct/731000124108&quot;}]}}]}
+{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;coding&quot;,&quot;valueCoding&quot;:{&quot;system&quot;:&quot;http://loinc.org&quot;,&quot;code&quot;:&quot;LA6270-8&quot;,&quot;display&quot;:&quot;Never&quot;}},{&quot;name&quot;:&quot;default-to-latest-version&quot;,&quot;valueBoolean&quot;:true},{&quot;name&quot;:&quot;profile&quot;,&quot;resource&quot;:{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;id&quot;:&quot;exp-params&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;system-version&quot;,&quot;valueUri&quot;:&quot;http://snomed.info/sct|http://snomed.info/sct/731000124108&quot;}]}}]}
 </pre>
 <pre>
 200
@@ -133,16 +133,16 @@ access-control-allow-origin:*
 access-control-expose-headers:Content-Location, Location
 cache-control:public, max-age=600
 connection:keep-alive
-content-length:455
+content-length:278
 content-type:application/fhir+json
-date:Fri, 10 Feb 2023 02:29:20 GMT
-last-modified:Fri, 10 Feb 2023 02:29:20 GMT
+date:Fri, 10 Feb 2023 04:10:52 GMT
+last-modified:Fri, 10 Feb 2023 04:10:51 GMT
 pragma:no-cache
 server:nginx
 x-gdpr-disclosure:All access to this server is logged as AuditEvent Resources, and these store your ip address (and logged in user, if one exists). Also, your IP address is logged with Google Analytics for building geomaps of server usage. Your continued use of the API constitutes agreement to these terms. See [link] for erasure requests
-x-request-id:64-451288
+x-request-id:64-457141
 
-{&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;display&quot;,&quot;valueString&quot; : &quot;Never&quot;},{&quot;name&quot; : &quot;system&quot;,&quot;valueString&quot; : &quot;http://loinc.org&quot;},{&quot;name&quot; : &quot;code&quot;,&quot;valueString&quot; : &quot;LA6270-8&quot;},{&quot;name&quot; : &quot;version&quot;,&quot;valueString&quot; : &quot;2.73&quot;},{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : true},{&quot;name&quot; : &quot;message&quot;,&quot;valueString&quot; : &quot;The display \&quot;Scream or curse at you [HITS]\&quot; is not a valid display for the code {http://loinc.org}LA6270-8 - should be one of ['Never']&quot;}]}
+{&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;display&quot;,&quot;valueString&quot; : &quot;Never&quot;},{&quot;name&quot; : &quot;system&quot;,&quot;valueString&quot; : &quot;http://loinc.org&quot;},{&quot;name&quot; : &quot;code&quot;,&quot;valueString&quot; : &quot;LA6270-8&quot;},{&quot;name&quot; : &quot;version&quot;,&quot;valueString&quot; : &quot;2.73&quot;},{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : true}]}
 </pre>
 <hr/><a name="l6"> </a>
 <p>#6</p>
@@ -153,7 +153,7 @@ Accept-Charset: UTF-8
 Accept: application/fhir+json
 Content-Type: application/fhir+json;charset=UTF-8
 
-{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;coding&quot;,&quot;valueCoding&quot;:{&quot;system&quot;:&quot;http://loinc.org&quot;,&quot;code&quot;:&quot;LA6270-8&quot;,&quot;display&quot;:&quot;Physically hurt you [HITS]&quot;}},{&quot;name&quot;:&quot;default-to-latest-version&quot;,&quot;valueBoolean&quot;:true},{&quot;name&quot;:&quot;profile&quot;,&quot;resource&quot;:{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;id&quot;:&quot;exp-params&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;system-version&quot;,&quot;valueUri&quot;:&quot;http://snomed.info/sct|http://snomed.info/sct/731000124108&quot;}]}}]}
+{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;coding&quot;,&quot;valueCoding&quot;:{&quot;system&quot;:&quot;http://loinc.org&quot;,&quot;code&quot;:&quot;96778-6[0]&quot;,&quot;display&quot;:&quot;Problems with place where you live&quot;}},{&quot;name&quot;:&quot;default-to-latest-version&quot;,&quot;valueBoolean&quot;:true},{&quot;name&quot;:&quot;profile&quot;,&quot;resource&quot;:{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;id&quot;:&quot;exp-params&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;system-version&quot;,&quot;valueUri&quot;:&quot;http://snomed.info/sct|http://snomed.info/sct/731000124108&quot;}]}}]}
 </pre>
 <pre>
 200
@@ -162,16 +162,16 @@ access-control-allow-origin:*
 access-control-expose-headers:Content-Location, Location
 cache-control:public, max-age=600
 connection:keep-alive
-content-length:452
+content-length:353
 content-type:application/fhir+json
-date:Fri, 10 Feb 2023 02:29:20 GMT
-last-modified:Fri, 10 Feb 2023 02:29:20 GMT
+date:Fri, 10 Feb 2023 04:10:52 GMT
+last-modified:Fri, 10 Feb 2023 04:10:52 GMT
 pragma:no-cache
 server:nginx
 x-gdpr-disclosure:All access to this server is logged as AuditEvent Resources, and these store your ip address (and logged in user, if one exists). Also, your IP address is logged with Google Analytics for building geomaps of server usage. Your continued use of the API constitutes agreement to these terms. See [link] for erasure requests
-x-request-id:64-451289
+x-request-id:64-457142
 
-{&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;display&quot;,&quot;valueString&quot; : &quot;Never&quot;},{&quot;name&quot; : &quot;system&quot;,&quot;valueString&quot; : &quot;http://loinc.org&quot;},{&quot;name&quot; : &quot;code&quot;,&quot;valueString&quot; : &quot;LA6270-8&quot;},{&quot;name&quot; : &quot;version&quot;,&quot;valueString&quot; : &quot;2.73&quot;},{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : true},{&quot;name&quot; : &quot;message&quot;,&quot;valueString&quot; : &quot;The display \&quot;Physically hurt you [HITS]\&quot; is not a valid display for the code {http://loinc.org}LA6270-8 - should be one of ['Never']&quot;}]}
+{&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : false},{&quot;name&quot; : &quot;message&quot;,&quot;valueString&quot; : &quot;The code \&quot;96778-6[0]\&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#96778-6[0]) is not valid in the value set 'All codes known to the system'&quot;},{&quot;name&quot; : &quot;cause&quot;,&quot;valueString&quot; : &quot;invalid&quot;}]}
 </pre>
 <hr/><a name="l7"> </a>
 <p>#7</p>
@@ -182,7 +182,7 @@ Accept-Charset: UTF-8
 Accept: application/fhir+json
 Content-Type: application/fhir+json;charset=UTF-8
 
-{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;coding&quot;,&quot;valueCoding&quot;:{&quot;system&quot;:&quot;http://loinc.org&quot;,&quot;code&quot;:&quot;LA6270-8&quot;,&quot;display&quot;:&quot;Insult you or talk down to you [HITS]&quot;}},{&quot;name&quot;:&quot;default-to-latest-version&quot;,&quot;valueBoolean&quot;:true},{&quot;name&quot;:&quot;profile&quot;,&quot;resource&quot;:{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;id&quot;:&quot;exp-params&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;system-version&quot;,&quot;valueUri&quot;:&quot;http://snomed.info/sct|http://snomed.info/sct/731000124108&quot;}]}}]}
+{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;coding&quot;,&quot;valueCoding&quot;:{&quot;system&quot;:&quot;http://loinc.org&quot;,&quot;code&quot;:&quot;LA31996-4&quot;,&quot;display&quot;:&quot;Pests such as bugs, ants, or mice&quot;}},{&quot;name&quot;:&quot;default-to-latest-version&quot;,&quot;valueBoolean&quot;:true},{&quot;name&quot;:&quot;profile&quot;,&quot;resource&quot;:{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;id&quot;:&quot;exp-params&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;system-version&quot;,&quot;valueUri&quot;:&quot;http://snomed.info/sct|http://snomed.info/sct/731000124108&quot;}]}}]}
 </pre>
 <pre>
 200
@@ -191,16 +191,16 @@ access-control-allow-origin:*
 access-control-expose-headers:Content-Location, Location
 cache-control:public, max-age=600
 connection:keep-alive
-content-length:463
+content-length:307
 content-type:application/fhir+json
-date:Fri, 10 Feb 2023 02:29:21 GMT
-last-modified:Fri, 10 Feb 2023 02:29:21 GMT
+date:Fri, 10 Feb 2023 04:10:52 GMT
+last-modified:Fri, 10 Feb 2023 04:10:52 GMT
 pragma:no-cache
 server:nginx
 x-gdpr-disclosure:All access to this server is logged as AuditEvent Resources, and these store your ip address (and logged in user, if one exists). Also, your IP address is logged with Google Analytics for building geomaps of server usage. Your continued use of the API constitutes agreement to these terms. See [link] for erasure requests
-x-request-id:64-451290
+x-request-id:64-457143
 
-{&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;display&quot;,&quot;valueString&quot; : &quot;Never&quot;},{&quot;name&quot; : &quot;system&quot;,&quot;valueString&quot; : &quot;http://loinc.org&quot;},{&quot;name&quot; : &quot;code&quot;,&quot;valueString&quot; : &quot;LA6270-8&quot;},{&quot;name&quot; : &quot;version&quot;,&quot;valueString&quot; : &quot;2.73&quot;},{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : true},{&quot;name&quot; : &quot;message&quot;,&quot;valueString&quot; : &quot;The display \&quot;Insult you or talk down to you [HITS]\&quot; is not a valid display for the code {http://loinc.org}LA6270-8 - should be one of ['Never']&quot;}]}
+{&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;display&quot;,&quot;valueString&quot; : &quot;Pests such as bugs, ants, or mice&quot;},{&quot;name&quot; : &quot;system&quot;,&quot;valueString&quot; : &quot;http://loinc.org&quot;},{&quot;name&quot; : &quot;code&quot;,&quot;valueString&quot; : &quot;LA31996-4&quot;},{&quot;name&quot; : &quot;version&quot;,&quot;valueString&quot; : &quot;2.73&quot;},{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : true}]}
 </pre>
 <hr/><a name="l8"> </a>
 <p>#8</p>
@@ -211,7 +211,7 @@ Accept-Charset: UTF-8
 Accept: application/fhir+json
 Content-Type: application/fhir+json;charset=UTF-8
 
-{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;coding&quot;,&quot;valueCoding&quot;:{&quot;system&quot;:&quot;http://loinc.org&quot;,&quot;code&quot;:&quot;LA32-8&quot;,&quot;display&quot;:&quot;Has lack of transportation kept you from medical appointments, meetings, work, or from getting things needed for daily living&quot;}},{&quot;name&quot;:&quot;default-to-latest-version&quot;,&quot;valueBoolean&quot;:true},{&quot;name&quot;:&quot;profile&quot;,&quot;resource&quot;:{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;id&quot;:&quot;exp-params&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;system-version&quot;,&quot;valueUri&quot;:&quot;http://snomed.info/sct|http://snomed.info/sct/731000124108&quot;}]}}]}
+{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;coding&quot;,&quot;valueCoding&quot;:{&quot;system&quot;:&quot;http://loinc.org&quot;,&quot;code&quot;:&quot;LA28398-8&quot;,&quot;display&quot;:&quot;Never true&quot;}},{&quot;name&quot;:&quot;default-to-latest-version&quot;,&quot;valueBoolean&quot;:true},{&quot;name&quot;:&quot;profile&quot;,&quot;resource&quot;:{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;id&quot;:&quot;exp-params&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;system-version&quot;,&quot;valueUri&quot;:&quot;http://snomed.info/sct|http://snomed.info/sct/731000124108&quot;}]}}]}
 </pre>
 <pre>
 200
@@ -220,16 +220,16 @@ access-control-allow-origin:*
 access-control-expose-headers:Content-Location, Location
 cache-control:public, max-age=600
 connection:keep-alive
-content-length:541
+content-length:284
 content-type:application/fhir+json
-date:Fri, 10 Feb 2023 02:29:21 GMT
-last-modified:Fri, 10 Feb 2023 02:29:21 GMT
+date:Fri, 10 Feb 2023 04:10:52 GMT
+last-modified:Fri, 10 Feb 2023 04:10:52 GMT
 pragma:no-cache
 server:nginx
 x-gdpr-disclosure:All access to this server is logged as AuditEvent Resources, and these store your ip address (and logged in user, if one exists). Also, your IP address is logged with Google Analytics for building geomaps of server usage. Your continued use of the API constitutes agreement to these terms. See [link] for erasure requests
-x-request-id:64-451291
+x-request-id:64-457144
 
-{&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;display&quot;,&quot;valueString&quot; : &quot;No&quot;},{&quot;name&quot; : &quot;system&quot;,&quot;valueString&quot; : &quot;http://loinc.org&quot;},{&quot;name&quot; : &quot;code&quot;,&quot;valueString&quot; : &quot;LA32-8&quot;},{&quot;name&quot; : &quot;version&quot;,&quot;valueString&quot; : &quot;2.73&quot;},{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : true},{&quot;name&quot; : &quot;message&quot;,&quot;valueString&quot; : &quot;The display \&quot;Has lack of transportation kept you from medical appointments, meetings, work, or from getting things needed for daily living\&quot; is not a valid display for the code {http://loinc.org}LA32-8 - should be one of ['No']&quot;}]}
+{&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;display&quot;,&quot;valueString&quot; : &quot;Never true&quot;},{&quot;name&quot; : &quot;system&quot;,&quot;valueString&quot; : &quot;http://loinc.org&quot;},{&quot;name&quot; : &quot;code&quot;,&quot;valueString&quot; : &quot;LA28398-8&quot;},{&quot;name&quot; : &quot;version&quot;,&quot;valueString&quot; : &quot;2.73&quot;},{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : true}]}
 </pre>
 <hr/><a name="l9"> </a>
 <p>#9</p>
@@ -240,7 +240,7 @@ Accept-Charset: UTF-8
 Accept: application/fhir+json
 Content-Type: application/fhir+json;charset=UTF-8
 
-{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;coding&quot;,&quot;valueCoding&quot;:{&quot;system&quot;:&quot;http://loinc.org&quot;,&quot;code&quot;:&quot;LA28397-0&quot;,&quot;display&quot;:&quot;Within the past 12 months the food we bought just didn't last and we didn't have money to get more [U.S. FSS]&quot;}},{&quot;name&quot;:&quot;default-to-latest-version&quot;,&quot;valueBoolean&quot;:true},{&quot;name&quot;:&quot;profile&quot;,&quot;resource&quot;:{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;id&quot;:&quot;exp-params&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;system-version&quot;,&quot;valueUri&quot;:&quot;http://snomed.info/sct|http://snomed.info/sct/731000124108&quot;}]}}]}
+{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;coding&quot;,&quot;valueCoding&quot;:{&quot;system&quot;:&quot;http://loinc.org&quot;,&quot;code&quot;:&quot;96778-6[6]&quot;,&quot;display&quot;:&quot;Problems with place where you live&quot;}},{&quot;name&quot;:&quot;default-to-latest-version&quot;,&quot;valueBoolean&quot;:true},{&quot;name&quot;:&quot;profile&quot;,&quot;resource&quot;:{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;id&quot;:&quot;exp-params&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;system-version&quot;,&quot;valueUri&quot;:&quot;http://snomed.info/sct|http://snomed.info/sct/731000124108&quot;}]}}]}
 </pre>
 <pre>
 200
@@ -249,15 +249,44 @@ access-control-allow-origin:*
 access-control-expose-headers:Content-Location, Location
 cache-control:public, max-age=600
 connection:keep-alive
-content-length:547
+content-length:353
 content-type:application/fhir+json
-date:Fri, 10 Feb 2023 02:29:21 GMT
-last-modified:Fri, 10 Feb 2023 02:29:21 GMT
+date:Fri, 10 Feb 2023 04:10:52 GMT
+last-modified:Fri, 10 Feb 2023 04:10:52 GMT
 pragma:no-cache
 server:nginx
 x-gdpr-disclosure:All access to this server is logged as AuditEvent Resources, and these store your ip address (and logged in user, if one exists). Also, your IP address is logged with Google Analytics for building geomaps of server usage. Your continued use of the API constitutes agreement to these terms. See [link] for erasure requests
-x-request-id:64-451292
+x-request-id:64-457145
 
-{&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;display&quot;,&quot;valueString&quot; : &quot;Often true&quot;},{&quot;name&quot; : &quot;system&quot;,&quot;valueString&quot; : &quot;http://loinc.org&quot;},{&quot;name&quot; : &quot;code&quot;,&quot;valueString&quot; : &quot;LA28397-0&quot;},{&quot;name&quot; : &quot;version&quot;,&quot;valueString&quot; : &quot;2.73&quot;},{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : true},{&quot;name&quot; : &quot;message&quot;,&quot;valueString&quot; : &quot;The display \&quot;Within the past 12 months the food we bought just didn't last and we didn't have money to get more [U.S. FSS]\&quot; is not a valid display for the code {http://loinc.org}LA28397-0 - should be one of ['Often true']&quot;}]}
+{&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : false},{&quot;name&quot; : &quot;message&quot;,&quot;valueString&quot; : &quot;The code \&quot;96778-6[6]\&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#96778-6[6]) is not valid in the value set 'All codes known to the system'&quot;},{&quot;name&quot; : &quot;cause&quot;,&quot;valueString&quot; : &quot;invalid&quot;}]}
+</pre>
+<hr/><a name="l10"> </a>
+<p>#10</p>
+<pre>
+POST http://tx.fhir.org/r4/CodeSystem/$validate-code? HTTP/1.0
+User-Agent: hapi-fhir-tooling-client
+Accept-Charset: UTF-8
+Accept: application/fhir+json
+Content-Type: application/fhir+json;charset=UTF-8
+
+{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;coding&quot;,&quot;valueCoding&quot;:{&quot;system&quot;:&quot;http://loinc.org&quot;,&quot;code&quot;:&quot;LA32001-2&quot;,&quot;display&quot;:&quot;Water leaks&quot;}},{&quot;name&quot;:&quot;default-to-latest-version&quot;,&quot;valueBoolean&quot;:true},{&quot;name&quot;:&quot;profile&quot;,&quot;resource&quot;:{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;id&quot;:&quot;exp-params&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;system-version&quot;,&quot;valueUri&quot;:&quot;http://snomed.info/sct|http://snomed.info/sct/731000124108&quot;}]}}]}
+</pre>
+<pre>
+200
+access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
+access-control-allow-origin:*
+access-control-expose-headers:Content-Location, Location
+cache-control:public, max-age=600
+connection:keep-alive
+content-length:285
+content-type:application/fhir+json
+date:Fri, 10 Feb 2023 04:10:52 GMT
+last-modified:Fri, 10 Feb 2023 04:10:52 GMT
+pragma:no-cache
+server:nginx
+x-gdpr-disclosure:All access to this server is logged as AuditEvent Resources, and these store your ip address (and logged in user, if one exists). Also, your IP address is logged with Google Analytics for building geomaps of server usage. Your continued use of the API constitutes agreement to these terms. See [link] for erasure requests
+x-request-id:64-457146
+
+{&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;display&quot;,&quot;valueString&quot; : &quot;Water leaks&quot;},{&quot;name&quot; : &quot;system&quot;,&quot;valueString&quot; : &quot;http://loinc.org&quot;},{&quot;name&quot; : &quot;code&quot;,&quot;valueString&quot; : &quot;LA32001-2&quot;},{&quot;name&quot; : &quot;version&quot;,&quot;valueString&quot; : &quot;2.73&quot;},{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : true}]}
 </pre>
 </head></html>

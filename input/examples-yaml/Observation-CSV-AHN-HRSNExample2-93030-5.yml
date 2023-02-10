@@ -30,7 +30,6 @@ valueCodeableConcept:
   coding:
   - system: http://loinc.org
     code: LA32-8
-    display: Has lack of transportation kept you from medical appointments, meetings,
-      work, or from getting things needed for daily living
+    display: 'No'
 derivedFrom:
 - reference: DocumentReference/example2ahn-hrsnquestionnaire

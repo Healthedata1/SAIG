@@ -47,7 +47,7 @@
   POSSIBILITY OF SUCH DAMAGE.
   
 
-  Generated on Thu, Feb 9, 2023 21:21+0000 for FHIR v5.0.0-cibuild 
+  Generated on Fri, Feb 10, 2023 03:31+0000 for FHIR v5.0.0-cibuild 
 -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://hl7.org/fhir" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" targetNamespace="http://hl7.org/fhir" elementFormDefault="qualified" version="5.0.0-cibuild">
   <!-- Note: When using this schema with some tools, it may also be necessary to declare xmlns:xml="http://www.w3.org/XML/1998/namespace", however this causes performance issues with other tools and thus is not in the base schemas. -->
@@ -19548,6 +19548,13 @@ A coverage may only be responsible for specific types of charges, and the sequen
               <xs:documentation xml:lang="en">The identifier that is used to identify this version of the activity definition when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the activity definition author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence. To provide a version consistent with the Decision Support Service specification, use the format Major.Minor.Revision (e.g. 1.0.0). For more information on versioning knowledge assets, refer to the Decision Support Service specification. Note that a version is required for non-experimental active assets.</xs:documentation>
            </xs:annotation>
           </xs:element>
+          <xs:choice minOccurs="0" maxOccurs="1" >
+            <xs:annotation>
+              <xs:documentation xml:lang="en">Indicates the mechanism used to compare versions to determine which is more current.</xs:documentation>
+            </xs:annotation>
+            <xs:element name="versionAlgorithmString" type="string"/>
+            <xs:element name="versionAlgorithmCoding" type="Coding"/>
+          </xs:choice>
           <xs:element name="name" minOccurs="0" maxOccurs="1" type="string">
             <xs:annotation>
               <xs:documentation xml:lang="en">A natural language name identifying the activity definition. This name should be usable as an identifier for the module by machine processing applications such as code generation.</xs:documentation>
@@ -19616,7 +19623,7 @@ A coverage may only be responsible for specific types of charges, and the sequen
               <xs:documentation xml:lang="en">Explanation of why this activity definition is needed and why it has been designed as it has.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="usage" minOccurs="0" maxOccurs="1" type="string">
+          <xs:element name="usage" minOccurs="0" maxOccurs="1" type="markdown">
             <xs:annotation>
               <xs:documentation xml:lang="en">A detailed description of how the activity definition is used from a clinical perspective.</xs:documentation>
            </xs:annotation>
@@ -19624,6 +19631,11 @@ A coverage may only be responsible for specific types of charges, and the sequen
           <xs:element name="copyright" minOccurs="0" maxOccurs="1" type="markdown">
             <xs:annotation>
               <xs:documentation xml:lang="en">A copyright statement relating to the activity definition and/or its contents. Copyright statements are generally legal restrictions on the use and publishing of the activity definition.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="copyrightLabel" minOccurs="0" maxOccurs="1" type="string">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">A short string (&lt;50 characters), suitable for inclusion in a page footer that identifies the copyright holder, effective period, and optionally whether rights are resctricted. (e.g. 'All rights reserved', 'Some rights reserved').</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="approvalDate" minOccurs="0" maxOccurs="1" type="date">
@@ -33406,6 +33418,11 @@ of the resource representation.</xs:documentation>
               <xs:documentation xml:lang="en">Indicates the subject whose record the detected issue is associated with.</xs:documentation>
            </xs:annotation>
           </xs:element>
+          <xs:element name="encounter" minOccurs="0" maxOccurs="1" type="Reference">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">The encounter during which this issue was detected.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
           <xs:choice minOccurs="0" maxOccurs="1" >
             <xs:annotation>
               <xs:documentation xml:lang="en">The date or period when the detected issue was initially identified.</xs:documentation>
@@ -33488,6 +33505,11 @@ of the resource representation.</xs:documentation>
           <xs:element name="author" minOccurs="0" maxOccurs="1" type="Reference">
             <xs:annotation>
               <xs:documentation xml:lang="en">Identifies the practitioner who determined the mitigation and takes responsibility for the mitigation step occurring.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="note" minOccurs="0" maxOccurs="unbounded" type="Annotation">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">Clinicians may add additional notes or justifications about the mitigation action. For example, patient can have this drug because they have had it before without any issues. Multiple justifications may be provided.</xs:documentation>
            </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -37005,6 +37027,13 @@ RegisteredName | UserFriendlyName | PatientReportedName.</xs:documentation>
               <xs:documentation xml:lang="en">The identifier that is used to identify this version of the event definition when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the event definition author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence.</xs:documentation>
            </xs:annotation>
           </xs:element>
+          <xs:choice minOccurs="0" maxOccurs="1" >
+            <xs:annotation>
+              <xs:documentation xml:lang="en">Indicates the mechanism used to compare versions to determine which is more current.</xs:documentation>
+            </xs:annotation>
+            <xs:element name="versionAlgorithmString" type="string"/>
+            <xs:element name="versionAlgorithmCoding" type="Coding"/>
+          </xs:choice>
           <xs:element name="name" minOccurs="0" maxOccurs="1" type="string">
             <xs:annotation>
               <xs:documentation xml:lang="en">A natural language name identifying the event definition. This name should be usable as an identifier for the module by machine processing applications such as code generation.</xs:documentation>
@@ -37080,6 +37109,11 @@ RegisteredName | UserFriendlyName | PatientReportedName.</xs:documentation>
           <xs:element name="copyright" minOccurs="0" maxOccurs="1" type="markdown">
             <xs:annotation>
               <xs:documentation xml:lang="en">A copyright statement relating to the event definition and/or its contents. Copyright statements are generally legal restrictions on the use and publishing of the event definition.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="copyrightLabel" minOccurs="0" maxOccurs="1" type="string">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">A short string (&lt;50 characters), suitable for inclusion in a page footer that identifies the copyright holder, effective period, and optionally whether rights are resctricted. (e.g. 'All rights reserved', 'Some rights reserved').</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="approvalDate" minOccurs="0" maxOccurs="1" type="date">
@@ -41740,7 +41774,7 @@ RegisteredName | UserFriendlyName | PatientReportedName.</xs:documentation>
               <xs:documentation xml:lang="en">Provides a mechanism to communicate additional information about the response.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="evaluationMessage" minOccurs="0" maxOccurs="unbounded" type="Reference">
+          <xs:element name="evaluationMessage" minOccurs="0" maxOccurs="1" type="Reference">
             <xs:annotation>
               <xs:documentation xml:lang="en">Messages resulting from the evaluation of the artifact or artifacts. As part of evaluating the request, the engine may produce informational or warning messages. These messages will be provided by this element.</xs:documentation>
            </xs:annotation>
@@ -41750,7 +41784,7 @@ RegisteredName | UserFriendlyName | PatientReportedName.</xs:documentation>
               <xs:documentation xml:lang="en">The output parameters of the evaluation, if any. Many modules will result in the return of specific resources such as procedure or communication requests that are returned as part of the operation result. However, modules may define specific outputs that would be returned as the result of the evaluation, and these would be returned in this element.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="result" minOccurs="0" maxOccurs="1" type="Reference">
+          <xs:element name="result" minOccurs="0" maxOccurs="unbounded" type="Reference">
             <xs:annotation>
               <xs:documentation xml:lang="en">The actions, if any, produced by the evaluation of the artifact.</xs:documentation>
            </xs:annotation>
@@ -46541,6 +46575,13 @@ RegisteredName | UserFriendlyName | PatientReportedName.</xs:documentation>
               <xs:documentation xml:lang="en">The identifier that is used to identify this version of the library when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the library author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence. To provide a version consistent with the Decision Support Service specification, use the format Major.Minor.Revision (e.g. 1.0.0). For more information on versioning knowledge assets, refer to the Decision Support Service specification. Note that a version is required for non-experimental active artifacts.</xs:documentation>
            </xs:annotation>
           </xs:element>
+          <xs:choice minOccurs="0" maxOccurs="1" >
+            <xs:annotation>
+              <xs:documentation xml:lang="en">Indicates the mechanism used to compare versions to determine which is more current.</xs:documentation>
+            </xs:annotation>
+            <xs:element name="versionAlgorithmString" type="string"/>
+            <xs:element name="versionAlgorithmCoding" type="Coding"/>
+          </xs:choice>
           <xs:element name="name" minOccurs="0" maxOccurs="1" type="string">
             <xs:annotation>
               <xs:documentation xml:lang="en">A natural language name identifying the library. This name should be usable as an identifier for the module by machine processing applications such as code generation.</xs:documentation>
@@ -46613,7 +46654,7 @@ RegisteredName | UserFriendlyName | PatientReportedName.</xs:documentation>
               <xs:documentation xml:lang="en">Explanation of why this library is needed and why it has been designed as it has.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="usage" minOccurs="0" maxOccurs="1" type="string">
+          <xs:element name="usage" minOccurs="0" maxOccurs="1" type="markdown">
             <xs:annotation>
               <xs:documentation xml:lang="en">A detailed description of how the library is used from a clinical perspective.</xs:documentation>
            </xs:annotation>
@@ -46621,6 +46662,11 @@ RegisteredName | UserFriendlyName | PatientReportedName.</xs:documentation>
           <xs:element name="copyright" minOccurs="0" maxOccurs="1" type="markdown">
             <xs:annotation>
               <xs:documentation xml:lang="en">A copyright statement relating to the library and/or its contents. Copyright statements are generally legal restrictions on the use and publishing of the library.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="copyrightLabel" minOccurs="0" maxOccurs="1" type="string">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">A short string (&lt;50 characters), suitable for inclusion in a page footer that identifies the copyright holder, effective period, and optionally whether rights are resctricted. (e.g. 'All rights reserved', 'Some rights reserved').</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="approvalDate" minOccurs="0" maxOccurs="1" type="date">
@@ -47296,6 +47342,13 @@ RegisteredName | UserFriendlyName | PatientReportedName.</xs:documentation>
               <xs:documentation xml:lang="en">The identifier that is used to identify this version of the measure when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the measure author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence. To provide a version consistent with the Decision Support Service specification, use the format Major.Minor.Revision (e.g. 1.0.0). For more information on versioning knowledge assets, refer to the Decision Support Service specification. Note that a version is required for non-experimental active artifacts.</xs:documentation>
            </xs:annotation>
           </xs:element>
+          <xs:choice minOccurs="0" maxOccurs="1" >
+            <xs:annotation>
+              <xs:documentation xml:lang="en">Indicates the mechanism used to compare versions to determine which is more current.</xs:documentation>
+            </xs:annotation>
+            <xs:element name="versionAlgorithmString" type="string"/>
+            <xs:element name="versionAlgorithmCoding" type="Coding"/>
+          </xs:choice>
           <xs:element name="name" minOccurs="0" maxOccurs="1" type="string">
             <xs:annotation>
               <xs:documentation xml:lang="en">A natural language name identifying the measure. This name should be usable as an identifier for the module by machine processing applications such as code generation.</xs:documentation>
@@ -47376,6 +47429,11 @@ RegisteredName | UserFriendlyName | PatientReportedName.</xs:documentation>
           <xs:element name="copyright" minOccurs="0" maxOccurs="1" type="markdown">
             <xs:annotation>
               <xs:documentation xml:lang="en">A copyright statement relating to the measure and/or its contents. Copyright statements are generally legal restrictions on the use and publishing of the measure.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="copyrightLabel" minOccurs="0" maxOccurs="1" type="string">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">A short string (&lt;50 characters), suitable for inclusion in a page footer that identifies the copyright holder, effective period, and optionally whether rights are resctricted. (e.g. 'All rights reserved', 'Some rights reserved').</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="approvalDate" minOccurs="0" maxOccurs="1" type="date">
@@ -55097,6 +55155,13 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
               <xs:documentation xml:lang="en">The identifier that is used to identify this version of the plan definition when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the plan definition author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence. To provide a version consistent with the Decision Support Service specification, use the format Major.Minor.Revision (e.g. 1.0.0). For more information on versioning knowledge assets, refer to the Decision Support Service specification. Note that a version is required for non-experimental active artifacts.</xs:documentation>
            </xs:annotation>
           </xs:element>
+          <xs:choice minOccurs="0" maxOccurs="1" >
+            <xs:annotation>
+              <xs:documentation xml:lang="en">Indicates the mechanism used to compare versions to determine which is more current.</xs:documentation>
+            </xs:annotation>
+            <xs:element name="versionAlgorithmString" type="string"/>
+            <xs:element name="versionAlgorithmCoding" type="Coding"/>
+          </xs:choice>
           <xs:element name="name" minOccurs="0" maxOccurs="1" type="string">
             <xs:annotation>
               <xs:documentation xml:lang="en">A natural language name identifying the plan definition. This name should be usable as an identifier for the module by machine processing applications such as code generation.</xs:documentation>
@@ -55178,6 +55243,11 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
           <xs:element name="copyright" minOccurs="0" maxOccurs="1" type="markdown">
             <xs:annotation>
               <xs:documentation xml:lang="en">A copyright statement relating to the plan definition and/or its contents. Copyright statements are generally legal restrictions on the use and publishing of the plan definition.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="copyrightLabel" minOccurs="0" maxOccurs="1" type="string">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">A short string (&lt;50 characters), suitable for inclusion in a page footer that identifies the copyright holder, effective period, and optionally whether rights are resctricted. (e.g. 'All rights reserved', 'Some rights reserved').</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="approvalDate" minOccurs="0" maxOccurs="1" type="date">
@@ -55533,7 +55603,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
           </xs:element>
           <xs:choice minOccurs="0" maxOccurs="1" >
             <xs:annotation>
-              <xs:documentation xml:lang="en">A reference to an ActivityDefinition that describes the action to be taken in detail, a PlanDefinition that describes a series of actions to be taken, a Questionnaire that should be filled out, a SpecimenDefinition describing a specimen to be collected, or an ObservationDefinition that specifies what observation should be captured.</xs:documentation>
+              <xs:documentation xml:lang="en">A reference to an ActivityDefinition that describes the action to be taken in detail, a MessageDefinition describing a message to be snet, a PlanDefinition that describes a series of actions to be taken, a Questionnaire that should be filled out, a SpecimenDefinition describing a specimen to be collected, or an ObservationDefinition that specifies what observation should be captured.</xs:documentation>
             </xs:annotation>
             <xs:element name="definitionCanonical" type="canonical"/>
             <xs:element name="definitionUri" type="uri"/>

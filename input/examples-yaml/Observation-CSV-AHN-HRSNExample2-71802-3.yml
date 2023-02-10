@@ -28,6 +28,6 @@ valueCodeableConcept:
   coding:
   - system: http://loinc.org
     code: LA31993-1
-    display: Housing status
+    display: I have a steady place to live
 derivedFrom:
 - reference: DocumentReference/example2ahn-hrsnquestionnaire
