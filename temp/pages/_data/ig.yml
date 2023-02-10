@@ -72,8 +72,14 @@ definition:
     exampleCanonical: http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaireresponse
   - reference:
       reference: Questionnaire/96777-8
-    name: 96777-8
-    exampleBoolean: true
+    description: Example 2 AHN-HRSN Questionnaire
+    name: Example 2 AHN-HRSN Questionnaire
+    exampleCanonical: http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire
+  - reference:
+      reference: Questionnaire/93025-5
+    description: Example 3 PRAPARE Questionnaire
+    name: Example 3 PRAPARE Questionnaire
+    exampleCanonical: http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire
   - reference:
       reference: Observation/CSV-AHN-HRSNExample2-71802-3
     description: This is a an example of 71802-3 Housing status for the *US Core Observation

@@ -19,6 +19,7 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/ordinalValue": [
       "Questionnaire.item.answerOption",
+      "Questionnaire.item.item.answerOption",
       "Questionnaire.item.item.item.answerOption",
       "Questionnaire.item.item.item.item.answerOption"
     ],
@@ -30,10 +31,12 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix": [
       "Questionnaire.item.answerOption",
+      "Questionnaire.item.item.answerOption",
       "Questionnaire.item.item.item.answerOption"
     ],
     "http://hl7.org/fhir/StructureDefinition/questionnaire-unit": [
-      "Questionnaire.item"
+      "Questionnaire.item",
+      "Questionnaire.item.item"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm": [
       "ImplementationGuide"

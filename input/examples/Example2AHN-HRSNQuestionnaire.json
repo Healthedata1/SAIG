@@ -6,11 +6,21 @@
         "lastUpdated": "2023-02-05T03:12:55.000-05:00",
         "source": "#3SGXqGMB4KF0nsS6",
         "profile": [
-            "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire|2.7"
+            "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire"
         ],
         "tag": [
             {
                 "code": "lformsVersion: 33.0.0"
+            }
+        ],
+        "extension": [
+            {
+                "url": "http://hl7.org/fhir/StructureDefinition/instance-name",
+                "valueString": "Example 2 AHN-HRSN Questionnaire"
+            },
+            {
+                "url": "http://hl7.org/fhir/StructureDefinition/instance-description",
+                "valueMarkdown": "Example 2 AHN-HRSN Questionnaire"
             }
         ]
     },

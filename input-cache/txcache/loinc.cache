@@ -588,3 +588,14 @@ v: {
   "system" : "http://loinc.org"
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "93025-5",
+  "display" : "Protocol for Responding to and Assessing Patients' Assets, Risks, and Experiences [PRAPARE]"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Protocol for Responding to and Assessing Patients' Assets, Risks, and Experiences [PRAPARE]",
+  "code" : "93025-5",
+  "system" : "http://loinc.org"
+}
+-------------------------------------------------------------------------------------

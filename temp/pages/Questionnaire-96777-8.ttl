@@ -9,13 +9,22 @@
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "96777-8"]; # 
   fhir:Resource.meta [
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/instance-name" ];
+       fhir:Extension.valueString [ fhir:value "Example 2 AHN-HRSN Questionnaire" ]
+     ], [
+       fhir:index 1;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/instance-description" ];
+       fhir:Extension.valueMarkdown [ fhir:value "Example 2 AHN-HRSN Questionnaire" ]
+     ];
      fhir:Meta.versionId [ fhir:value "1" ];
      fhir:Meta.lastUpdated [ fhir:value "2023-02-05T03:12:55.000-05:00"^^xsd:dateTime ];
      fhir:Meta.source [ fhir:value "#3SGXqGMB4KF0nsS6" ];
      fhir:Meta.profile [
-       fhir:value "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire|2.7";
+       fhir:value "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire";
        fhir:index 0;
-       fhir:link <http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire|2.7>
+       fhir:link <http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire>
      ];
      fhir:Meta.tag [
        fhir:index 0;
@@ -37,7 +46,7 @@
      fhir:value "Patient";
      fhir:index 0
   ]; # 
-  fhir:Questionnaire.date [ fhir:value "2023-02-09T20:40:23-08:00"^^xsd:dateTime]; # 
+  fhir:Questionnaire.date [ fhir:value "2023-02-09T20:54:56-08:00"^^xsd:dateTime]; # 
   fhir:Questionnaire.publisher [ fhir:value "Health eData Inc"]; # 
   fhir:Questionnaire.contact [
      fhir:index 0;

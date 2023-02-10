@@ -54,9 +54,16 @@
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="Questionnaire-96777-8.html" title="Questionnaire/96777-8">96777-8</a>
+                  <a href="Questionnaire-96777-8.html" title="Questionnaire/96777-8">Example 2 AHN-HRSN Questionnaire</a>
                </td>
-               <td>{% capture desc %}{% endcapture %}
+               <td>{% capture desc %}Example 2 AHN-HRSN Questionnaire{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Questionnaire-93025-5.html" title="Questionnaire/93025-5">Example 3 PRAPARE Questionnaire</a>
+               </td>
+               <td>{% capture desc %}Example 3 PRAPARE Questionnaire{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
             <tr>

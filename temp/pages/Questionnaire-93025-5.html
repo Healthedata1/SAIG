@@ -1,0 +1,47 @@
+---
+---
+{% include fragment-pagebegin.html %}
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
+  {% include fragment-base-navtabs.html type='Questionnaire' id='93025-5' active='content' %}
+  <a name="root"> </a>
+
+  <h2 id="root">Questionnaire: {{site.data.pages[page.path].title | escape_once}}
+{% if site.data.resources[resource_].experimental == true %}(Experimental){% endif %}
+  </h2>
+
+{% include fragment-resourceTable.html %}
+
+{%if site.data.resources[resource_].description %}
+<p>
+{{site.data.resources[resource_].description|markdownify}}
+</p>
+{% endif %}
+{%if site.data.resources[resource_].purpose %}
+<p>
+{{site.data.resources[resource_].purpose|markdownify}}
+</p>
+{% endif %}
+  <!-- insert intro if present -->
+  {% include fragment-intro.html type='Questionnaire' id='93025-5' %}
+
+<!--  <p>
+  Formats: <a href="Questionnaire-93025-5.xml.html">XML</a>, <a href="Questionnaire-93025-5.json.html">JSON</a>, <a href="Questionnaire-93025-5.ttl.html">Turtle</a>
+  </p>-->
+{% unless example %}
+  {% if 'Questionnaire' == 'CapabilityStatement' %}
+  <p>
+      <a href="93025-5.openapi.json" no-download="true">Raw OpenAPI-Swagger Definition file</a> | <a href="93025-5.openapi.json" download>Download</a>
+  </p>
+  {% endif %}
+{% endunless %}
+
+  {% include Questionnaire-93025-5-html.xhtml %}
+
+  <!-- insert notes if present -->
+  {% include fragment-notes.html type='Questionnaire' id='93025-5' %}
+
+  {%include Questionnaire-93025-5-history.xhtml%}
+
+</div>
+{% include fragment-pageend.html %}
