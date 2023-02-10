@@ -27,7 +27,7 @@ performer:
 valueCodeableConcept:
   coding:
   - system: http://loinc.org
-    code: 95618-5
+    code: LA6270-8
     display: Physically hurt you [HITS]
 derivedFrom:
 - reference: DocumentReference/example2ahn-hrsnquestionnaire

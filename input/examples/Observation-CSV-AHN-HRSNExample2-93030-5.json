@@ -49,7 +49,7 @@
         "coding": [
             {
                 "system": "http://loinc.org",
-                "code": "93030-5",
+                "code": "LA32-8",
                 "display": "Has lack of transportation kept you from medical appointments, meetings, work, or from getting things needed for daily living"
             }
         ]

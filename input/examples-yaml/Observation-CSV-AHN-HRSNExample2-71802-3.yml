@@ -27,7 +27,7 @@ performer:
 valueCodeableConcept:
   coding:
   - system: http://loinc.org
-    code: 71802-3
+    code: LA31993-1
     display: Housing status
 derivedFrom:
 - reference: DocumentReference/example2ahn-hrsnquestionnaire

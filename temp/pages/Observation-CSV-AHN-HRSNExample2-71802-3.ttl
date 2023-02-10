@@ -27,7 +27,7 @@
   ]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"CSV-AHN-HRSNExample2-71802-3\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;CSV-AHN-HRSNExample2-71802-3&quot; </p><p style=\"margin-bottom: 0px\">Profile: <code>http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment</code></p></div><p><b>status</b>: final</p><p><b>category</b>: SDOH <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (us-core-category#sdoh)</span></p><p><b>code</b>: Housing status <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#71802-3)</span></p><p><b>subject</b>: <a href=\"??phinvads??\">Patient/123</a></p><p><b>effective</b>: 2021-01-01</p><p><b>performer</b>: <a href=\"??phinvads??\">Performer/rsmith</a></p><p><b>value</b>: Housing status <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#71802-3)</span></p><p><b>derivedFrom</b>: <a href=\"DocumentReference-example2ahn-hrsnquestionnaire.html\">DocumentReference/example2ahn-hrsnquestionnaire</a></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"CSV-AHN-HRSNExample2-71802-3\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;CSV-AHN-HRSNExample2-71802-3&quot; </p><p style=\"margin-bottom: 0px\">Profile: <code>http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment</code></p></div><p><b>status</b>: final</p><p><b>category</b>: SDOH <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (us-core-category#sdoh)</span></p><p><b>code</b>: Housing status <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#71802-3)</span></p><p><b>subject</b>: <a href=\"??phinvads??\">Patient/123</a></p><p><b>effective</b>: 2021-01-01</p><p><b>performer</b>: <a href=\"??phinvads??\">Performer/rsmith</a></p><p><b>value</b>: Housing status <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#LA31993-1)</span></p><p><b>derivedFrom</b>: <a href=\"DocumentReference-example2ahn-hrsnquestionnaire.html\">DocumentReference/example2ahn-hrsnquestionnaire</a></p></div>"
   ]; # 
   fhir:Observation.status [ fhir:value "final"]; # 
   fhir:Observation.category [
@@ -60,9 +60,9 @@
   fhir:Observation.valueCodeableConcept [
      fhir:CodeableConcept.coding [
        fhir:index 0;
-       a loinc:71802-3;
+       a loinc:LA31993-1;
        fhir:Coding.system [ fhir:value "http://loinc.org" ];
-       fhir:Coding.code [ fhir:value "71802-3" ];
+       fhir:Coding.code [ fhir:value "LA31993-1" ];
        fhir:Coding.display [ fhir:value "Housing status" ]
      ]
   ]; # 

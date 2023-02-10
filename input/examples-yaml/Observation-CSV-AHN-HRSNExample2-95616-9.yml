@@ -27,7 +27,7 @@ performer:
 valueCodeableConcept:
   coding:
   - system: http://loinc.org
-    code: 95616-9
+    code: LA6270-8
     display: Threaten you with physical harm [HITS]
 derivedFrom:
 - reference: DocumentReference/example2ahn-hrsnquestionnaire

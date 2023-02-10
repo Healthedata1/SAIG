@@ -49,7 +49,7 @@
         "coding": [
             {
                 "system": "http://loinc.org",
-                "code": "71802-3",
+                "code": "LA31993-1",
                 "display": "Housing status"
             }
         ]

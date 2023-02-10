@@ -10,7 +10,7 @@
     "version" : "0.0.0",
     "name" : "SAIG",
     "title" : "Screenings and Assessments Implementation Guide",
-    "date" : "2023-02-09T18:12:53-08:00",
+    "date" : "2023-02-09T18:29:18-08:00",
     "description" : "This is a **Healthedata1** sandbox for creation of Screenings and Assessments resources and examples",
     "status" : {
       "class" : "colsd",
@@ -115,7 +115,7 @@
     "url" : "http://www.fhir.org/guides/saig/Questionnaire/55757-9",
     "version" : "0.0.0",
     "title" : "Patient Health Questionnaire 2 item (PHQ-2) [Reported]",
-    "date" : "2023-02-09T18:12:53-08:00",
+    "date" : "2023-02-09T18:29:18-08:00",
     "status" : {
       "class" : "colsd",
       "owner" : "Health eData Inc",

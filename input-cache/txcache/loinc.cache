@@ -364,3 +364,120 @@ v: {
   "system" : "http://loinc.org"
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA31993-1",
+  "display" : "Housing status"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "I have a steady place to live",
+  "code" : "LA31993-1",
+  "system" : "http://loinc.org",
+  "severity" : "warning",
+  "error" : "The display \"Housing status\" is not a valid display for the code {http://loinc.org}LA31993-1 - should be one of ['I have a steady place to live'] (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA32-8",
+  "display" : "Has the electric, gas, oil, or water company threatened to shut off services in your home in past 12 months"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "No",
+  "code" : "LA32-8",
+  "system" : "http://loinc.org",
+  "severity" : "warning",
+  "error" : "The display \"Has the electric, gas, oil, or water company threatened to shut off services in your home in past 12 months\" is not a valid display for the code {http://loinc.org}LA32-8 - should be one of ['No'] (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA6270-8",
+  "display" : "Threaten you with physical harm [HITS]"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Never",
+  "code" : "LA6270-8",
+  "system" : "http://loinc.org",
+  "severity" : "warning",
+  "error" : "The display \"Threaten you with physical harm [HITS]\" is not a valid display for the code {http://loinc.org}LA6270-8 - should be one of ['Never'] (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA28397-0",
+  "display" : "Within the past 12 months we worried whether our food would run out before we got money to buy more [U.S. FSS]"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Often true",
+  "code" : "LA28397-0",
+  "system" : "http://loinc.org",
+  "severity" : "warning",
+  "error" : "The display \"Within the past 12 months we worried whether our food would run out before we got money to buy more [U.S. FSS]\" is not a valid display for the code {http://loinc.org}LA28397-0 - should be one of ['Often true'] (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA6270-8",
+  "display" : "Scream or curse at you [HITS]"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Never",
+  "code" : "LA6270-8",
+  "system" : "http://loinc.org",
+  "severity" : "warning",
+  "error" : "The display \"Scream or curse at you [HITS]\" is not a valid display for the code {http://loinc.org}LA6270-8 - should be one of ['Never'] (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA6270-8",
+  "display" : "Physically hurt you [HITS]"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Never",
+  "code" : "LA6270-8",
+  "system" : "http://loinc.org",
+  "severity" : "warning",
+  "error" : "The display \"Physically hurt you [HITS]\" is not a valid display for the code {http://loinc.org}LA6270-8 - should be one of ['Never'] (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA6270-8",
+  "display" : "Insult you or talk down to you [HITS]"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Never",
+  "code" : "LA6270-8",
+  "system" : "http://loinc.org",
+  "severity" : "warning",
+  "error" : "The display \"Insult you or talk down to you [HITS]\" is not a valid display for the code {http://loinc.org}LA6270-8 - should be one of ['Never'] (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA32-8",
+  "display" : "Has lack of transportation kept you from medical appointments, meetings, work, or from getting things needed for daily living"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "No",
+  "code" : "LA32-8",
+  "system" : "http://loinc.org",
+  "severity" : "warning",
+  "error" : "The display \"Has lack of transportation kept you from medical appointments, meetings, work, or from getting things needed for daily living\" is not a valid display for the code {http://loinc.org}LA32-8 - should be one of ['No'] (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA28397-0",
+  "display" : "Within the past 12 months the food we bought just didn't last and we didn't have money to get more [U.S. FSS]"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Often true",
+  "code" : "LA28397-0",
+  "system" : "http://loinc.org",
+  "severity" : "warning",
+  "error" : "The display \"Within the past 12 months the food we bought just didn't last and we didn't have money to get more [U.S. FSS]\" is not a valid display for the code {http://loinc.org}LA28397-0 - should be one of ['Often true'] (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
