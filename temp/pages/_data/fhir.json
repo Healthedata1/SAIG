@@ -5,7 +5,7 @@
   "igName" : "SAIG",
   "packageId" : "saig",
   "igVer" : "0.0.0",
-  "errorCount" : 160,
+  "errorCount" : 161,
   "version" : "4.0.1",
   "revision" : "a53ec6ee1b",
   "versionFull" : "4.0.1-a53ec6ee1b",
@@ -14,8 +14,8 @@
   "toolingVersionFull" : "5.0.0-snapshot2 (3)",
   "totalFiles" : 54,
   "processedFiles" : 93,
-  "genDate" : "Thu, Feb 9, 2023 23:38-0800",
-  "genDay" : "09/02/2023",
+  "genDate" : "Fri, Feb 10, 2023 00:01-0800",
+  "genDay" : "10/02/2023",
   "ig" : {
     "id" : "saig",
     "name" : "SAIG",
@@ -32,7 +32,7 @@
         "telecom" : ["mailto:ehaas@healthedatainc.com"]
       }
     ],
-    "date" : "2023-02-09T23:38:44-08:00",
+    "date" : "2023-02-10T00:01:25-08:00",
     "description" : "This is a **Healthedata1** sandbox for creation of Screenings and Assessments resources and examples",
     "copyright" : null,
     "fhirVersion" : "4.0.1"

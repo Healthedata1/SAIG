@@ -26,7 +26,7 @@
   fhir:ImplementationGuide.name [ fhir:value "SAIG"]; # 
   fhir:ImplementationGuide.title [ fhir:value "Screenings and Assessments Implementation Guide"]; # 
   fhir:ImplementationGuide.status [ fhir:value "active"]; # 
-  fhir:ImplementationGuide.date [ fhir:value "2023-02-09T23:38:44-08:00"^^xsd:dateTime]; # 
+  fhir:ImplementationGuide.date [ fhir:value "2023-02-10T00:01:25-08:00"^^xsd:dateTime]; # 
   fhir:ImplementationGuide.publisher [ fhir:value "Health eData Inc"]; # 
   fhir:ImplementationGuide.contact [
      fhir:index 0;

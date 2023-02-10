@@ -1,10 +1,10 @@
 ﻿SAIG : Validation Results
 =========================================
 
-err = 160, warn = 74, info = 51
+err = 161, warn = 74, info = 51
 IG Publisher Version: 1.2.31 Out of date - current version is 1.2.35
-Generated Thu Feb 09 23:39:10 PST 2023. FHIR version 4.0.1 for saig#0.0.0 (canonical = http://www.fhir.org/guides/saig)
- Build Errors : 99 / 0 / 0
+Generated Fri Feb 10 00:01:46 PST 2023. FHIR version 4.0.1 for saig#0.0.0 (canonical = http://www.fhir.org/guides/saig)
+ Build Errors : 100 / 0 / 0
  /Users/ehaas/Documents/FHIR/SAIG/fsh-generated/resources/ImplementationGuide-saig : 0 / 0 / 1
  /Users/ehaas/Documents/FHIR/SAIG/input/examples/DocumentReference-Example1PHQ-2Questionnaire : 1 / 0 / 1
  /Users/ehaas/Documents/FHIR/SAIG/input/examples/DocumentReference-Example2AHN-HRSNQuestionnaire : 1 / 0 / 1
@@ -56,7 +56,7 @@ Generated Thu Feb 09 23:39:10 PST 2023. FHIR version 4.0.1 for saig#0.0.0 (canon
  /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-PRAPARE-Example3-93035-4 : 3 / 1 / 2
  /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-PRAPARE-Example3-93038-8 : 3 / 1 / 2
  /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-PRAPARE-Example3-93040-4 : 3 / 1 / 2
- /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-PRAPARE-Example3-93041-2 : 3 / 1 / 2
+ /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-PRAPARE-Example3-93041-2 : 4 / 1 / 2
  /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-PRAPARE-Example3-93042-0 : 3 / 1 / 2
  /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-PRAPARE-Example3-93043-8 : 3 / 1 / 2
 </table>
@@ -156,6 +156,7 @@ ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-93040-
 ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-93040-4.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1028: The link '??phinvads??' for "Performer/example2" cannot be resolved
 ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-93041-2.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 910: The link 'Patient-example.html' for "Patient/example" cannot be resolved
 ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-93041-2.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1020: The link '??phinvads??' for "Performer/example2" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-93041-2.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 167, column 1706: The link '??phinvads??' for "Observation/PRAPARE-Example3-93031-3: Have you or any family members you live with been unable to get any of the following when it was really needed in past 1 year [PRAPARE]" cannot be resolved
 ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-93042-0.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 906: The link 'Patient-example.html' for "Patient/example" cannot be resolved
 ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-93042-0.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1016: The link '??phinvads??' for "Performer/example2" cannot be resolved
 ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-93043-8.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 915: The link 'Patient-example.html' for "Patient/example" cannot be resolved
@@ -486,6 +487,7 @@ ERROR: Observation/PRAPARE-Example3-93041-2: Observation.meta.profile[0]: Canoni
 INFORMATION: Observation/PRAPARE-Example3-93041-2: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#sdoh)
 ERROR: Observation/PRAPARE-Example3-93041-2: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
 ERROR: Observation/PRAPARE-Example3-93041-2: Observation.performer[0]: Unable to resolve resource with reference 'Performer/example2'
+ERROR: Observation/PRAPARE-Example3-93041-2: Observation.hasMember[4]: Unable to resolve resource with reference 'Observation/PRAPARE-Example3-93031-3'
 WARNING: Observation/PRAPARE-Example3-93041-2: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 == input/examples/Observation-PRAPARE-Example3-93042-0.json ==
 ERROR: Observation/PRAPARE-Example3-93042-0: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve

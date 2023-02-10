@@ -61,6 +61,10 @@
         {
             "reference": "Observation/PRAPARE-Example3-54899-0",
             "display": "Preferred language"
+        },
+        {
+            "reference": "Observation/PRAPARE-Example3-32624-9",
+            "display": "Race"
         }
     ],
     "derivedFrom": [

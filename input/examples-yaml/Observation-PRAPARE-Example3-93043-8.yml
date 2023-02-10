@@ -34,5 +34,7 @@ hasMember:
   display: Discharged from the U.S. Armed Forces
 - reference: Observation/PRAPARE-Example3-54899-0
   display: Preferred language
+- reference: Observation/PRAPARE-Example3-32624-9
+  display: Race
 derivedFrom:
 - reference: DocumentReference/example3praparequestionnaire
