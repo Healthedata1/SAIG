@@ -1,0 +1,33 @@
+resourceType: Observation
+id: PRAPARE-Example3-93034-7
+meta:
+  extension:
+  - url: http://hl7.org/fhir/StructureDefinition/instance-name
+    valueString: Prapare-Example3-93034-7
+  - url: http://hl7.org/fhir/StructureDefinition/instance-description
+    valueMarkdown: This is a an example of 93034-7 Discharged from the U.S. Armed
+      Forces for the *US Core Observation Screening Assessment Profile*
+  profile:
+  - http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment
+status: final
+category:
+- coding:
+  - system: http://hl7.org/fhir/us/core/CodeSystem/us-core-category
+    code: sdoh
+code:
+  coding:
+  - system: http://loinc.org
+    code: 93034-7
+    display: Discharged from the U.S. Armed Forces
+subject:
+  reference: Patient/example
+effectiveDateTime: 2021-02-02
+performer:
+- reference: Performer/example2
+valueCodeableConcept:
+  coding:
+  - system: http://loinc.org
+    code: LA32-8
+    display: 'No'
+derivedFrom:
+- reference: DocumentReference/example3praparequestionnaire

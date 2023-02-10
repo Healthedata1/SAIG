@@ -1,0 +1,38 @@
+resourceType: Observation
+id: PRAPARE-Example3-93043-8
+meta:
+  extension:
+  - url: http://hl7.org/fhir/StructureDefinition/instance-name
+    valueString: Prapare-Example3-93043-8
+  - url: http://hl7.org/fhir/StructureDefinition/instance-description
+    valueMarkdown: This is a an example of 93043-8 Personal characteristics [PRAPARE]
+      for the *US Core Observation Screening Assessment Profile*
+  profile:
+  - http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment
+status: final
+category:
+- coding:
+  - system: http://hl7.org/fhir/us/core/CodeSystem/us-core-category
+    code: sdoh
+code:
+  coding:
+  - system: http://loinc.org
+    code: 93043-8
+    display: Personal characteristics [PRAPARE]
+subject:
+  reference: Patient/example
+effectiveDateTime: 2021-02-02
+performer:
+- reference: Performer/example2
+hasMember:
+- reference: Observation/PRAPARE-Example3-56051-6
+  display: Hispanic or Latino
+- reference: Observation/PRAPARE-Example3-93035-4
+  display: Has season or migrant farm work been your or your family's main source
+    of income at any point in past 2 years [PRAPARE]
+- reference: Observation/PRAPARE-Example3-93034-7
+  display: Discharged from the U.S. Armed Forces
+- reference: Observation/PRAPARE-Example3-54899-0
+  display: Preferred language
+derivedFrom:
+- reference: DocumentReference/example3praparequestionnaire

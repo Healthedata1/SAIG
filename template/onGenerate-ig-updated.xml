@@ -22,7 +22,7 @@
    <name value="SAIG"/>
    <title value="Screenings and Assessments Implementation Guide"/>
    <status value="active"/>
-   <date value="2023-02-09T21:17:35-08:00"/>
+   <date value="2023-02-09T23:38:44-08:00"/>
    <publisher value="Health eData Inc"/>
    <contact>
       <telecom>
@@ -807,6 +807,351 @@
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-PRAPARE-Example3-32624-9.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/PRAPARE-Example3-32624-9"/>
+         </reference>
+         <name value="Prapare-Example3-32624-9"/>
+         <description value="This is a an example of 32624-9 Race for the *US Core Observation Screening Assessment Profile*"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-PRAPARE-Example3-32624-9answer-0.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/PRAPARE-Example3-32624-9answer-0"/>
+         </reference>
+         <name value="Prapare-Example3-32624-9Answer-0"/>
+         <description value="This is a an example of 32624-9[0] Race for the *US Core Observation Screening Assessment Profile*"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-PRAPARE-Example3-54899-0.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/PRAPARE-Example3-54899-0"/>
+         </reference>
+         <name value="Prapare-Example3-54899-0"/>
+         <description value="This is a an example of 54899-0 Preferred language for the *US Core Observation Screening Assessment Profile*"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-PRAPARE-Example3-56051-6.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/PRAPARE-Example3-56051-6"/>
+         </reference>
+         <name value="Prapare-Example3-56051-6"/>
+         <description value="This is a an example of 56051-6 Hispanic or Latino for the *US Core Observation Screening Assessment Profile*"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-PRAPARE-Example3-56799-0.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/PRAPARE-Example3-56799-0"/>
+         </reference>
+         <name value="Prapare-Example3-56799-0"/>
+         <description value="This is a an example of 56799-0 Address for the *US Core Observation Screening Assessment Profile*"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-PRAPARE-Example3-63512-8.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/PRAPARE-Example3-63512-8"/>
+         </reference>
+         <name value="Prapare-Example3-63512-8"/>
+         <description value="This is a an example of 63512-8 How many people are living or staying at this address [#] for the *US Core Observation Screening Assessment Profile*"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-PRAPARE-Example3-63586-2.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/PRAPARE-Example3-63586-2"/>
+         </reference>
+         <name value="Prapare-Example3-63586-2"/>
+         <description value="This is a an example of 63586-2 What was your best estimate of the total income of all family members from all sources, before taxes, in last year [PhenX] for the *US Core Observation Screening Assessment Profile*"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-PRAPARE-Example3-67875-5.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/PRAPARE-Example3-67875-5"/>
+         </reference>
+         <name value="Prapare-Example3-67875-5"/>
+         <description value="This is a an example of 67875-5 Employment status - current for the *US Core Observation Screening Assessment Profile*"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-PRAPARE-Example3-71802-3.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/PRAPARE-Example3-71802-3"/>
+         </reference>
+         <name value="Prapare-Example3-71802-3"/>
+         <description value="This is a an example of 71802-3 Housing status for the *US Core Observation Screening Assessment Profile*"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-PRAPARE-Example3-76437-3.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/PRAPARE-Example3-76437-3"/>
+         </reference>
+         <name value="Prapare-Example3-76437-3"/>
+         <description value="This is a an example of 76437-3 Primary insurance for the *US Core Observation Screening Assessment Profile*"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-PRAPARE-Example3-82589-3.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/PRAPARE-Example3-82589-3"/>
+         </reference>
+         <name value="Prapare-Example3-82589-3"/>
+         <description value="This is a an example of 82589-3 Highest level of education for the *US Core Observation Screening Assessment Profile*"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-PRAPARE-Example3-93025-5.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/PRAPARE-Example3-93025-5"/>
+         </reference>
+         <name value="Prapare-Example3-93025-5"/>
+         <description value="This is a an example of 93025-5 Protocol for Responding to and Assessing Patients' Assets, Risks, and Experiences [PRAPARE] for the *US Core Observation Screening Assessment Profile*"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-PRAPARE-Example3-93029-7.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/PRAPARE-Example3-93029-7"/>
+         </reference>
+         <name value="Prapare-Example3-93029-7"/>
+         <description value="This is a an example of 93029-7 How often do you see or talk to people that you care about and feel close to [PRAPARE] for the *US Core Observation Screening Assessment Profile*"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-PRAPARE-Example3-93030-5.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/PRAPARE-Example3-93030-5"/>
+         </reference>
+         <name value="Prapare-Example3-93030-5"/>
+         <description value="This is a an example of 93030-5 Has lack of transportation kept you from medical appointments, meetings, work, or from getting things needed for daily living for the *US Core Observation Screening Assessment Profile*"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-PRAPARE-Example3-93030-5answer-0.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/PRAPARE-Example3-93030-5answer-0"/>
+         </reference>
+         <name value="Prapare-Example3-93030-5Answer-0"/>
+         <description value="This is a an example of 93030-5[0] Has lack of transportation kept you from medical appointments, meetings, work, or from getting things needed for daily living for the *US Core Observation Screening Assessment Profile*"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-PRAPARE-Example3-93033-9.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/PRAPARE-Example3-93033-9"/>
+         </reference>
+         <name value="Prapare-Example3-93033-9"/>
+         <description value="This is a an example of 93033-9 Are you worried about losing your housing [PRAPARE] for the *US Core Observation Screening Assessment Profile*"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-PRAPARE-Example3-93034-7.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/PRAPARE-Example3-93034-7"/>
+         </reference>
+         <name value="Prapare-Example3-93034-7"/>
+         <description value="This is a an example of 93034-7 Discharged from the U.S. Armed Forces for the *US Core Observation Screening Assessment Profile*"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-PRAPARE-Example3-93035-4.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/PRAPARE-Example3-93035-4"/>
+         </reference>
+         <name value="Prapare-Example3-93035-4"/>
+         <description value="This is a an example of 93035-4 Has season or migrant farm work been your or your family's main source of income at any point in past 2 years [PRAPARE] for the *US Core Observation Screening Assessment Profile*"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-PRAPARE-Example3-93038-8.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/PRAPARE-Example3-93038-8"/>
+         </reference>
+         <name value="Prapare-Example3-93038-8"/>
+         <description value="This is a an example of 93038-8 Stress level for the *US Core Observation Screening Assessment Profile*"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-PRAPARE-Example3-93040-4.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/PRAPARE-Example3-93040-4"/>
+         </reference>
+         <name value="Prapare-Example3-93040-4"/>
+         <description value="This is a an example of 93040-4 Social and emotional health [PRAPARE] for the *US Core Observation Screening Assessment Profile*"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-PRAPARE-Example3-93041-2.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/PRAPARE-Example3-93041-2"/>
+         </reference>
+         <name value="Prapare-Example3-93041-2"/>
+         <description value="This is a an example of 93041-2 Money and resources [PRAPARE] for the *US Core Observation Screening Assessment Profile*"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-PRAPARE-Example3-93042-0.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/PRAPARE-Example3-93042-0"/>
+         </reference>
+         <name value="Prapare-Example3-93042-0"/>
+         <description value="This is a an example of 93042-0 Family and home [PRAPARE] for the *US Core Observation Screening Assessment Profile*"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-PRAPARE-Example3-93043-8.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/PRAPARE-Example3-93043-8"/>
+         </reference>
+         <name value="Prapare-Example3-93043-8"/>
+         <description value="This is a an example of 93043-8 Personal characteristics [PRAPARE] for the *US Core Observation Screening Assessment Profile*"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
       <page>
          <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
             <valueCode value="informative"/>
@@ -980,6 +1325,121 @@
             <page>
                <nameUrl value="Observation-PHQ2-panel-example-55757-9.html"/>
                <title value="Phq2 Panel Example 55757-9"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-PRAPARE-Example3-32624-9.html"/>
+               <title value="Prapare-Example3-32624-9"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-PRAPARE-Example3-32624-9answer-0.html"/>
+               <title value="Prapare-Example3-32624-9Answer-0"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-PRAPARE-Example3-54899-0.html"/>
+               <title value="Prapare-Example3-54899-0"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-PRAPARE-Example3-56051-6.html"/>
+               <title value="Prapare-Example3-56051-6"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-PRAPARE-Example3-56799-0.html"/>
+               <title value="Prapare-Example3-56799-0"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-PRAPARE-Example3-63512-8.html"/>
+               <title value="Prapare-Example3-63512-8"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-PRAPARE-Example3-63586-2.html"/>
+               <title value="Prapare-Example3-63586-2"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-PRAPARE-Example3-67875-5.html"/>
+               <title value="Prapare-Example3-67875-5"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-PRAPARE-Example3-71802-3.html"/>
+               <title value="Prapare-Example3-71802-3"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-PRAPARE-Example3-76437-3.html"/>
+               <title value="Prapare-Example3-76437-3"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-PRAPARE-Example3-82589-3.html"/>
+               <title value="Prapare-Example3-82589-3"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-PRAPARE-Example3-93025-5.html"/>
+               <title value="Prapare-Example3-93025-5"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-PRAPARE-Example3-93029-7.html"/>
+               <title value="Prapare-Example3-93029-7"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-PRAPARE-Example3-93030-5.html"/>
+               <title value="Prapare-Example3-93030-5"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-PRAPARE-Example3-93030-5answer-0.html"/>
+               <title value="Prapare-Example3-93030-5Answer-0"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-PRAPARE-Example3-93033-9.html"/>
+               <title value="Prapare-Example3-93033-9"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-PRAPARE-Example3-93034-7.html"/>
+               <title value="Prapare-Example3-93034-7"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-PRAPARE-Example3-93035-4.html"/>
+               <title value="Prapare-Example3-93035-4"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-PRAPARE-Example3-93038-8.html"/>
+               <title value="Prapare-Example3-93038-8"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-PRAPARE-Example3-93040-4.html"/>
+               <title value="Prapare-Example3-93040-4"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-PRAPARE-Example3-93041-2.html"/>
+               <title value="Prapare-Example3-93041-2"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-PRAPARE-Example3-93042-0.html"/>
+               <title value="Prapare-Example3-93042-0"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-PRAPARE-Example3-93043-8.html"/>
+               <title value="Prapare-Example3-93043-8"/>
                <generation value="generated"/>
             </page>
          </page>

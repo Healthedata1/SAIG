@@ -1,10 +1,10 @@
 ﻿SAIG : Validation Results
 =========================================
 
-err = 88, warn = 51, info = 28
+err = 160, warn = 74, info = 51
 IG Publisher Version: 1.2.31 Out of date - current version is 1.2.35
-Generated Thu Feb 09 21:17:59 PST 2023. FHIR version 4.0.1 for saig#0.0.0 (canonical = http://www.fhir.org/guides/saig)
- Build Errors : 52 / 0 / 0
+Generated Thu Feb 09 23:39:10 PST 2023. FHIR version 4.0.1 for saig#0.0.0 (canonical = http://www.fhir.org/guides/saig)
+ Build Errors : 99 / 0 / 0
  /Users/ehaas/Documents/FHIR/SAIG/fsh-generated/resources/ImplementationGuide-saig : 0 / 0 / 1
  /Users/ehaas/Documents/FHIR/SAIG/input/examples/DocumentReference-Example1PHQ-2Questionnaire : 1 / 0 / 1
  /Users/ehaas/Documents/FHIR/SAIG/input/examples/DocumentReference-Example2AHN-HRSNQuestionnaire : 1 / 0 / 1
@@ -36,6 +36,29 @@ Generated Thu Feb 09 21:17:59 PST 2023. FHIR version 4.0.1 for saig#0.0.0 (canon
  /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-PHQ2-item-example-44255-8 : 2 / 3 / 2
  /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-PHQ2-item-example-55758-7 : 2 / 2 / 2
  /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-PHQ2-panel-example-55757-9 : 2 / 1 / 2
+ /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-PRAPARE-Example3-32624-9 : 3 / 1 / 2
+ /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-PRAPARE-Example3-32624-9answer-0 : 4 / 1 / 2
+ /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-PRAPARE-Example3-54899-0 : 3 / 1 / 2
+ /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-PRAPARE-Example3-56051-6 : 3 / 1 / 2
+ /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-PRAPARE-Example3-56799-0 : 3 / 1 / 2
+ /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-PRAPARE-Example3-63512-8 : 3 / 1 / 2
+ /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-PRAPARE-Example3-63586-2 : 3 / 1 / 2
+ /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-PRAPARE-Example3-67875-5 : 3 / 1 / 2
+ /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-PRAPARE-Example3-71802-3 : 3 / 1 / 2
+ /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-PRAPARE-Example3-76437-3 : 3 / 1 / 2
+ /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-PRAPARE-Example3-82589-3 : 3 / 1 / 2
+ /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-PRAPARE-Example3-93025-5 : 4 / 1 / 2
+ /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-PRAPARE-Example3-93029-7 : 3 / 1 / 2
+ /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-PRAPARE-Example3-93030-5 : 3 / 1 / 2
+ /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-PRAPARE-Example3-93030-5answer-0 : 4 / 1 / 2
+ /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-PRAPARE-Example3-93033-9 : 3 / 1 / 2
+ /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-PRAPARE-Example3-93034-7 : 3 / 1 / 2
+ /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-PRAPARE-Example3-93035-4 : 3 / 1 / 2
+ /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-PRAPARE-Example3-93038-8 : 3 / 1 / 2
+ /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-PRAPARE-Example3-93040-4 : 3 / 1 / 2
+ /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-PRAPARE-Example3-93041-2 : 3 / 1 / 2
+ /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-PRAPARE-Example3-93042-0 : 3 / 1 / 2
+ /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-PRAPARE-Example3-93043-8 : 3 / 1 / 2
 </table>
 == n/a ==
 ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/DocumentReference-example1phq-2questionnaire.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1189: The link 'Patient-example.html' for "Patient/example" cannot be resolved
@@ -90,6 +113,53 @@ ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PHQ2-item-example-55758
 ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PHQ2-item-example-55758-7.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1301: The link 'Patient-example.html' for "Patient/example" cannot be resolved
 ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PHQ2-panel-example-55757-9.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1186: The link 'Patient-example.html' for "Patient/example" cannot be resolved
 ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PHQ2-panel-example-55757-9.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1310: The link 'Patient-example.html' for "Patient/example" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-32624-9.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 885: The link 'Patient-example.html' for "Patient/example" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-32624-9.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 995: The link '??phinvads??' for "Performer/example2" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-32624-9answer-0.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 904: The link 'Patient-example.html' for "Patient/example" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-32624-9answer-0.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1014: The link '??phinvads??' for "Performer/example2" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-54899-0.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 899: The link 'Patient-example.html' for "Patient/example" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-54899-0.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1009: The link '??phinvads??' for "Performer/example2" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-56051-6.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 899: The link 'Patient-example.html' for "Patient/example" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-56051-6.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1009: The link '??phinvads??' for "Performer/example2" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-56799-0.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 888: The link 'Patient-example.html' for "Patient/example" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-56799-0.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 998: The link '??phinvads??' for "Performer/example2" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-63512-8.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 938: The link 'Patient-example.html' for "Patient/example" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-63512-8.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1048: The link '??phinvads??' for "Performer/example2" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-63586-2.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1003: The link 'Patient-example.html' for "Patient/example" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-63586-2.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1113: The link '??phinvads??' for "Performer/example2" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-67875-5.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 908: The link 'Patient-example.html' for "Patient/example" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-67875-5.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1018: The link '??phinvads??' for "Performer/example2" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-71802-3.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 895: The link 'Patient-example.html' for "Patient/example" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-71802-3.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1005: The link '??phinvads??' for "Performer/example2" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-76437-3.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 898: The link 'Patient-example.html' for "Patient/example" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-76437-3.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1008: The link '??phinvads??' for "Performer/example2" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-82589-3.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 907: The link 'Patient-example.html' for "Patient/example" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-82589-3.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1017: The link '??phinvads??' for "Performer/example2" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-93025-5.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 972: The link 'Patient-example.html' for "Patient/example" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-93025-5.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1082: The link '??phinvads??' for "Performer/example2" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-93025-5.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 167, column 1701: The link '??phinvads??' for "Observation/PRAPARE-Example3-93039-6: Optional additional questions [PRAPARE]" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-93029-7.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 967: The link 'Patient-example.html' for "Patient/example" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-93029-7.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1077: The link '??phinvads??' for "Performer/example2" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-93030-5.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1006: The link 'Patient-example.html' for "Patient/example" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-93030-5.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1116: The link '??phinvads??' for "Performer/example2" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-93030-5answer-0.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1025: The link 'Patient-example.html' for "Patient/example" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-93030-5answer-0.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1135: The link '??phinvads??' for "Performer/example2" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-93033-9.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 932: The link 'Patient-example.html' for "Patient/example" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-93033-9.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1042: The link '??phinvads??' for "Performer/example2" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-93034-7.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 918: The link 'Patient-example.html' for "Patient/example" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-93034-7.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1028: The link '??phinvads??' for "Performer/example2" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-93035-4.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1000: The link 'Patient-example.html' for "Patient/example" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-93035-4.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1110: The link '??phinvads??' for "Performer/example2" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-93038-8.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 893: The link 'Patient-example.html' for "Patient/example" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-93038-8.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1003: The link '??phinvads??' for "Performer/example2" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-93040-4.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 918: The link 'Patient-example.html' for "Patient/example" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-93040-4.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1028: The link '??phinvads??' for "Performer/example2" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-93041-2.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 910: The link 'Patient-example.html' for "Patient/example" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-93041-2.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1020: The link '??phinvads??' for "Performer/example2" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-93042-0.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 906: The link 'Patient-example.html' for "Patient/example" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-93042-0.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1016: The link '??phinvads??' for "Performer/example2" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-93043-8.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 915: The link 'Patient-example.html' for "Patient/example" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PRAPARE-Example3-93043-8.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1025: The link '??phinvads??' for "Performer/example2" cannot be resolved
 == fsh-generated/resources/ImplementationGuide-saig.json ==
 == input/examples/DocumentReference-Example1PHQ-2Questionnaire.json ==
 ERROR: DocumentReference/example1phq-2questionnaire: DocumentReference.author[0]: Unable to resolve resource with reference 'Practitioner/example'
@@ -288,3 +358,144 @@ ERROR: Observation/PHQ2-panel-example-55757-9: Observation.meta.profile[0]: Cano
 INFORMATION: Observation/PHQ2-panel-example-55757-9: Observation.category[1]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#disability-status)
 ERROR: Observation/PHQ2-panel-example-55757-9: Observation.category[1].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
 WARNING: Observation/PHQ2-panel-example-55757-9: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== input/examples/Observation-PRAPARE-Example3-32624-9.json ==
+ERROR: Observation/PRAPARE-Example3-32624-9: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-Example3-32624-9: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#sdoh)
+ERROR: Observation/PRAPARE-Example3-32624-9: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
+ERROR: Observation/PRAPARE-Example3-32624-9: Observation.performer[0]: Unable to resolve resource with reference 'Performer/example2'
+WARNING: Observation/PRAPARE-Example3-32624-9: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== input/examples/Observation-PRAPARE-Example3-32624-9answer-0.json ==
+ERROR: Observation/PRAPARE-Example3-32624-9answer-0: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-Example3-32624-9answer-0: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#sdoh)
+ERROR: Observation/PRAPARE-Example3-32624-9answer-0: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
+ERROR: Observation/PRAPARE-Example3-32624-9answer-0: Observation.code.coding[0]: Local Error: Resolved system http://loinc.org (v3.0.0), but the definition is not complete. Server Error: The code "32624-9[0]" is not valid in the system http://loinc.org; The code provided (http://loinc.org#32624-9[0]) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://loinc.org#32624-9[0]'
+ERROR: Observation/PRAPARE-Example3-32624-9answer-0: Observation.performer[0]: Unable to resolve resource with reference 'Performer/example2'
+WARNING: Observation/PRAPARE-Example3-32624-9answer-0: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== input/examples/Observation-PRAPARE-Example3-54899-0.json ==
+ERROR: Observation/PRAPARE-Example3-54899-0: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-Example3-54899-0: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#sdoh)
+ERROR: Observation/PRAPARE-Example3-54899-0: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
+ERROR: Observation/PRAPARE-Example3-54899-0: Observation.performer[0]: Unable to resolve resource with reference 'Performer/example2'
+WARNING: Observation/PRAPARE-Example3-54899-0: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== input/examples/Observation-PRAPARE-Example3-56051-6.json ==
+ERROR: Observation/PRAPARE-Example3-56051-6: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-Example3-56051-6: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#sdoh)
+ERROR: Observation/PRAPARE-Example3-56051-6: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
+ERROR: Observation/PRAPARE-Example3-56051-6: Observation.performer[0]: Unable to resolve resource with reference 'Performer/example2'
+WARNING: Observation/PRAPARE-Example3-56051-6: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== input/examples/Observation-PRAPARE-Example3-56799-0.json ==
+ERROR: Observation/PRAPARE-Example3-56799-0: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-Example3-56799-0: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#sdoh)
+ERROR: Observation/PRAPARE-Example3-56799-0: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
+ERROR: Observation/PRAPARE-Example3-56799-0: Observation.performer[0]: Unable to resolve resource with reference 'Performer/example2'
+WARNING: Observation/PRAPARE-Example3-56799-0: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== input/examples/Observation-PRAPARE-Example3-63512-8.json ==
+ERROR: Observation/PRAPARE-Example3-63512-8: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-Example3-63512-8: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#sdoh)
+ERROR: Observation/PRAPARE-Example3-63512-8: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
+ERROR: Observation/PRAPARE-Example3-63512-8: Observation.performer[0]: Unable to resolve resource with reference 'Performer/example2'
+WARNING: Observation/PRAPARE-Example3-63512-8: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== input/examples/Observation-PRAPARE-Example3-63586-2.json ==
+ERROR: Observation/PRAPARE-Example3-63586-2: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-Example3-63586-2: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#sdoh)
+ERROR: Observation/PRAPARE-Example3-63586-2: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
+ERROR: Observation/PRAPARE-Example3-63586-2: Observation.performer[0]: Unable to resolve resource with reference 'Performer/example2'
+WARNING: Observation/PRAPARE-Example3-63586-2: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== input/examples/Observation-PRAPARE-Example3-67875-5.json ==
+ERROR: Observation/PRAPARE-Example3-67875-5: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-Example3-67875-5: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#sdoh)
+ERROR: Observation/PRAPARE-Example3-67875-5: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
+ERROR: Observation/PRAPARE-Example3-67875-5: Observation.performer[0]: Unable to resolve resource with reference 'Performer/example2'
+WARNING: Observation/PRAPARE-Example3-67875-5: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== input/examples/Observation-PRAPARE-Example3-71802-3.json ==
+ERROR: Observation/PRAPARE-Example3-71802-3: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-Example3-71802-3: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#sdoh)
+ERROR: Observation/PRAPARE-Example3-71802-3: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
+ERROR: Observation/PRAPARE-Example3-71802-3: Observation.performer[0]: Unable to resolve resource with reference 'Performer/example2'
+WARNING: Observation/PRAPARE-Example3-71802-3: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== input/examples/Observation-PRAPARE-Example3-76437-3.json ==
+ERROR: Observation/PRAPARE-Example3-76437-3: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-Example3-76437-3: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#sdoh)
+ERROR: Observation/PRAPARE-Example3-76437-3: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
+ERROR: Observation/PRAPARE-Example3-76437-3: Observation.performer[0]: Unable to resolve resource with reference 'Performer/example2'
+WARNING: Observation/PRAPARE-Example3-76437-3: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== input/examples/Observation-PRAPARE-Example3-82589-3.json ==
+ERROR: Observation/PRAPARE-Example3-82589-3: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-Example3-82589-3: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#sdoh)
+ERROR: Observation/PRAPARE-Example3-82589-3: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
+ERROR: Observation/PRAPARE-Example3-82589-3: Observation.performer[0]: Unable to resolve resource with reference 'Performer/example2'
+WARNING: Observation/PRAPARE-Example3-82589-3: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== input/examples/Observation-PRAPARE-Example3-93025-5.json ==
+ERROR: Observation/PRAPARE-Example3-93025-5: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-Example3-93025-5: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#sdoh)
+ERROR: Observation/PRAPARE-Example3-93025-5: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
+ERROR: Observation/PRAPARE-Example3-93025-5: Observation.performer[0]: Unable to resolve resource with reference 'Performer/example2'
+ERROR: Observation/PRAPARE-Example3-93025-5: Observation.hasMember[4]: Unable to resolve resource with reference 'Observation/PRAPARE-Example3-93039-6'
+WARNING: Observation/PRAPARE-Example3-93025-5: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== input/examples/Observation-PRAPARE-Example3-93029-7.json ==
+ERROR: Observation/PRAPARE-Example3-93029-7: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-Example3-93029-7: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#sdoh)
+ERROR: Observation/PRAPARE-Example3-93029-7: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
+ERROR: Observation/PRAPARE-Example3-93029-7: Observation.performer[0]: Unable to resolve resource with reference 'Performer/example2'
+WARNING: Observation/PRAPARE-Example3-93029-7: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== input/examples/Observation-PRAPARE-Example3-93030-5.json ==
+ERROR: Observation/PRAPARE-Example3-93030-5: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-Example3-93030-5: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#sdoh)
+ERROR: Observation/PRAPARE-Example3-93030-5: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
+ERROR: Observation/PRAPARE-Example3-93030-5: Observation.performer[0]: Unable to resolve resource with reference 'Performer/example2'
+WARNING: Observation/PRAPARE-Example3-93030-5: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== input/examples/Observation-PRAPARE-Example3-93030-5answer-0.json ==
+ERROR: Observation/PRAPARE-Example3-93030-5answer-0: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-Example3-93030-5answer-0: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#sdoh)
+ERROR: Observation/PRAPARE-Example3-93030-5answer-0: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
+ERROR: Observation/PRAPARE-Example3-93030-5answer-0: Observation.code.coding[0]: Local Error: Resolved system http://loinc.org (v3.0.0), but the definition is not complete. Server Error: The code "93030-5[0]" is not valid in the system http://loinc.org; The code provided (http://loinc.org#93030-5[0]) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://loinc.org#93030-5[0]'
+ERROR: Observation/PRAPARE-Example3-93030-5answer-0: Observation.performer[0]: Unable to resolve resource with reference 'Performer/example2'
+WARNING: Observation/PRAPARE-Example3-93030-5answer-0: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== input/examples/Observation-PRAPARE-Example3-93033-9.json ==
+ERROR: Observation/PRAPARE-Example3-93033-9: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-Example3-93033-9: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#sdoh)
+ERROR: Observation/PRAPARE-Example3-93033-9: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
+ERROR: Observation/PRAPARE-Example3-93033-9: Observation.performer[0]: Unable to resolve resource with reference 'Performer/example2'
+WARNING: Observation/PRAPARE-Example3-93033-9: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== input/examples/Observation-PRAPARE-Example3-93034-7.json ==
+ERROR: Observation/PRAPARE-Example3-93034-7: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-Example3-93034-7: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#sdoh)
+ERROR: Observation/PRAPARE-Example3-93034-7: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
+ERROR: Observation/PRAPARE-Example3-93034-7: Observation.performer[0]: Unable to resolve resource with reference 'Performer/example2'
+WARNING: Observation/PRAPARE-Example3-93034-7: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== input/examples/Observation-PRAPARE-Example3-93035-4.json ==
+ERROR: Observation/PRAPARE-Example3-93035-4: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-Example3-93035-4: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#sdoh)
+ERROR: Observation/PRAPARE-Example3-93035-4: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
+ERROR: Observation/PRAPARE-Example3-93035-4: Observation.performer[0]: Unable to resolve resource with reference 'Performer/example2'
+WARNING: Observation/PRAPARE-Example3-93035-4: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== input/examples/Observation-PRAPARE-Example3-93038-8.json ==
+ERROR: Observation/PRAPARE-Example3-93038-8: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-Example3-93038-8: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#sdoh)
+ERROR: Observation/PRAPARE-Example3-93038-8: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
+ERROR: Observation/PRAPARE-Example3-93038-8: Observation.performer[0]: Unable to resolve resource with reference 'Performer/example2'
+WARNING: Observation/PRAPARE-Example3-93038-8: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== input/examples/Observation-PRAPARE-Example3-93040-4.json ==
+ERROR: Observation/PRAPARE-Example3-93040-4: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-Example3-93040-4: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#sdoh)
+ERROR: Observation/PRAPARE-Example3-93040-4: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
+ERROR: Observation/PRAPARE-Example3-93040-4: Observation.performer[0]: Unable to resolve resource with reference 'Performer/example2'
+WARNING: Observation/PRAPARE-Example3-93040-4: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== input/examples/Observation-PRAPARE-Example3-93041-2.json ==
+ERROR: Observation/PRAPARE-Example3-93041-2: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-Example3-93041-2: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#sdoh)
+ERROR: Observation/PRAPARE-Example3-93041-2: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
+ERROR: Observation/PRAPARE-Example3-93041-2: Observation.performer[0]: Unable to resolve resource with reference 'Performer/example2'
+WARNING: Observation/PRAPARE-Example3-93041-2: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== input/examples/Observation-PRAPARE-Example3-93042-0.json ==
+ERROR: Observation/PRAPARE-Example3-93042-0: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-Example3-93042-0: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#sdoh)
+ERROR: Observation/PRAPARE-Example3-93042-0: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
+ERROR: Observation/PRAPARE-Example3-93042-0: Observation.performer[0]: Unable to resolve resource with reference 'Performer/example2'
+WARNING: Observation/PRAPARE-Example3-93042-0: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== input/examples/Observation-PRAPARE-Example3-93043-8.json ==
+ERROR: Observation/PRAPARE-Example3-93043-8: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
+INFORMATION: Observation/PRAPARE-Example3-93043-8: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#sdoh)
+ERROR: Observation/PRAPARE-Example3-93043-8: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
+ERROR: Observation/PRAPARE-Example3-93043-8: Observation.performer[0]: Unable to resolve resource with reference 'Performer/example2'
+WARNING: Observation/PRAPARE-Example3-93043-8: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
