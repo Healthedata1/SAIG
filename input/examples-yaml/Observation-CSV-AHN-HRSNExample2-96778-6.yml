@@ -1,0 +1,32 @@
+resourceType: Observation
+id: CSV-AHN-HRSNExample2-96778-6
+meta:
+  extension:
+  - url: http://hl7.org/fhir/StructureDefinition/instance-name
+    valueString: Csv-Ahn-Hrsnexample2-96778-6
+  - url: http://hl7.org/fhir/StructureDefinition/instance-description
+    valueMarkdown: This is a an example of 96778-6 Problems with place where you live
+      for the *US Core Observation Screening Assessment Profile*
+  profile:
+  - http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment
+status: final
+category:
+- coding:
+  - system: http://hl7.org/fhir/us/core/CodeSystem/us-core-category
+    code: sdoh
+code:
+  coding:
+  - system: http://loinc.org
+    code: 96778-6
+    display: Problems with place where you live
+subject:
+  reference: Patient/123
+effectiveDateTime: 2021-01-01
+performer:
+- reference: Performer/rsmith
+hasMember:
+- reference: Observation/CSV-AHN-HRSNExample2-96778-6answer-0
+- reference: Observation/CSV-AHN-HRSNExample2-96778-6answer-5
+- reference: Observation/CSV-AHN-HRSNExample2-96778-6answer-6
+derivedFrom:
+- reference: DocumentReference/example2ahn-hrsnquestionnaire

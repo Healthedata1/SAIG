@@ -1,0 +1,36 @@
+resourceType: Observation
+id: CSV-AHN-HRSNExample2-96779-4
+meta:
+  extension:
+  - url: http://hl7.org/fhir/StructureDefinition/instance-name
+    valueString: Csv-Ahn-Hrsnexample2-96779-4
+  - url: http://hl7.org/fhir/StructureDefinition/instance-description
+    valueMarkdown: This is a an example of 96779-4 Has the electric, gas, oil, or
+      water company threatened to shut off services in your home in past 12 months
+      for the *US Core Observation Screening Assessment Profile*
+  profile:
+  - http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment
+status: final
+category:
+- coding:
+  - system: http://hl7.org/fhir/us/core/CodeSystem/us-core-category
+    code: sdoh
+code:
+  coding:
+  - system: http://loinc.org
+    code: 96779-4
+    display: Has the electric, gas, oil, or water company threatened to shut off services
+      in your home in past 12 months
+subject:
+  reference: Patient/123
+effectiveDateTime: 2021-01-01
+performer:
+- reference: Performer/rsmith
+valueCodeableConcept:
+  coding:
+  - system: http://loinc.org
+    code: 96779-4
+    display: Has the electric, gas, oil, or water company threatened to shut off services
+      in your home in past 12 months
+derivedFrom:
+- reference: DocumentReference/example2ahn-hrsnquestionnaire

@@ -1,0 +1,56 @@
+{
+    "resourceType": "Observation",
+    "id": "CSV-PHQ-2Example1-55758-7",
+    "meta": {
+        "extension": [
+            {
+                "url": "http://hl7.org/fhir/StructureDefinition/instance-name",
+                "valueString": "Csv-Phq-2Example1-55758-7"
+            },
+            {
+                "url": "http://hl7.org/fhir/StructureDefinition/instance-description",
+                "valueMarkdown": "This is a an example of 55758-7 Patient Health Questionnaire 2 item (PHQ-2) total score [Reported] for the *US Core Observation Screening Assessment Profile*"
+            }
+        ],
+        "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment"
+        ]
+    },
+    "status": "final",
+    "category": [
+        {
+            "coding": [
+                {
+                    "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-category",
+                    "code": "disability-status"
+                }
+            ]
+        }
+    ],
+    "code": {
+        "coding": [
+            {
+                "system": "http://loinc.org",
+                "code": "55758-7",
+                "display": "Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]"
+            }
+        ]
+    },
+    "subject": {
+        "reference": "Patient/example"
+    },
+    "effectiveDateTime": "2021-02-02",
+    "performer": [
+        {
+            "reference": "Performer/example2"
+        }
+    ],
+    "valueQuantity": {
+        "value": 2.0
+    },
+    "derivedFrom": [
+        {
+            "reference": "DocumentReference/example1phq-2questionnaire"
+        }
+    ]
+}

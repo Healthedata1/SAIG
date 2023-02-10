@@ -1,19 +1,34 @@
 ﻿SAIG : Validation Results
 =========================================
 
-err = 29, warn = 28, info = 11
+err = 85, warn = 43, info = 26
 IG Publisher Version: 1.2.31 Out of date - current version is 1.2.35
-Generated Thu Feb 09 15:32:10 PST 2023. FHIR version 4.0.1 for saig#0.0.0 (canonical = http://www.fhir.org/guides/saig)
- Build Errors : 23 / 0 / 0
+Generated Thu Feb 09 18:13:08 PST 2023. FHIR version 4.0.1 for saig#0.0.0 (canonical = http://www.fhir.org/guides/saig)
+ Build Errors : 50 / 0 / 0
  /Users/ehaas/Documents/FHIR/SAIG/fsh-generated/resources/ImplementationGuide-saig : 0 / 0 / 1
  /Users/ehaas/Documents/FHIR/SAIG/input/examples/DocumentReference-Example1PHQ-2Questionnaire : 1 / 0 / 1
  /Users/ehaas/Documents/FHIR/SAIG/input/examples/DocumentReference-Example2AHN-HRSNQuestionnaire : 1 / 0 / 1
  /Users/ehaas/Documents/FHIR/SAIG/input/examples/Example1PHQ-2Questionnaire : 0 / 12 / 4
  /Users/ehaas/Documents/FHIR/SAIG/input/examples/Example1PHQ-2QuestionnaireResponse : 0 / 3 / 1
- /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-44250-9-csv-to-obs-example1 : 4 / 1 / 2
- /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-44255-8-csv-to-obs-example1 : 4 / 1 / 2
- /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-55757-9-csv-to-obs-example1 : 7 / 1 / 2
- /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-55758-7-csv-to-obs-example1 : 4 / 1 / 2
+ /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-CSV-AHN-HRSNExample2-71802-3 : 4 / 1 / 2
+ /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-CSV-AHN-HRSNExample2-88122-7 : 4 / 1 / 2
+ /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-CSV-AHN-HRSNExample2-88123-5 : 4 / 1 / 2
+ /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-CSV-AHN-HRSNExample2-93030-5 : 4 / 1 / 2
+ /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-CSV-AHN-HRSNExample2-95614-4 : 4 / 1 / 2
+ /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-CSV-AHN-HRSNExample2-95615-1 : 4 / 1 / 2
+ /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-CSV-AHN-HRSNExample2-95616-9 : 4 / 1 / 2
+ /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-CSV-AHN-HRSNExample2-95617-7 : 4 / 1 / 2
+ /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-CSV-AHN-HRSNExample2-95618-5 : 4 / 1 / 2
+ /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-CSV-AHN-HRSNExample2-96777-8 : 4 / 1 / 2
+ /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-CSV-AHN-HRSNExample2-96778-6 : 4 / 1 / 2
+ /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-CSV-AHN-HRSNExample2-96778-6answer-0 : 5 / 1 / 2
+ /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-CSV-AHN-HRSNExample2-96778-6answer-5 : 5 / 1 / 2
+ /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-CSV-AHN-HRSNExample2-96778-6answer-6 : 5 / 1 / 2
+ /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-CSV-AHN-HRSNExample2-96779-4 : 4 / 1 / 2
+ /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-CSV-PHQ-2Example1-44250-9 : 3 / 1 / 2
+ /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-CSV-PHQ-2Example1-44255-8 : 3 / 1 / 2
+ /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-CSV-PHQ-2Example1-55757-9 : 3 / 1 / 2
+ /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-CSV-PHQ-2Example1-55758-7 : 3 / 1 / 2
  /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-PHQ2-item-example-44250-9 : 2 / 3 / 2
  /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-PHQ2-item-example-44255-8 : 2 / 3 / 2
  /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-PHQ2-item-example-55758-7 : 2 / 2 / 2
@@ -24,17 +39,44 @@ ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/DocumentReference-example1phq-2ques
 ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/DocumentReference-example1phq-2questionnaire.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1304: The link '??phinvads??' for "Practitioner/example" cannot be resolved
 ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/DocumentReference-example2ahn-hrsnquestionnaire.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1233: The link 'Patient-example.html' for "Patient/example" cannot be resolved
 ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/DocumentReference-example2ahn-hrsnquestionnaire.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1348: The link '??phinvads??' for "Practitioner/example" cannot be resolved
-ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-44250-9-csv-to-obs-example1.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 972: The link '??phinvads??' for "Patient/123" cannot be resolved
-ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-44250-9-csv-to-obs-example1.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1070: The link '??phinvads??' for "Performer/rsmith" cannot be resolved
-ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-44255-8-csv-to-obs-example1.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 965: The link '??phinvads??' for "Patient/123" cannot be resolved
-ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-44255-8-csv-to-obs-example1.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1063: The link '??phinvads??' for "Performer/rsmith" cannot be resolved
-ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-55757-9-csv-to-obs-example1.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 967: The link '??phinvads??' for "Patient/123" cannot be resolved
-ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-55757-9-csv-to-obs-example1.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1065: The link '??phinvads??' for "Performer/rsmith" cannot be resolved
-ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-55757-9-csv-to-obs-example1.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 167, column 1145: The link '??phinvads??' for "Observation/44250-9-PHQ2Example1: Little interest or pleasure in doing things in last 2 weeks" cannot be resolved
-ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-55757-9-csv-to-obs-example1.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 167, column 1274: The link '??phinvads??' for "Observation/44255-8-PHQ2Example1: Feeling down, depressed, or hopeless in last 2 weeks" cannot be resolved
-ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-55757-9-csv-to-obs-example1.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 167, column 1396: The link '??phinvads??' for "Observation/55758-7-PHQ2Example1: Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]" cannot be resolved
-ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-55758-7-csv-to-obs-example1.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 979: The link '??phinvads??' for "Patient/123" cannot be resolved
-ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-55758-7-csv-to-obs-example1.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1077: The link '??phinvads??' for "Performer/rsmith" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-CSV-AHN-HRSNExample2-71802-3.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 903: The link '??phinvads??' for "Patient/123" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-CSV-AHN-HRSNExample2-71802-3.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1001: The link '??phinvads??' for "Performer/rsmith" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-CSV-AHN-HRSNExample2-88122-7.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 999: The link '??phinvads??' for "Patient/123" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-CSV-AHN-HRSNExample2-88122-7.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1097: The link '??phinvads??' for "Performer/rsmith" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-CSV-AHN-HRSNExample2-88123-5.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 998: The link '??phinvads??' for "Patient/123" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-CSV-AHN-HRSNExample2-88123-5.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1096: The link '??phinvads??' for "Performer/rsmith" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-CSV-AHN-HRSNExample2-93030-5.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1014: The link '??phinvads??' for "Patient/123" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-CSV-AHN-HRSNExample2-93030-5.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1112: The link '??phinvads??' for "Performer/rsmith" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-CSV-AHN-HRSNExample2-95614-4.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 907: The link '??phinvads??' for "Patient/123" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-CSV-AHN-HRSNExample2-95614-4.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1005: The link '??phinvads??' for "Performer/rsmith" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-CSV-AHN-HRSNExample2-95615-1.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 918: The link '??phinvads??' for "Patient/123" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-CSV-AHN-HRSNExample2-95615-1.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1016: The link '??phinvads??' for "Performer/rsmith" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-CSV-AHN-HRSNExample2-95616-9.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 927: The link '??phinvads??' for "Patient/123" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-CSV-AHN-HRSNExample2-95616-9.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1025: The link '??phinvads??' for "Performer/rsmith" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-CSV-AHN-HRSNExample2-95617-7.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 926: The link '??phinvads??' for "Patient/123" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-CSV-AHN-HRSNExample2-95617-7.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1024: The link '??phinvads??' for "Performer/rsmith" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-CSV-AHN-HRSNExample2-95618-5.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 915: The link '??phinvads??' for "Patient/123" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-CSV-AHN-HRSNExample2-95618-5.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1013: The link '??phinvads??' for "Performer/rsmith" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-CSV-AHN-HRSNExample2-96777-8.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 975: The link '??phinvads??' for "Patient/123" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-CSV-AHN-HRSNExample2-96777-8.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1073: The link '??phinvads??' for "Performer/rsmith" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-CSV-AHN-HRSNExample2-96778-6.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 923: The link '??phinvads??' for "Patient/123" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-CSV-AHN-HRSNExample2-96778-6.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1021: The link '??phinvads??' for "Performer/rsmith" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-CSV-AHN-HRSNExample2-96778-6answer-0.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 915: The link '??phinvads??' for "Patient/123" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-CSV-AHN-HRSNExample2-96778-6answer-0.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1013: The link '??phinvads??' for "Performer/rsmith" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-CSV-AHN-HRSNExample2-96778-6answer-5.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 915: The link '??phinvads??' for "Patient/123" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-CSV-AHN-HRSNExample2-96778-6answer-5.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1013: The link '??phinvads??' for "Performer/rsmith" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-CSV-AHN-HRSNExample2-96778-6answer-6.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 915: The link '??phinvads??' for "Patient/123" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-CSV-AHN-HRSNExample2-96778-6answer-6.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1013: The link '??phinvads??' for "Performer/rsmith" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-CSV-AHN-HRSNExample2-96779-4.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 996: The link '??phinvads??' for "Patient/123" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-CSV-AHN-HRSNExample2-96779-4.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1094: The link '??phinvads??' for "Performer/rsmith" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-CSV-PHQ-2Example1-44250-9.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 968: The link 'Patient-example.html' for "Patient/example" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-CSV-PHQ-2Example1-44250-9.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1078: The link '??phinvads??' for "Performer/example2" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-CSV-PHQ-2Example1-44255-8.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 961: The link 'Patient-example.html' for "Patient/example" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-CSV-PHQ-2Example1-44255-8.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1071: The link '??phinvads??' for "Performer/example2" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-CSV-PHQ-2Example1-55757-9.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 963: The link 'Patient-example.html' for "Patient/example" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-CSV-PHQ-2Example1-55757-9.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1073: The link '??phinvads??' for "Performer/example2" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-CSV-PHQ-2Example1-55758-7.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 975: The link 'Patient-example.html' for "Patient/example" cannot be resolved
+ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-CSV-PHQ-2Example1-55758-7.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1085: The link '??phinvads??' for "Performer/example2" cannot be resolved
 ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PHQ2-item-example-44250-9.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1173: The link 'Patient-example.html' for "Patient/example" cannot be resolved
 ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PHQ2-item-example-44250-9.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1297: The link 'Patient-example.html' for "Patient/example" cannot be resolved
 ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/Observation-PHQ2-item-example-44255-8.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1166: The link 'Patient-example.html' for "Patient/example" cannot be resolved
@@ -68,37 +110,138 @@ WARNING: Questionnaire/55757-9: Questionnaire.item[2].code[0]: A code with no sy
 WARNING: QuestionnaireResponse/5770517: QuestionnaireResponse.meta.tag[0]: A code with no system has no defined meaning. A system should be provided
 WARNING: QuestionnaireResponse/5770517: QuestionnaireResponse.item[0].answer[0].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
 WARNING: QuestionnaireResponse/5770517: QuestionnaireResponse.item[1].answer[0].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
-== input/examples/Observation-44250-9-csv-to-obs-example1.json ==
-ERROR: Observation/44250-9-csv-to-obs-example1: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
-INFORMATION: Observation/44250-9-csv-to-obs-example1: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#disability-status)
-ERROR: Observation/44250-9-csv-to-obs-example1: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
-ERROR: Observation/44250-9-csv-to-obs-example1: Observation.subject: Unable to resolve resource with reference 'Patient/123'
-ERROR: Observation/44250-9-csv-to-obs-example1: Observation.performer[0]: Unable to resolve resource with reference 'Performer/rsmith'
-WARNING: Observation/44250-9-csv-to-obs-example1: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
-== input/examples/Observation-44255-8-csv-to-obs-example1.json ==
-ERROR: Observation/44255-8-csv-to-obs-example1: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
-INFORMATION: Observation/44255-8-csv-to-obs-example1: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#disability-status)
-ERROR: Observation/44255-8-csv-to-obs-example1: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
-ERROR: Observation/44255-8-csv-to-obs-example1: Observation.subject: Unable to resolve resource with reference 'Patient/123'
-ERROR: Observation/44255-8-csv-to-obs-example1: Observation.performer[0]: Unable to resolve resource with reference 'Performer/rsmith'
-WARNING: Observation/44255-8-csv-to-obs-example1: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
-== input/examples/Observation-55757-9-csv-to-obs-example1.json ==
-ERROR: Observation/55757-9-csv-to-obs-example1: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
-INFORMATION: Observation/55757-9-csv-to-obs-example1: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#disability-status)
-ERROR: Observation/55757-9-csv-to-obs-example1: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
-ERROR: Observation/55757-9-csv-to-obs-example1: Observation.subject: Unable to resolve resource with reference 'Patient/123'
-ERROR: Observation/55757-9-csv-to-obs-example1: Observation.performer[0]: Unable to resolve resource with reference 'Performer/rsmith'
-ERROR: Observation/55757-9-csv-to-obs-example1: Observation.hasMember[0]: Unable to resolve resource with reference 'Observation/44250-9-PHQ2Example1'
-ERROR: Observation/55757-9-csv-to-obs-example1: Observation.hasMember[1]: Unable to resolve resource with reference 'Observation/44255-8-PHQ2Example1'
-ERROR: Observation/55757-9-csv-to-obs-example1: Observation.hasMember[2]: Unable to resolve resource with reference 'Observation/55758-7-PHQ2Example1'
-WARNING: Observation/55757-9-csv-to-obs-example1: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
-== input/examples/Observation-55758-7-csv-to-obs-example1.json ==
-ERROR: Observation/55758-7-csv-to-obs-example1: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
-INFORMATION: Observation/55758-7-csv-to-obs-example1: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#disability-status)
-ERROR: Observation/55758-7-csv-to-obs-example1: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
-ERROR: Observation/55758-7-csv-to-obs-example1: Observation.subject: Unable to resolve resource with reference 'Patient/123'
-ERROR: Observation/55758-7-csv-to-obs-example1: Observation.performer[0]: Unable to resolve resource with reference 'Performer/rsmith'
-WARNING: Observation/55758-7-csv-to-obs-example1: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== input/examples/Observation-CSV-AHN-HRSNExample2-71802-3.json ==
+ERROR: Observation/CSV-AHN-HRSNExample2-71802-3: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
+INFORMATION: Observation/CSV-AHN-HRSNExample2-71802-3: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#sdoh)
+ERROR: Observation/CSV-AHN-HRSNExample2-71802-3: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
+ERROR: Observation/CSV-AHN-HRSNExample2-71802-3: Observation.subject: Unable to resolve resource with reference 'Patient/123'
+ERROR: Observation/CSV-AHN-HRSNExample2-71802-3: Observation.performer[0]: Unable to resolve resource with reference 'Performer/rsmith'
+WARNING: Observation/CSV-AHN-HRSNExample2-71802-3: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== input/examples/Observation-CSV-AHN-HRSNExample2-88122-7.json ==
+ERROR: Observation/CSV-AHN-HRSNExample2-88122-7: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
+INFORMATION: Observation/CSV-AHN-HRSNExample2-88122-7: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#sdoh)
+ERROR: Observation/CSV-AHN-HRSNExample2-88122-7: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
+ERROR: Observation/CSV-AHN-HRSNExample2-88122-7: Observation.subject: Unable to resolve resource with reference 'Patient/123'
+ERROR: Observation/CSV-AHN-HRSNExample2-88122-7: Observation.performer[0]: Unable to resolve resource with reference 'Performer/rsmith'
+WARNING: Observation/CSV-AHN-HRSNExample2-88122-7: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== input/examples/Observation-CSV-AHN-HRSNExample2-88123-5.json ==
+ERROR: Observation/CSV-AHN-HRSNExample2-88123-5: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
+INFORMATION: Observation/CSV-AHN-HRSNExample2-88123-5: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#sdoh)
+ERROR: Observation/CSV-AHN-HRSNExample2-88123-5: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
+ERROR: Observation/CSV-AHN-HRSNExample2-88123-5: Observation.subject: Unable to resolve resource with reference 'Patient/123'
+ERROR: Observation/CSV-AHN-HRSNExample2-88123-5: Observation.performer[0]: Unable to resolve resource with reference 'Performer/rsmith'
+WARNING: Observation/CSV-AHN-HRSNExample2-88123-5: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== input/examples/Observation-CSV-AHN-HRSNExample2-93030-5.json ==
+ERROR: Observation/CSV-AHN-HRSNExample2-93030-5: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
+INFORMATION: Observation/CSV-AHN-HRSNExample2-93030-5: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#sdoh)
+ERROR: Observation/CSV-AHN-HRSNExample2-93030-5: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
+ERROR: Observation/CSV-AHN-HRSNExample2-93030-5: Observation.subject: Unable to resolve resource with reference 'Patient/123'
+ERROR: Observation/CSV-AHN-HRSNExample2-93030-5: Observation.performer[0]: Unable to resolve resource with reference 'Performer/rsmith'
+WARNING: Observation/CSV-AHN-HRSNExample2-93030-5: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== input/examples/Observation-CSV-AHN-HRSNExample2-95614-4.json ==
+ERROR: Observation/CSV-AHN-HRSNExample2-95614-4: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
+INFORMATION: Observation/CSV-AHN-HRSNExample2-95614-4: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#sdoh)
+ERROR: Observation/CSV-AHN-HRSNExample2-95614-4: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
+ERROR: Observation/CSV-AHN-HRSNExample2-95614-4: Observation.subject: Unable to resolve resource with reference 'Patient/123'
+ERROR: Observation/CSV-AHN-HRSNExample2-95614-4: Observation.performer[0]: Unable to resolve resource with reference 'Performer/rsmith'
+WARNING: Observation/CSV-AHN-HRSNExample2-95614-4: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== input/examples/Observation-CSV-AHN-HRSNExample2-95615-1.json ==
+ERROR: Observation/CSV-AHN-HRSNExample2-95615-1: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
+INFORMATION: Observation/CSV-AHN-HRSNExample2-95615-1: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#sdoh)
+ERROR: Observation/CSV-AHN-HRSNExample2-95615-1: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
+ERROR: Observation/CSV-AHN-HRSNExample2-95615-1: Observation.subject: Unable to resolve resource with reference 'Patient/123'
+ERROR: Observation/CSV-AHN-HRSNExample2-95615-1: Observation.performer[0]: Unable to resolve resource with reference 'Performer/rsmith'
+WARNING: Observation/CSV-AHN-HRSNExample2-95615-1: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== input/examples/Observation-CSV-AHN-HRSNExample2-95616-9.json ==
+ERROR: Observation/CSV-AHN-HRSNExample2-95616-9: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
+INFORMATION: Observation/CSV-AHN-HRSNExample2-95616-9: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#sdoh)
+ERROR: Observation/CSV-AHN-HRSNExample2-95616-9: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
+ERROR: Observation/CSV-AHN-HRSNExample2-95616-9: Observation.subject: Unable to resolve resource with reference 'Patient/123'
+ERROR: Observation/CSV-AHN-HRSNExample2-95616-9: Observation.performer[0]: Unable to resolve resource with reference 'Performer/rsmith'
+WARNING: Observation/CSV-AHN-HRSNExample2-95616-9: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== input/examples/Observation-CSV-AHN-HRSNExample2-95617-7.json ==
+ERROR: Observation/CSV-AHN-HRSNExample2-95617-7: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
+INFORMATION: Observation/CSV-AHN-HRSNExample2-95617-7: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#sdoh)
+ERROR: Observation/CSV-AHN-HRSNExample2-95617-7: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
+ERROR: Observation/CSV-AHN-HRSNExample2-95617-7: Observation.subject: Unable to resolve resource with reference 'Patient/123'
+ERROR: Observation/CSV-AHN-HRSNExample2-95617-7: Observation.performer[0]: Unable to resolve resource with reference 'Performer/rsmith'
+WARNING: Observation/CSV-AHN-HRSNExample2-95617-7: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== input/examples/Observation-CSV-AHN-HRSNExample2-95618-5.json ==
+ERROR: Observation/CSV-AHN-HRSNExample2-95618-5: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
+INFORMATION: Observation/CSV-AHN-HRSNExample2-95618-5: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#sdoh)
+ERROR: Observation/CSV-AHN-HRSNExample2-95618-5: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
+ERROR: Observation/CSV-AHN-HRSNExample2-95618-5: Observation.subject: Unable to resolve resource with reference 'Patient/123'
+ERROR: Observation/CSV-AHN-HRSNExample2-95618-5: Observation.performer[0]: Unable to resolve resource with reference 'Performer/rsmith'
+WARNING: Observation/CSV-AHN-HRSNExample2-95618-5: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== input/examples/Observation-CSV-AHN-HRSNExample2-96777-8.json ==
+ERROR: Observation/CSV-AHN-HRSNExample2-96777-8: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
+INFORMATION: Observation/CSV-AHN-HRSNExample2-96777-8: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#sdoh)
+ERROR: Observation/CSV-AHN-HRSNExample2-96777-8: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
+ERROR: Observation/CSV-AHN-HRSNExample2-96777-8: Observation.subject: Unable to resolve resource with reference 'Patient/123'
+ERROR: Observation/CSV-AHN-HRSNExample2-96777-8: Observation.performer[0]: Unable to resolve resource with reference 'Performer/rsmith'
+WARNING: Observation/CSV-AHN-HRSNExample2-96777-8: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== input/examples/Observation-CSV-AHN-HRSNExample2-96778-6.json ==
+ERROR: Observation/CSV-AHN-HRSNExample2-96778-6: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
+INFORMATION: Observation/CSV-AHN-HRSNExample2-96778-6: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#sdoh)
+ERROR: Observation/CSV-AHN-HRSNExample2-96778-6: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
+ERROR: Observation/CSV-AHN-HRSNExample2-96778-6: Observation.subject: Unable to resolve resource with reference 'Patient/123'
+ERROR: Observation/CSV-AHN-HRSNExample2-96778-6: Observation.performer[0]: Unable to resolve resource with reference 'Performer/rsmith'
+WARNING: Observation/CSV-AHN-HRSNExample2-96778-6: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== input/examples/Observation-CSV-AHN-HRSNExample2-96778-6answer-0.json ==
+ERROR: Observation/CSV-AHN-HRSNExample2-96778-6answer-0: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
+INFORMATION: Observation/CSV-AHN-HRSNExample2-96778-6answer-0: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#sdoh)
+ERROR: Observation/CSV-AHN-HRSNExample2-96778-6answer-0: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
+ERROR: Observation/CSV-AHN-HRSNExample2-96778-6answer-0: Observation.code.coding[0]: Local Error: Resolved system http://loinc.org (v3.0.0), but the definition is not complete. Server Error: The code "96778-6[0]" is not valid in the system http://loinc.org; The code provided (http://loinc.org#96778-6[0]) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://loinc.org#96778-6[0]'
+ERROR: Observation/CSV-AHN-HRSNExample2-96778-6answer-0: Observation.subject: Unable to resolve resource with reference 'Patient/123'
+ERROR: Observation/CSV-AHN-HRSNExample2-96778-6answer-0: Observation.performer[0]: Unable to resolve resource with reference 'Performer/rsmith'
+WARNING: Observation/CSV-AHN-HRSNExample2-96778-6answer-0: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== input/examples/Observation-CSV-AHN-HRSNExample2-96778-6answer-5.json ==
+ERROR: Observation/CSV-AHN-HRSNExample2-96778-6answer-5: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
+INFORMATION: Observation/CSV-AHN-HRSNExample2-96778-6answer-5: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#sdoh)
+ERROR: Observation/CSV-AHN-HRSNExample2-96778-6answer-5: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
+ERROR: Observation/CSV-AHN-HRSNExample2-96778-6answer-5: Observation.code.coding[0]: Local Error: Resolved system http://loinc.org (v3.0.0), but the definition is not complete. Server Error: The code "96778-6[5]" is not valid in the system http://loinc.org; The code provided (http://loinc.org#96778-6[5]) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://loinc.org#96778-6[5]'
+ERROR: Observation/CSV-AHN-HRSNExample2-96778-6answer-5: Observation.subject: Unable to resolve resource with reference 'Patient/123'
+ERROR: Observation/CSV-AHN-HRSNExample2-96778-6answer-5: Observation.performer[0]: Unable to resolve resource with reference 'Performer/rsmith'
+WARNING: Observation/CSV-AHN-HRSNExample2-96778-6answer-5: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== input/examples/Observation-CSV-AHN-HRSNExample2-96778-6answer-6.json ==
+ERROR: Observation/CSV-AHN-HRSNExample2-96778-6answer-6: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
+INFORMATION: Observation/CSV-AHN-HRSNExample2-96778-6answer-6: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#sdoh)
+ERROR: Observation/CSV-AHN-HRSNExample2-96778-6answer-6: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
+ERROR: Observation/CSV-AHN-HRSNExample2-96778-6answer-6: Observation.code.coding[0]: Local Error: Resolved system http://loinc.org (v3.0.0), but the definition is not complete. Server Error: The code "96778-6[6]" is not valid in the system http://loinc.org; The code provided (http://loinc.org#96778-6[6]) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://loinc.org#96778-6[6]'
+ERROR: Observation/CSV-AHN-HRSNExample2-96778-6answer-6: Observation.subject: Unable to resolve resource with reference 'Patient/123'
+ERROR: Observation/CSV-AHN-HRSNExample2-96778-6answer-6: Observation.performer[0]: Unable to resolve resource with reference 'Performer/rsmith'
+WARNING: Observation/CSV-AHN-HRSNExample2-96778-6answer-6: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== input/examples/Observation-CSV-AHN-HRSNExample2-96779-4.json ==
+ERROR: Observation/CSV-AHN-HRSNExample2-96779-4: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
+INFORMATION: Observation/CSV-AHN-HRSNExample2-96779-4: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#sdoh)
+ERROR: Observation/CSV-AHN-HRSNExample2-96779-4: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
+ERROR: Observation/CSV-AHN-HRSNExample2-96779-4: Observation.subject: Unable to resolve resource with reference 'Patient/123'
+ERROR: Observation/CSV-AHN-HRSNExample2-96779-4: Observation.performer[0]: Unable to resolve resource with reference 'Performer/rsmith'
+WARNING: Observation/CSV-AHN-HRSNExample2-96779-4: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== input/examples/Observation-CSV-PHQ-2Example1-44250-9.json ==
+ERROR: Observation/CSV-PHQ-2Example1-44250-9: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
+INFORMATION: Observation/CSV-PHQ-2Example1-44250-9: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#disability-status)
+ERROR: Observation/CSV-PHQ-2Example1-44250-9: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
+ERROR: Observation/CSV-PHQ-2Example1-44250-9: Observation.performer[0]: Unable to resolve resource with reference 'Performer/example2'
+WARNING: Observation/CSV-PHQ-2Example1-44250-9: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== input/examples/Observation-CSV-PHQ-2Example1-44255-8.json ==
+ERROR: Observation/CSV-PHQ-2Example1-44255-8: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
+INFORMATION: Observation/CSV-PHQ-2Example1-44255-8: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#disability-status)
+ERROR: Observation/CSV-PHQ-2Example1-44255-8: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
+ERROR: Observation/CSV-PHQ-2Example1-44255-8: Observation.performer[0]: Unable to resolve resource with reference 'Performer/example2'
+WARNING: Observation/CSV-PHQ-2Example1-44255-8: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== input/examples/Observation-CSV-PHQ-2Example1-55757-9.json ==
+ERROR: Observation/CSV-PHQ-2Example1-55757-9: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
+INFORMATION: Observation/CSV-PHQ-2Example1-55757-9: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#disability-status)
+ERROR: Observation/CSV-PHQ-2Example1-55757-9: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
+ERROR: Observation/CSV-PHQ-2Example1-55757-9: Observation.performer[0]: Unable to resolve resource with reference 'Performer/example2'
+WARNING: Observation/CSV-PHQ-2Example1-55757-9: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== input/examples/Observation-CSV-PHQ-2Example1-55758-7.json ==
+ERROR: Observation/CSV-PHQ-2Example1-55758-7: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
+INFORMATION: Observation/CSV-PHQ-2Example1-55758-7: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#disability-status)
+ERROR: Observation/CSV-PHQ-2Example1-55758-7: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
+ERROR: Observation/CSV-PHQ-2Example1-55758-7: Observation.performer[0]: Unable to resolve resource with reference 'Performer/example2'
+WARNING: Observation/CSV-PHQ-2Example1-55758-7: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 == input/examples/Observation-PHQ2-item-example-44250-9.json ==
 ERROR: Observation/PHQ2-item-example-44250-9: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
 INFORMATION: Observation/PHQ2-item-example-44250-9: Observation.category[1]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#disability-status)

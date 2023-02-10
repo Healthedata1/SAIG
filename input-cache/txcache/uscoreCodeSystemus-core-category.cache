@@ -30,3 +30,23 @@ v: {
   "system" : "http://hl7.org/fhir/us/core/CodeSystem/us-core-category"
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/us/core/CodeSystem/us-core-category",
+  "code" : "sdoh"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "SDOH",
+  "code" : "sdoh",
+  "system" : "http://hl7.org/fhir/us/core/CodeSystem/us-core-category"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/us/core/CodeSystem/us-core-category",
+  "code" : "sdoh"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "SDOH",
+  "code" : "sdoh",
+  "system" : "http://hl7.org/fhir/us/core/CodeSystem/us-core-category"
+}
+-------------------------------------------------------------------------------------

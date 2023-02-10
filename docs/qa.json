@@ -3,10 +3,10 @@
   "name" : "SAIG",
   "package-id" : "saig",
   "ig-ver" : "0.0.0",
-  "date" : "Thu, 09 Feb, 2023 15:31:54 -0800",
-  "errs" : 29,
-  "warnings" : 28,
-  "hints" : 11,
+  "date" : "Thu, 09 Feb, 2023 18:12:53 -0800",
+  "errs" : 85,
+  "warnings" : 43,
+  "hints" : 26,
   "version" : "4.0.1",
   "tool" : "5.0.0-snapshot2 (3)"
 }

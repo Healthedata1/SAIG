@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="CSV-AHN-HRSNExample2-96778-6"/>
+  <meta>
+    <extension url="http://hl7.org/fhir/StructureDefinition/instance-name">
+      <valueString value="Csv-Ahn-Hrsnexample2-96778-6"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/instance-description">
+      <valueMarkdown value="This is a an example of 96778-6 Problems with place where you live for the *US Core Observation Screening Assessment Profile*"/>
+    </extension>
+    <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="CSV-AHN-HRSNExample2-96778-6"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;CSV-AHN-HRSNExample2-96778-6&quot; </p><p style="margin-bottom: 0px">Profile: <code>http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment</code></p></div><p><b>status</b>: final</p><p><b>category</b>: SDOH <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (us-core-category#sdoh)</span></p><p><b>code</b>: Problems with place where you live <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#96778-6)</span></p><p><b>subject</b>: <a href="??phinvads??">Patient/123</a></p><p><b>effective</b>: 2021-01-01</p><p><b>performer</b>: <a href="??phinvads??">Performer/rsmith</a></p><p><b>hasMember</b>: </p><ul><li><a href="Observation-CSV-AHN-HRSNExample2-96778-6answer-0.html">Observation/CSV-AHN-HRSNExample2-96778-6answer-0</a></li><li><a href="Observation-CSV-AHN-HRSNExample2-96778-6answer-5.html">Observation/CSV-AHN-HRSNExample2-96778-6answer-5</a></li><li><a href="Observation-CSV-AHN-HRSNExample2-96778-6answer-6.html">Observation/CSV-AHN-HRSNExample2-96778-6answer-6</a></li></ul><p><b>derivedFrom</b>: <a href="DocumentReference-example2ahn-hrsnquestionnaire.html">DocumentReference/example2ahn-hrsnquestionnaire</a></p></div>
+  </text>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://hl7.org/fhir/us/core/CodeSystem/us-core-category"/>
+      <code value="sdoh"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="96778-6"/>
+      <display value="Problems with place where you live"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/123"/>
+  </subject>
+  <effectiveDateTime value="2021-01-01"/>
+  <performer>
+    <reference value="Performer/rsmith"/>
+  </performer>
+  <hasMember>
+    <reference value="Observation/CSV-AHN-HRSNExample2-96778-6answer-0"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/CSV-AHN-HRSNExample2-96778-6answer-5"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/CSV-AHN-HRSNExample2-96778-6answer-6"/>
+  </hasMember>
+  <derivedFrom>
+    <reference value="DocumentReference/example2ahn-hrsnquestionnaire"/>
+  </derivedFrom>
+</Observation>
