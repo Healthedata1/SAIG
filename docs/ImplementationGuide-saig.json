@@ -18,7 +18,7 @@
   "name" : "SAIG",
   "title" : "Screenings and Assessments Implementation Guide",
   "status" : "active",
-  "date" : "2023-02-09T20:10:49-08:00",
+  "date" : "2023-02-09T20:40:23-08:00",
   "publisher" : "Health eData Inc",
   "contact" : [{
     "telecom" : [{
@@ -828,6 +828,17 @@
       "name" : "Example 1 PHQ-2 QuestionnaireResponse",
       "description" : "Example 1 PHQ-2 QuestionnaireResponse",
       "exampleCanonical" : "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaireresponse"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Questionnaire"
+      }],
+      "reference" : {
+        "reference" : "Questionnaire/96777-8"
+      },
+      "name" : "96777-8",
+      "exampleBoolean" : true
     },
     {
       "extension" : [{

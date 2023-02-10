@@ -107,6 +107,13 @@
       },
       {
         "reference": {
+          "reference": "Questionnaire/96777-8"
+        },
+        "name": "96777-8",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
           "reference": "Observation/CSV-AHN-HRSNExample2-71802-3"
         },
         "description": "This is a an example of 71802-3 Housing status for the *US Core Observation Screening Assessment Profile*",
