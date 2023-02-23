@@ -9,6 +9,9 @@ meta:
       item (PHQ-2) [Reported] for the *US Core Observation Screening Assessment Profile*
   profile:
   - http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment
+extension:
+- url: http://www.fhir.org/guides/saig/StructureDefinition/observation-questionnaire
+  valueCanonical: http://www.fhir.org/guides/saig/Questionnaire/55757-9
 status: final
 category:
 - coding:
@@ -31,5 +34,3 @@ hasMember:
   display: Feeling down, depressed, or hopeless in last 2 weeks
 - reference: Observation/CSV-PHQ-2Example1-55758-7
   display: Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]
-derivedFrom:
-- reference: DocumentReference/example1phq-2questionnaire
