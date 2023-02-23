@@ -17,7 +17,7 @@
   <name value="SAIG"/>
   <title value="Screenings and Assessments Implementation Guide"/>
   <status value="active"/>
-  <date value="2023-02-10T00:01:25-08:00"/>
+  <date value="2023-02-22T21:24:48-08:00"/>
   <publisher value="Health eData Inc"/>
   <contact>
     <telecom>
@@ -580,6 +580,17 @@
         <valueString value="true"/>
       </extension>
     </extension>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/observation-questionnaire"/>
+      </reference>
+      <name value="Observation Questionnaire Extension"/>
+      <description value="Reference to source Questionnaire that defines the question or group of questions that this Observation represents"/>
+      <exampleBoolean value="false"/>
+    </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="DocumentReference"/>

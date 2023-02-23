@@ -1,9 +1,9 @@
 ﻿SAIG : Validation Results
 =========================================
 
-err = 161, warn = 74, info = 51
-IG Publisher Version: 1.2.31 Out of date - current version is 1.2.35
-Generated Fri Feb 10 00:01:46 PST 2023. FHIR version 4.0.1 for saig#0.0.0 (canonical = http://www.fhir.org/guides/saig)
+err = 161, warn = 75, info = 51
+IG Publisher Version: 1.2.37
+Generated Wed Feb 22 21:25:11 PST 2023. FHIR version 4.0.1 for saig#0.0.0 (canonical = http://www.fhir.org/guides/saig)
  Build Errors : 100 / 0 / 0
  /Users/ehaas/Documents/FHIR/SAIG/fsh-generated/resources/ImplementationGuide-saig : 0 / 0 / 1
  /Users/ehaas/Documents/FHIR/SAIG/input/examples/DocumentReference-Example1PHQ-2Questionnaire : 1 / 0 / 1
@@ -59,6 +59,7 @@ Generated Fri Feb 10 00:01:46 PST 2023. FHIR version 4.0.1 for saig#0.0.0 (canon
  /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-PRAPARE-Example3-93041-2 : 4 / 1 / 2
  /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-PRAPARE-Example3-93042-0 : 3 / 1 / 2
  /Users/ehaas/Documents/FHIR/SAIG/input/examples/Observation-PRAPARE-Example3-93043-8 : 3 / 1 / 2
+ /Users/ehaas/Documents/FHIR/SAIG/input/resources/StructureDefinition-observation-questionnaire : 0 / 1 / 1
 </table>
 == n/a ==
 ERROR: /Users/ehaas/Documents/FHIR/SAIG/docs/DocumentReference-example1phq-2questionnaire.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1189: The link 'Patient-example.html' for "Patient/example" cannot be resolved
@@ -501,3 +502,5 @@ INFORMATION: Observation/PRAPARE-Example3-93043-8: Observation.category[0]: None
 ERROR: Observation/PRAPARE-Example3-93043-8: Observation.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/core/CodeSystem/us-core-category' does not resolve
 ERROR: Observation/PRAPARE-Example3-93043-8: Observation.performer[0]: Unable to resolve resource with reference 'Performer/example2'
 WARNING: Observation/PRAPARE-Example3-93043-8: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== input/resources/StructureDefinition-observation-questionnaire.json ==
+WARNING: StructureDefinition.where(url = 'http://www.fhir.org/guides/saig/StructureDefinition/observation-questionnaire'): The Implementation Guide contains no examples for this extension

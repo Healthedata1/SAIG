@@ -24,5 +24,12 @@
     "type" : "Questionnaire",
     "url" : "http://www.fhir.org/guides/saig/Questionnaire/93025-5",
     "version" : "0.0.0"
+  },
+  {
+    "id" : "observation-questionnaire",
+    "type" : "StructureDefinition",
+    "url" : "http://www.fhir.org/guides/saig/StructureDefinition/observation-questionnaire",
+    "version" : "0.0.0",
+    "name" : "ObservationQuestionnaire"
   }
 ]

@@ -75,6 +75,14 @@
     "resource": [
       {
         "reference": {
+          "reference": "StructureDefinition/observation-questionnaire"
+        },
+        "description": "Reference to source Questionnaire that defines the question or group of questions that this Observation represents",
+        "exampleBoolean": false,
+        "name": "Observation Questionnaire Extension"
+      },
+      {
+        "reference": {
           "reference": "DocumentReference/example1phq-2questionnaire"
         },
         "description": "This is a an example of Example1PHQ-2Questionnaire  for the *US Core DocumentReference Profile*",

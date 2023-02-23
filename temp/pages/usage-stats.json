@@ -2,7 +2,15 @@
   "package": "saig",
   "version": "0.0.0",
   "fhirVersion": "4.0.1",
-  "extensions": [],
+  "extensions": [
+    {
+      "url": "http://www.fhir.org/guides/saig/StructureDefinition/observation-questionnaire",
+      "title": "Observation Questionnaire Extension",
+      "types": [
+        "canonical"
+      ]
+    }
+  ],
   "profiles": {},
   "usage": {
     "http://hl7.org/fhir/StructureDefinition/instance-description": [
@@ -38,13 +46,18 @@
       "Questionnaire.item",
       "Questionnaire.item.item"
     ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
+      "StructureDefinition.snapshot.element.type"
+    ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm": [
-      "ImplementationGuide"
+      "ImplementationGuide",
+      "StructureDefinition"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status": [
       "ImplementationGuide",
       "ImplementationGuide.definition.page",
-      "ImplementationGuide.definition.page.page"
+      "ImplementationGuide.definition.page.page",
+      "StructureDefinition"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name": [
       "ImplementationGuide.definition.page",

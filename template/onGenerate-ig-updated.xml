@@ -22,7 +22,7 @@
    <name value="SAIG"/>
    <title value="Screenings and Assessments Implementation Guide"/>
    <status value="active"/>
-   <date value="2023-02-10T00:01:25-08:00"/>
+   <date value="2023-02-22T21:24:48-08:00"/>
    <publisher value="Health eData Inc"/>
    <contact>
       <telecom>
@@ -344,7 +344,10 @@
 
 
 
-
+      <grouping id="-str-extension">
+         <name value="Structures: Extension Definitions"/>
+         <description value="These define constraints on FHIR data types for systems conforming to this implementation guide."/>
+      </grouping>
 
 
 
@@ -357,6 +360,21 @@
          <description value="These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like."/>
       </grouping>
 
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:extension"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-observation-questionnaire.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/observation-questionnaire"/>
+         </reference>
+         <name value="Observation Questionnaire Extension"/>
+         <description value="Reference to source Questionnaire that defines the question or group of questions that this Observation represents"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-str-extension"/>
+      </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="DocumentReference"/>
@@ -1177,6 +1195,11 @@
             <nameUrl value="artifacts.html"/>
             <title value="Artifacts Summary"/>
             <generation value="html"/>
+            <page>
+               <nameUrl value="StructureDefinition-observation-questionnaire.html"/>
+               <title value="Observation Questionnaire Extension"/>
+               <generation value="generated"/>
+            </page>
             <page>
                <nameUrl value="DocumentReference-example1phq-2questionnaire.html"/>
                <title value="DocRef Example1PHQ-2Questionnaire"/>

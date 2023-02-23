@@ -1,6 +1,32 @@
 {
-  "extension-contexts" : [],
+  "observation-questionnaire" : {
+    "index" : 0,
+    "url" : "http://www.fhir.org/guides/saig/StructureDefinition/observation-questionnaire",
+    "name" : "ObservationQuestionnaire",
+    "title" : "Observation Questionnaire Extension",
+    "path" : "StructureDefinition-observation-questionnaire.html",
+    "kind" : "complex-type",
+    "type" : "Extension",
+    "base" : "http://hl7.org/fhir/StructureDefinition/Extension",
+    "basename" : "Extension",
+    "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
+    "status" : "draft",
+    "date" : "Mon Apr 21 00:00:00 PDT 2014",
+    "abstract" : false,
+    "derivation" : "constraint",
+    "publisher" : "Health eData Inc",
+    "copyright" : null,
+    "description" : "Reference to source Questionnaire that defines the question that this Observation answers or the group or panel of questions that this Observation represents",
+    "contexts" : [
+      {
+        "type" : "Element ID",
+        "expression" : "Observation"
+      }
+    ],
+    "extension-contexts" : ["Extension", "Observation", "Path", "multiple", "none"]
+  },
   "maturities" : {
-    "ImplementationGuide-saig" : "0"
+    "ImplementationGuide-saig" : "0",
+    "StructureDefinition-observation-questionnaire" : "0"
   }
 }

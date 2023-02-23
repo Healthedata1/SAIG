@@ -18,7 +18,7 @@
   "name" : "SAIG",
   "title" : "Screenings and Assessments Implementation Guide",
   "status" : "active",
-  "date" : "2023-02-10T00:01:25-08:00",
+  "date" : "2023-02-22T21:24:48-08:00",
   "publisher" : "Health eData Inc",
   "contact" : [{
     "telecom" : [{
@@ -782,6 +782,18 @@
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     }],
     "resource" : [{
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/observation-questionnaire"
+      },
+      "name" : "Observation Questionnaire Extension",
+      "description" : "Reference to source Questionnaire that defines the question or group of questions that this Observation represents",
+      "exampleBoolean" : false
+    },
+    {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "DocumentReference"

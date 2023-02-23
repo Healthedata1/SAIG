@@ -1,0 +1,44 @@
+resourceType: StructureDefinition
+id: observation-questionnaire
+url: 'http://www.fhir.org/guides/saig/StructureDefinition/observation-questionnaire'
+version: 4.3.0
+name: ObservationQuestionnaire
+title: Observation Questionnaire Extension
+status: draft
+experimental: false
+date: '2014-04-21'
+description: >-
+  Reference to source Questionnaire that defines the question that this Observation answers or the group or panel of questions that this Observation represents
+fhirVersion: 4.3.0
+kind: complex-type
+abstract: false
+context:
+  - type: element
+    expression: Observation
+type: Extension
+baseDefinition: 'http://hl7.org/fhir/StructureDefinition/Extension'
+derivation: constraint
+
+differential:
+  element:
+    - id: Extension
+      path: Extension
+      short: Reference to source Questionnaire
+      definition: >-
+          Reference to source Questionnaire that defines the question that this Observation answers or the group or panel of questions that this Observation represents
+      min: 0
+      max: '1'
+    - id: Extension.extension
+      path: Extension.extension
+      max: '0'
+    - id: Extension.url
+      path: Extension.url
+      fixedUri: 'http://www.fhir.org/guides/saig/StructureDefinition/observation-questionnaire'
+    - id: 'Extension.value[x]'
+      path: 'Extension.value[x]'
+      min: 1
+      type:
+        - code: canonical
+          targetProfile:
+            - 'http://hl7.org/fhir/StructureDefinition/Questionnaire'
+            - 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire'
