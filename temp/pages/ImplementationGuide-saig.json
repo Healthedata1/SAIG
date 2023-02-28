@@ -18,7 +18,7 @@
   "name" : "SAIG",
   "title" : "Screenings and Assessments Implementation Guide",
   "status" : "active",
-  "date" : "2023-02-28T11:05:53-08:00",
+  "date" : "2023-02-28T11:19:36-08:00",
   "publisher" : "Health eData Inc",
   "contact" : [{
     "telecom" : [{
@@ -875,7 +875,7 @@
       },
       "name" : "Example 2 Custom Form",
       "description" : "Example 2 Custom Form",
-      "exampleBoolean" : true
+      "exampleCanonical" : "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire"
     },
     {
       "extension" : [{
@@ -1067,6 +1067,66 @@
       },
       "name" : "Csv-Ahn-Hrsnexample2-96779-4",
       "description" : "This is a an example of 96779-4 Has the electric, gas, oil, or water company threatened to shut off services in your home in past 12 months for the *US Core Observation Screening Assessment Profile*",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/CSV-CustomFormExample2-44250-9"
+      },
+      "name" : "Csv-Customformexample2-44250-9",
+      "description" : "This is a an example of 44250-9 (display = Little interest or pleasure in doing things in last 2 weeks) for the *US Core Observation Screening Assessment Profile*",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/CSV-CustomFormExample2-44255-8"
+      },
+      "name" : "Csv-Customformexample2-44255-8",
+      "description" : "This is a an example of 44255-8 (display = Feeling down, depressed, or hopeless in last 2 weeks) for the *US Core Observation Screening Assessment Profile*",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/CSV-CustomFormExample2-55758-7"
+      },
+      "name" : "Csv-Customformexample2-55758-7",
+      "description" : "This is a an example of 55758-7 (display = Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]) for the *US Core Observation Screening Assessment Profile*",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/CSV-CustomFormExample2-CUST-ITM"
+      },
+      "name" : "Csv-Customformexample2-Cust-Itm",
+      "description" : "This is a an example of CUST-ITM (display = Unknown) for the *US Core Observation Screening Assessment Profile*",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/CSV-CustomFormExample2-CUST-PNL"
+      },
+      "name" : "Csv-Customformexample2-Cust-Pnl",
+      "description" : "This is a an example of CUST-PNL (display = Unknown) for the *US Core Observation Screening Assessment Profile*",
       "exampleBoolean" : true
     },
     {

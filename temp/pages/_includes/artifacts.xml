@@ -225,6 +225,46 @@
             </tr>
             <tr>
                <td style="column-width:30%">
+                  <a href="Observation-CSV-CustomFormExample2-44250-9.html"
+                     title="Observation/CSV-CustomFormExample2-44250-9">Csv-Customformexample2-44250-9</a>
+               </td>
+               <td>{% capture desc %}This is a an example of 44250-9 (display = Little interest or pleasure in doing things in last 2 weeks) for the *US Core Observation Screening Assessment Profile*{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-CSV-CustomFormExample2-44255-8.html"
+                     title="Observation/CSV-CustomFormExample2-44255-8">Csv-Customformexample2-44255-8</a>
+               </td>
+               <td>{% capture desc %}This is a an example of 44255-8 (display = Feeling down, depressed, or hopeless in last 2 weeks) for the *US Core Observation Screening Assessment Profile*{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-CSV-CustomFormExample2-55758-7.html"
+                     title="Observation/CSV-CustomFormExample2-55758-7">Csv-Customformexample2-55758-7</a>
+               </td>
+               <td>{% capture desc %}This is a an example of 55758-7 (display = Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]) for the *US Core Observation Screening Assessment Profile*{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-CSV-CustomFormExample2-CUST-ITM.html"
+                     title="Observation/CSV-CustomFormExample2-CUST-ITM">Csv-Customformexample2-Cust-Itm</a>
+               </td>
+               <td>{% capture desc %}This is a an example of CUST-ITM (display = Unknown) for the *US Core Observation Screening Assessment Profile*{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-CSV-CustomFormExample2-CUST-PNL.html"
+                     title="Observation/CSV-CustomFormExample2-CUST-PNL">Csv-Customformexample2-Cust-Pnl</a>
+               </td>
+               <td>{% capture desc %}This is a an example of CUST-PNL (display = Unknown) for the *US Core Observation Screening Assessment Profile*{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="Observation-CSV-PHQ-2Example1-44250-9.html"
                      title="Observation/CSV-PHQ-2Example1-44250-9">Csv-Phq-2Example1-44250-9</a>
                </td>

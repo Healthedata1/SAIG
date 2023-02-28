@@ -1,0 +1,55 @@
+{
+    "resourceType": "Observation",
+    "id": "CSV-CustomFormExample2-CUST-ITM",
+    "meta": {
+        "extension": [
+            {
+                "url": "http://hl7.org/fhir/StructureDefinition/instance-name",
+                "valueString": "Csv-Customformexample2-Cust-Itm"
+            },
+            {
+                "url": "http://hl7.org/fhir/StructureDefinition/instance-description",
+                "valueMarkdown": "This is a an example of CUST-ITM (display = Unknown) for the *US Core Observation Screening Assessment Profile*"
+            }
+        ],
+        "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://www.fhir.org/guides/saig/StructureDefinition/observation-questionnaire",
+            "valueCanonical": "http://www.fhir.org/guides/saig/Questionnaire/CUST-PNL"
+        }
+    ],
+    "status": "final",
+    "category": [
+        {
+            "coding": [
+                {
+                    "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-category",
+                    "code": "disability-status"
+                }
+            ]
+        }
+    ],
+    "code": {
+        "coding": [
+            {
+                "system": "http://example.org",
+                "code": "CUST-ITM",
+                "display": "Unknown"
+            }
+        ]
+    },
+    "subject": {
+        "reference": "Patient/example"
+    },
+    "effectiveDateTime": "2021-02-02",
+    "performer": [
+        {
+            "reference": "Performer/example2"
+        }
+    ],
+    "valueString": "blue"
+}

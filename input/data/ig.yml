@@ -92,7 +92,7 @@ definition:
       reference: Questionnaire/CUST-PNL
     description: Example 2 Custom Form
     name: Example 2 Custom Form
-    exampleBoolean: true
+    exampleCanonical: http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire
   - reference:
       reference: Questionnaire/93025-5
     description: Example 3 PRAPARE Questionnaire
@@ -192,6 +192,39 @@ definition:
       company threatened to shut off services in your home in past 12 months for the
       *US Core Observation Screening Assessment Profile*
     name: Csv-Ahn-Hrsnexample2-96779-4
+    exampleBoolean: true
+  - reference:
+      reference: Observation/CSV-CustomFormExample2-44250-9
+    description: This is a an example of 44250-9 (display = Little interest or pleasure
+      in doing things in last 2 weeks) for the *US Core Observation Screening Assessment
+      Profile*
+    name: Csv-Customformexample2-44250-9
+    exampleBoolean: true
+  - reference:
+      reference: Observation/CSV-CustomFormExample2-44255-8
+    description: This is a an example of 44255-8 (display = Feeling down, depressed,
+      or hopeless in last 2 weeks) for the *US Core Observation Screening Assessment
+      Profile*
+    name: Csv-Customformexample2-44255-8
+    exampleBoolean: true
+  - reference:
+      reference: Observation/CSV-CustomFormExample2-55758-7
+    description: This is a an example of 55758-7 (display = Patient Health Questionnaire
+      2 item (PHQ-2) total score [Reported]) for the *US Core Observation Screening
+      Assessment Profile*
+    name: Csv-Customformexample2-55758-7
+    exampleBoolean: true
+  - reference:
+      reference: Observation/CSV-CustomFormExample2-CUST-ITM
+    description: This is a an example of CUST-ITM (display = Unknown) for the *US
+      Core Observation Screening Assessment Profile*
+    name: Csv-Customformexample2-Cust-Itm
+    exampleBoolean: true
+  - reference:
+      reference: Observation/CSV-CustomFormExample2-CUST-PNL
+    description: This is a an example of CUST-PNL (display = Unknown) for the *US
+      Core Observation Screening Assessment Profile*
+    name: Csv-Customformexample2-Cust-Pnl
     exampleBoolean: true
   - reference:
       reference: Observation/CSV-PHQ-2Example1-44250-9
