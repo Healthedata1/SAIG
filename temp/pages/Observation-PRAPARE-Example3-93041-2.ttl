@@ -26,8 +26,16 @@
      ]
   ]; # 
   fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"PRAPARE-Example3-93041-2\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;PRAPARE-Example3-93041-2&quot; </p><p style=\"margin-bottom: 0px\">Profile: <code>http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment</code></p></div><p><b>status</b>: final</p><p><b>category</b>: SDOH <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (us-core-category#sdoh)</span></p><p><b>code</b>: Money and resources [PRAPARE] <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#93041-2)</span></p><p><b>subject</b>: <a href=\"Patient-example.html\">Patient/example</a></p><p><b>effective</b>: 2021-02-02</p><p><b>performer</b>: <a href=\"??phinvads??\">Performer/example2</a></p><p><b>hasMember</b>: </p><ul><li><a href=\"Observation-PRAPARE-Example3-82589-3.html\">Observation/PRAPARE-Example3-82589-3: Highest level of education</a></li><li><a href=\"Observation-PRAPARE-Example3-67875-5.html\">Observation/PRAPARE-Example3-67875-5: Employment status - current</a></li><li><a href=\"Observation-PRAPARE-Example3-76437-3.html\">Observation/PRAPARE-Example3-76437-3: Primary insurance</a></li><li><a href=\"Observation-PRAPARE-Example3-63586-2.html\">Observation/PRAPARE-Example3-63586-2: What was your best estimate of the total income of all family members from all sources, before taxes, in last year [PhenX]</a></li><li><a href=\"??phinvads??\">Observation/PRAPARE-Example3-93031-3: Have you or any family members you live with been unable to get any of the following when it was really needed in past 1 year [PRAPARE]</a></li><li><a href=\"Observation-PRAPARE-Example3-93030-5.html\">Observation/PRAPARE-Example3-93030-5: Has lack of transportation kept you from medical appointments, meetings, work, or from getting things needed for daily living</a></li></ul><p><b>derivedFrom</b>: <a href=\"DocumentReference-example3praparequestionnaire.html\">DocumentReference/example3praparequestionnaire</a></p></div>"
+     fhir:Narrative.status [ fhir:value "extensions" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"PRAPARE-Example3-93041-2\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;PRAPARE-Example3-93041-2&quot; </p><p style=\"margin-bottom: 0px\">Profile: <code>http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment</code></p></div><p><b>Observation Questionnaire Extension</b>: <a href=\"Questionnaire-93025-5.html\">Protocol for Responding to and Assessing Patients' Assets, Risks, and Experiences [PRAPARE]</a></p><p><b>status</b>: final</p><p><b>category</b>: SDOH <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (us-core-category#sdoh)</span></p><p><b>code</b>: Money and resources [PRAPARE] <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#93041-2)</span></p><p><b>subject</b>: <a href=\"Patient-example.html\">Patient/example</a></p><p><b>effective</b>: 2021-02-02</p><p><b>performer</b>: <a href=\"??phinvads??\">Performer/example2</a></p><p><b>hasMember</b>: </p><ul><li><a href=\"Observation-PRAPARE-Example3-82589-3.html\">Observation/PRAPARE-Example3-82589-3: Highest level of education</a></li><li><a href=\"Observation-PRAPARE-Example3-67875-5.html\">Observation/PRAPARE-Example3-67875-5: Employment status - current</a></li><li><a href=\"Observation-PRAPARE-Example3-76437-3.html\">Observation/PRAPARE-Example3-76437-3: Primary insurance</a></li><li><a href=\"Observation-PRAPARE-Example3-63586-2.html\">Observation/PRAPARE-Example3-63586-2: What was your best estimate of the total income of all family members from all sources, before taxes, in last year [PhenX]</a></li><li><a href=\"??phinvads??\">Observation/PRAPARE-Example3-93031-3: Have you or any family members you live with been unable to get any of the following when it was really needed in past 1 year [PRAPARE]</a></li><li><a href=\"Observation-PRAPARE-Example3-93030-5.html\">Observation/PRAPARE-Example3-93030-5: Has lack of transportation kept you from medical appointments, meetings, work, or from getting things needed for daily living</a></li></ul></div>"
+  ]; # 
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "http://www.fhir.org/guides/saig/StructureDefinition/observation-questionnaire" ];
+     fhir:Extension.valueCanonical [
+       fhir:value "http://www.fhir.org/guides/saig/Questionnaire/93025-5";
+       fhir:link <http://www.fhir.org/guides/saig/Questionnaire/93025-5>
+     ]
   ]; # 
   fhir:Observation.status [ fhir:value "final"]; # 
   fhir:Observation.category [
@@ -87,11 +95,6 @@
      fhir:link <http://www.fhir.org/guides/saig/Observation/PRAPARE-Example3-93030-5>;
      fhir:Reference.reference [ fhir:value "Observation/PRAPARE-Example3-93030-5" ];
      fhir:Reference.display [ fhir:value "Has lack of transportation kept you from medical appointments, meetings, work, or from getting things needed for daily living" ]
-  ]; # 
-  fhir:Observation.derivedFrom [
-     fhir:index 0;
-     fhir:link <http://www.fhir.org/guides/saig/DocumentReference/example3praparequestionnaire>;
-     fhir:Reference.reference [ fhir:value "DocumentReference/example3praparequestionnaire" ]
   ] . # 
 
 # - ontology header ------------------------------------------------------------

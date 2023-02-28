@@ -16,6 +16,12 @@
             "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment"
         ]
     },
+    "extension": [
+        {
+            "url": "http://www.fhir.org/guides/saig/StructureDefinition/observation-questionnaire",
+            "valueCanonical": "http://www.fhir.org/guides/saig/Questionnaire/93025-5"
+        }
+    ],
     "status": "final",
     "category": [
         {
@@ -61,11 +67,6 @@
         {
             "reference": "Observation/PRAPARE-Example3-56799-0",
             "display": "Address"
-        }
-    ],
-    "derivedFrom": [
-        {
-            "reference": "DocumentReference/example3praparequestionnaire"
         }
     ]
 }

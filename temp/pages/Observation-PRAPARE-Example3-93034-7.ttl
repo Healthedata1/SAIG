@@ -26,8 +26,16 @@
      ]
   ]; # 
   fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"PRAPARE-Example3-93034-7\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;PRAPARE-Example3-93034-7&quot; </p><p style=\"margin-bottom: 0px\">Profile: <code>http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment</code></p></div><p><b>status</b>: final</p><p><b>category</b>: SDOH <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (us-core-category#sdoh)</span></p><p><b>code</b>: Discharged from the U.S. Armed Forces <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#93034-7)</span></p><p><b>subject</b>: <a href=\"Patient-example.html\">Patient/example</a></p><p><b>effective</b>: 2021-02-02</p><p><b>performer</b>: <a href=\"??phinvads??\">Performer/example2</a></p><p><b>value</b>: No <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#LA32-8)</span></p><p><b>derivedFrom</b>: <a href=\"DocumentReference-example3praparequestionnaire.html\">DocumentReference/example3praparequestionnaire</a></p></div>"
+     fhir:Narrative.status [ fhir:value "extensions" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"PRAPARE-Example3-93034-7\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;PRAPARE-Example3-93034-7&quot; </p><p style=\"margin-bottom: 0px\">Profile: <code>http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment</code></p></div><p><b>Observation Questionnaire Extension</b>: <a href=\"Questionnaire-93025-5.html\">Protocol for Responding to and Assessing Patients' Assets, Risks, and Experiences [PRAPARE]</a></p><p><b>status</b>: final</p><p><b>category</b>: SDOH <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (us-core-category#sdoh)</span></p><p><b>code</b>: Discharged from the U.S. Armed Forces <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#93034-7)</span></p><p><b>subject</b>: <a href=\"Patient-example.html\">Patient/example</a></p><p><b>effective</b>: 2021-02-02</p><p><b>performer</b>: <a href=\"??phinvads??\">Performer/example2</a></p><p><b>value</b>: No <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#LA32-8)</span></p></div>"
+  ]; # 
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "http://www.fhir.org/guides/saig/StructureDefinition/observation-questionnaire" ];
+     fhir:Extension.valueCanonical [
+       fhir:value "http://www.fhir.org/guides/saig/Questionnaire/93025-5";
+       fhir:link <http://www.fhir.org/guides/saig/Questionnaire/93025-5>
+     ]
   ]; # 
   fhir:Observation.status [ fhir:value "final"]; # 
   fhir:Observation.category [
@@ -65,11 +73,6 @@
        fhir:Coding.code [ fhir:value "LA32-8" ];
        fhir:Coding.display [ fhir:value "No" ]
      ]
-  ]; # 
-  fhir:Observation.derivedFrom [
-     fhir:index 0;
-     fhir:link <http://www.fhir.org/guides/saig/DocumentReference/example3praparequestionnaire>;
-     fhir:Reference.reference [ fhir:value "DocumentReference/example3praparequestionnaire" ]
   ] . # 
 
 # - ontology header ------------------------------------------------------------

@@ -9,6 +9,9 @@ meta:
       Core Observation Screening Assessment Profile*
   profile:
   - http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment
+extension:
+- url: http://www.fhir.org/guides/saig/StructureDefinition/observation-questionnaire
+  valueCanonical: http://lforms-fhir.nlm.nih.gov/baseR4
 status: final
 category:
 - coding:
@@ -26,5 +29,3 @@ performer:
 - reference: Performer/rsmith
 valueQuantity:
   value: 4.0
-derivedFrom:
-- reference: DocumentReference/example2ahn-hrsnquestionnaire

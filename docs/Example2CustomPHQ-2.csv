@@ -1,0 +1,4 @@
+Respondent_ID,Date,Author,Location,PDF,Canonical,CUST-PNL,44250-9,44255-8,55758-7,CUST-ITM
+123,1/1/21,rsmith,New York,example1customphq-2questionnaire,http://www.fhir.org/guides/saig/Questionnaire/CUST-PNL,,0,0,0,red
+example,2/2/21,example2,California,example1customphq-2questionnaire,http://www.fhir.org/guides/saig/Questionnaire/CUST-PNL,,1,1,2,blue
+456,3/3/21,jsmith,Texas,example1customphq-2questionnaire,http://www.fhir.org/guides/saig/Questionnaire/CUST-PNL,,2,2,4,red

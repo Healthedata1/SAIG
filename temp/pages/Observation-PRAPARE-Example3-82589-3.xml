@@ -12,8 +12,11 @@
     <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="PRAPARE-Example3-82589-3"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;PRAPARE-Example3-82589-3&quot; </p><p style="margin-bottom: 0px">Profile: <code>http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment</code></p></div><p><b>status</b>: final</p><p><b>category</b>: SDOH <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (us-core-category#sdoh)</span></p><p><b>code</b>: Highest level of education <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#82589-3)</span></p><p><b>subject</b>: <a href="Patient-example.html">Patient/example</a></p><p><b>effective</b>: 2021-02-02</p><p><b>performer</b>: <a href="??phinvads??">Performer/example2</a></p><p><b>value</b>: More than high school <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#LA30193-9)</span></p><p><b>derivedFrom</b>: <a href="DocumentReference-example3praparequestionnaire.html">DocumentReference/example3praparequestionnaire</a></p></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="PRAPARE-Example3-82589-3"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;PRAPARE-Example3-82589-3&quot; </p><p style="margin-bottom: 0px">Profile: <code>http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment</code></p></div><p><b>Observation Questionnaire Extension</b>: <a href="Questionnaire-93025-5.html">Protocol for Responding to and Assessing Patients' Assets, Risks, and Experiences [PRAPARE]</a></p><p><b>status</b>: final</p><p><b>category</b>: SDOH <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (us-core-category#sdoh)</span></p><p><b>code</b>: Highest level of education <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#82589-3)</span></p><p><b>subject</b>: <a href="Patient-example.html">Patient/example</a></p><p><b>effective</b>: 2021-02-02</p><p><b>performer</b>: <a href="??phinvads??">Performer/example2</a></p><p><b>value</b>: More than high school <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#LA30193-9)</span></p></div>
   </text>
+  <extension url="http://www.fhir.org/guides/saig/StructureDefinition/observation-questionnaire">
+    <valueCanonical value="http://www.fhir.org/guides/saig/Questionnaire/93025-5"/>
+  </extension>
   <status value="final"/>
   <category>
     <coding>
@@ -42,7 +45,4 @@
       <display value="More than high school"/>
     </coding>
   </valueCodeableConcept>
-  <derivedFrom>
-    <reference value="DocumentReference/example3praparequestionnaire"/>
-  </derivedFrom>
 </Observation>

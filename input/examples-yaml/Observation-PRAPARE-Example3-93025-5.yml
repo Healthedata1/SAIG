@@ -10,6 +10,9 @@ meta:
       Observation Screening Assessment Profile*
   profile:
   - http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment
+extension:
+- url: http://www.fhir.org/guides/saig/StructureDefinition/observation-questionnaire
+  valueCanonical: http://www.fhir.org/guides/saig/Questionnaire/93025-5
 status: final
 category:
 - coding:
@@ -37,5 +40,3 @@ hasMember:
   display: Social and emotional health [PRAPARE]
 - reference: Observation/PRAPARE-Example3-93039-6
   display: Optional additional questions [PRAPARE]
-derivedFrom:
-- reference: DocumentReference/example3praparequestionnaire

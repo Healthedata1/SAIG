@@ -9,6 +9,9 @@ meta:
       at this address [#] for the *US Core Observation Screening Assessment Profile*
   profile:
   - http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment
+extension:
+- url: http://www.fhir.org/guides/saig/StructureDefinition/observation-questionnaire
+  valueCanonical: http://www.fhir.org/guides/saig/Questionnaire/93025-5
 status: final
 category:
 - coding:
@@ -26,5 +29,3 @@ performer:
 - reference: Performer/example2
 valueQuantity:
   value: 0.0
-derivedFrom:
-- reference: DocumentReference/example3praparequestionnaire

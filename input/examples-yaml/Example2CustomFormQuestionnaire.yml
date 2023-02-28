@@ -1,0 +1,203 @@
+id: CUST-PNL
+url: http://www.fhir.org/guides/saig/Questionnaire/CUST-PNL
+
+code:
+    - 
+        system: 'http://example.org'
+        code: CUST-PNL
+        display: Patient health questionnaire 2 item
+title: My Customized PHQ-2 Panel
+resourceType: Questionnaire
+status: draft
+meta:
+    profile:
+        - 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire'
+    tag:
+        - 
+            code: 'lformsVersion: 33.0.0'
+
+    extension:
+      - url: 'http://hl7.org/fhir/StructureDefinition/instance-name'
+        valueString: Example 2 Custom Form
+      - url: 'http://hl7.org/fhir/StructureDefinition/instance-description'
+        valueMarkdown: Example 2 Custom Form
+
+item:
+    - 
+        type: choice
+        code:
+            - 
+                system: 'http://loinc.org'
+                code: 44250-9
+                display: Little interest or pleasure in doing things
+        extension:
+            - 
+                url: 'http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl'
+                valueCodeableConcept:
+                    coding:
+                        - 
+                            system: 'http://hl7.org/fhir/questionnaire-item-control'
+                            code: drop-down
+                            display: Drop down
+                    text: Drop down
+        required: false
+        linkId: /44250-9
+        text: Little interest or pleasure in doing things
+        answerOption:
+            - 
+                extension:
+                    - 
+                        url: 'http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix'
+                        valueString: '0'
+                valueCoding:
+                    system: 'http://loinc.org'
+                    code: LA6568-5
+                    display: Not at all
+            - 
+                extension:
+                    - 
+                        url: 'http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix'
+                        valueString: '1'
+                valueCoding:
+                    system: 'http://loinc.org'
+                    code: LA6569-3
+                    display: Several days
+            - 
+                extension:
+                    - 
+                        url: 'http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix'
+                        valueString: '2'
+                valueCoding:
+                    system: 'http://loinc.org'
+                    code: LA6570-1
+                    display: More than half the days
+            - 
+                extension:
+                    - 
+                        url: 'http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix'
+                        valueString: '3'
+                valueCoding:
+                    system: 'http://loinc.org'
+                    code: LA6571-9
+                    display: Nearly every day
+    - 
+        type: choice
+        code:
+            - 
+                code: 44255-8
+                display: 'Feeling down, depressed, or hopeless'
+                system: 'http://loinc.org'
+        extension:
+            - 
+                url: 'http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl'
+                valueCodeableConcept:
+                    coding:
+                        - 
+                            system: 'http://hl7.org/fhir/questionnaire-item-control'
+                            code: drop-down
+                            display: Drop down
+                    text: Drop down
+        required: false
+        linkId: /44255-8
+        text: 'Feeling down, depressed, or hopeless'
+        answerOption:
+            - 
+                valueCoding:
+                    code: LA6568-5
+                    display: Not at all
+                    system: 'http://loinc.org'
+                extension:
+                    - 
+                        url: 'http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix'
+                        valueString: '0'
+                    - 
+                        url: 'http://hl7.org/fhir/StructureDefinition/ordinalValue'
+                        valueDecimal: 0
+            - 
+                valueCoding:
+                    code: LA6569-3
+                    display: Several days
+                    system: 'http://loinc.org'
+                extension:
+                    - 
+                        url: 'http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix'
+                        valueString: '1'
+                    - 
+                        url: 'http://hl7.org/fhir/StructureDefinition/ordinalValue'
+                        valueDecimal: 1
+            - 
+                valueCoding:
+                    code: LA6570-1
+                    display: More than half the days
+                    system: 'http://loinc.org'
+                extension:
+                    - 
+                        url: 'http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix'
+                        valueString: '2'
+                    - 
+                        url: 'http://hl7.org/fhir/StructureDefinition/ordinalValue'
+                        valueDecimal: 2
+            - 
+                valueCoding:
+                    code: LA6571-9
+                    display: Nearly every day
+                    system: 'http://loinc.org'
+                extension:
+                    - 
+                        url: 'http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix'
+                        valueString: '3'
+                    - 
+                        url: 'http://hl7.org/fhir/StructureDefinition/ordinalValue'
+                        valueDecimal: 3
+    - 
+        type: decimal
+        code:
+            - 
+                system: 'http://loinc.org'
+                code: 55758-7
+                display: Patient health questionnaire 2 item total score
+        extension:
+            - 
+                url: 'http://hl7.org/fhir/StructureDefinition/questionnaire-unit'
+                valueCoding:
+                    system: 'http://unitsofmeasure.org'
+                    code: '{score}'
+                    display: '{score}'
+        required: false
+        linkId: /55758-7
+        text: Patient health questionnaire 2 item total score
+        item:
+            - 
+                text: The PHQ-2 is the ultra-brief depression measure (using first 2 items of PHQ-9) and ranges from 0-6. Most who use the short PHQ-2 use it for screening and not for monitoring depression
+                type: display
+                linkId: /55758-7-help
+                extension:
+                    - 
+                        url: 'http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl'
+                        valueCodeableConcept:
+                            text: Help-Button
+                            coding:
+                                - 
+                                    code: help
+                                    display: Help-Button
+                                    system: 'http://hl7.org/fhir/questionnaire-item-control'
+    - 
+        text: My Custom Question
+        linkId: '4095077328190'
+        type: choice
+        code:
+            - 
+                system: 'http://example.org'
+                code: CUST-ITM
+        answerOption:
+            - 
+                valueCoding:
+                    system: 'http://example.org'
+                    code: r
+                    display: Red
+            - 
+                valueCoding:
+                    system: 'http://example.org'
+                    code: b
+                    display: Blue
+description: 'This Custom Form is a modified PHQ-2 with an extra custom question for demonstration purposes. Instead of stadndard LOINC codes it uses a *local code* for the panel and custom question.'

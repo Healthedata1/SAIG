@@ -26,6 +26,12 @@
     "version" : "0.0.0"
   },
   {
+    "id" : "CUST-PNL",
+    "type" : "Questionnaire",
+    "url" : "http://www.fhir.org/guides/saig/Questionnaire/CUST-PNL",
+    "version" : "0.0.0"
+  },
+  {
     "id" : "observation-questionnaire",
     "type" : "StructureDefinition",
     "url" : "http://www.fhir.org/guides/saig/StructureDefinition/observation-questionnaire",

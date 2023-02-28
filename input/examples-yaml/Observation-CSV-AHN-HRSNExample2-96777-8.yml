@@ -10,6 +10,9 @@ meta:
       Screening Assessment Profile*
   profile:
   - http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment
+extension:
+- url: http://www.fhir.org/guides/saig/StructureDefinition/observation-questionnaire
+  valueCanonical: http://lforms-fhir.nlm.nih.gov/baseR4
 status: final
 category:
 - coding:
@@ -53,5 +56,3 @@ hasMember:
   display: Total score [HITS]
 - reference: Observation/CSV-AHN-HRSNExample2-96778-6
   display: Problems with place where you live
-derivedFrom:
-- reference: DocumentReference/example2ahn-hrsnquestionnaire
