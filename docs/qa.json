@@ -1,0 +1,12 @@
+{
+  "url" : "http://www.fhir.org/guides/saig/ImplementationGuide/saig",
+  "name" : "SAIG",
+  "package-id" : "saig",
+  "ig-ver" : "0.0.0",
+  "date" : "Tue, 28 Feb, 2023 12:04:44 -0800",
+  "errs" : 176,
+  "warnings" : 83,
+  "hints" : 59,
+  "version" : "4.0.1",
+  "tool" : "5.0.0-snapshot2 (3)"
+}

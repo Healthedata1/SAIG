@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="CSV-CustomFormExample2-CUST-PNL"/>
+  <meta>
+    <extension url="http://hl7.org/fhir/StructureDefinition/instance-name">
+      <valueString value="Csv-Customformexample2-Cust-Pnl"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/instance-description">
+      <valueMarkdown value="This is a an example of CUST-PNL (display = Unknown) for the *US Core Observation Screening Assessment Profile*"/>
+    </extension>
+    <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="CSV-CustomFormExample2-CUST-PNL"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;CSV-CustomFormExample2-CUST-PNL&quot; </p><p style="margin-bottom: 0px">Profile: <code>http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment</code></p></div><p><b>Observation Questionnaire Extension</b>: <a href="Questionnaire-CUST-PNL.html">My Customized PHQ-2 Panel</a></p><p><b>status</b>: final</p><p><b>category</b>: Disability Status <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (us-core-category#disability-status)</span></p><p><b>code</b>: Unknown <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (example.org#CUST-PNL)</span></p><p><b>subject</b>: <a href="Patient-example.html">Patient/example</a></p><p><b>effective</b>: 2021-02-02</p><p><b>performer</b>: <a href="??phinvads??">Performer/example2</a></p><p><b>hasMember</b>: </p><ul><li><a href="Observation-CSV-CustomFormExample2-44250-9.html">Observation/CSV-CustomFormExample2-44250-9: Little interest or pleasure in doing things in last 2 weeks</a></li><li><a href="Observation-CSV-CustomFormExample2-44255-8.html">Observation/CSV-CustomFormExample2-44255-8: Feeling down, depressed, or hopeless in last 2 weeks</a></li><li><a href="Observation-CSV-CustomFormExample2-55758-7.html">Observation/CSV-CustomFormExample2-55758-7: Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]</a></li><li><a href="Observation-CSV-CustomFormExample2-CUST-ITM.html">Observation/CSV-CustomFormExample2-CUST-ITM</a></li></ul></div>
+  </text>
+  <extension url="http://www.fhir.org/guides/saig/StructureDefinition/observation-questionnaire">
+    <valueCanonical value="http://www.fhir.org/guides/saig/Questionnaire/CUST-PNL"/>
+  </extension>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://hl7.org/fhir/us/core/CodeSystem/us-core-category"/>
+      <code value="disability-status"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://example.org"/>
+      <code value="CUST-PNL"/>
+      <display value="Unknown"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/example"/>
+  </subject>
+  <effectiveDateTime value="2021-02-02"/>
+  <performer>
+    <reference value="Performer/example2"/>
+  </performer>
+  <hasMember>
+    <reference value="Observation/CSV-CustomFormExample2-44250-9"/>
+    <display value="Little interest or pleasure in doing things in last 2 weeks"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/CSV-CustomFormExample2-44255-8"/>
+    <display value="Feeling down, depressed, or hopeless in last 2 weeks"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/CSV-CustomFormExample2-55758-7"/>
+    <display value="Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/CSV-CustomFormExample2-CUST-ITM"/>
+  </hasMember>
+</Observation>
