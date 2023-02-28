@@ -1,4 +1,0 @@
-Respondent_ID,Date,Author,Location,PDF,Canonical,55757-9,44250-9,44255-8,55758-7
-123,1/1/21,rsmith,New York,example1phq-2questionnaire,http://www.fhir.org/guides/saig/Questionnaire/55757-9,,0,0,0
-example,2/2/21,example2,California,example1phq-2questionnaire,http://www.fhir.org/guides/saig/Questionnaire/55757-9,,1,1,2
-456,3/3/21,jsmith,Texas,example1phq-2questionnaire,http://www.fhir.org/guides/saig/Questionnaire/55757-9,,2,2,4
